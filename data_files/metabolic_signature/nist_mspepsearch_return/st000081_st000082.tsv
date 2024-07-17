@@ -1,0 +1,12 @@
+> MSPepSearch ver. 0.96 build Fri Feb 22 13:22:10 2019. Started 05/09/22 at 11:57:25. Command line:
+> C:\MSPepSearch\2019_02_22_MSPepSearch_x64\MSPepSearch64  zD /Z 0.01 /M 0.01 /MatchPolarity /LIB "C:\NIST20\MSSEARCH\hr_msms_nist" /MinMF 300 /MinInt 5 /HITS 1 /OutChemForm /OutCASrn /OutMW /OutIK /INP C:\Users\yliao13\Desktop\New_folder\nist_mspepsearch_files\msp_files\ST000081_ST000082.msp /OUTTAB C:\Users\yliao13\Desktop\New_folder\nist_mspepsearch_files\st000081_st000082.tsv
+>
+Unknown	uInChIKey	Rank	Library	Id	Mass	Lib MW	Score	Dot Product	Prob(%)	Peptide	Charge	Formula	FlankRes	Mods	Pep	CAS	InChIKey	Nreps	Tfratio	Protein
+#14 802.5506@5.0897 MS1- [Scan #307327 @5.1220 MS2 -]		1	hr_msms_nist	311471	757.562	757	422	422	100.0	1-Palmitoyl-2-linoleoyl-sn-glycero-3-phosphocholine	-1	C42H80NO8P				159701210	JLPULHDHAOZNQI-ZTIMHPMXSA-N			
+#19 804.5710@5.5718 MS1- [Scan #335492 @5.5914 MS2 -]		1	hr_msms_nist	311457	759.578	759	439	439	80.4	2-Oleoyl-1-palmitoyl-sn-glycero-3-phosphocholine	-1	C42H82NO8P				26853316	WTJKGGKOPKCXLL-VYOBOKEXSA-N			
+#29 830.5906@5.7393 MS1- [Scan #345506 @5.7583 MS2 -]		1	hr_msms_nist	311618	785.593	785	378	378	99.0	1-Stearoyl-2-linoleoyl-sn-glycero-3-phosphocholine	-1	C44H84NO8P				27098244	FORFDCPQKJHEBF-VPUSDGANSA-N			
+#154 792.5249@5.0733 MS1- [Scan #304859 @5.0809 MS2 -]		1	hr_msms_nist	311484	757.562	757	447	447	100.0	1-Palmitoyl-2-linoleoyl-sn-glycero-3-phosphocholine	-1	C42H80NO8P				159701210	JLPULHDHAOZNQI-ZTIMHPMXSA-N			
+#161 465.2987@3.1286 MS1- [Scan #187272 @3.1211 MS2 -]		1	hr_msms_nist	394218	466.312	466	367	367	100.0	Cholesterol 3-sulfate	-1	C27H46O4S				1256866	BHYOQNUELFTYRT-DPAQBDIFSA-N			
+#560 806.6055@6.1815 MS1- [Scan #370099 @6.1682 MS2 -]		1	hr_msms_nist	311582	761.593	761	344	344	79.9	1-Stearoyl-2-palmitoyl-sn-glycero-3-phosphocholine	-1	C42H84NO8P				59403531	BYSIMVBIJVBVPA-RRHRGVEJSA-N			
+>
+> Completed. 183 spectra in 7.458 sec, process time = 7.718 sec (read 6.264s print 0.092s init pio 0.000s aux 0.001s sp 0.000s, search only: 0.939s+0.162s=1.101s, 166.17 spec/s) 24.5361 spec/s Compared 642 spec (86.0776 spec/s), No spectra compared 138, No hits 159, peaks/spec 9303.62

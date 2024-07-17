@@ -1,0 +1,8 @@
+inj_order,sample_files,Factor Value[Diet],Factor Value[Health status],sample_type
+1,014_DaLi_H9M9_H_C_R1_pos_20.mzXML,CTRL,Healthy,sample
+2,032_DaLi_H9M9_BC_C_R1_pos_38.mzXML,CTRL,breast cancer,sample
+3,033_DaLi_H9M9_H_MCT_R1_pos_39.mzXML,LCT-MCT8 ketogenic diet,Healthy,sample
+4,017_DaLi_H9M9_BC_MCT_R1_pos_23.mzXML,LCT-MCT8 ketogenic diet,breast cancer,sample
+5,019_DaLi_H9M9_H_LCT_R1_pos_25.mzXML,LCT-MCT8 ketogenic diet,Healthy,sample
+6,003_DaLi_H9M9_Pool_01_pos_09.mzXML,Pooled QC,pool,sp
+7,000_DaLi_H9M9_Blank_01_pos_06.mzXML,Blank QC,blank,blank

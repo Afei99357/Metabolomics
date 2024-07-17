@@ -1,0 +1,303 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+        <html xmlns="http://www.w3.org/1999/xhtml"> 
+        <head> 
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+        <title>Mummichog Report</title> 
+
+        <style type="text/css"> 
+        body {width: 960px; padding: 10px; }
+        
+        div.colorbar {margin-bottom: 7px}
+        div.networkvisual { margin: auto; height: 600px; width: 960px; overflow: auto !important;}
+        div.svg2 { margin: auto; height: 600px; width: 960px; overflow: auto !important;}
+
+        div.stats {margin-top: 10; font-size:0.7em; color:#888;}
+
+        div.moduleline{font-size: 0.9em; font-weight: bold;
+        }
+        div.metabolites {
+            font-size: 0.7em;
+            padding-left: 15px; padding-bottom: 7px;
+        }
+        
+        footer { margin-top: 30px;    padding: 10px 0;    border-top: 1px solid #582E2E;    font-size:0.7em;    color:#888;}
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Trebuchet MS', 'Lucida Grande', Arial, Sans-Serif;
+            font-weight: bold;
+        }
+        
+        h1 { font-size: 1.4em; }
+        h2 { font-size: 1.2em; }
+        h3 { font-size: 1em; }
+        h4 { font-size: 0.9em;     padding-left: 15px; padding-bottom: 2px; margin-bottom:0px;}
+        th {
+            background: #DAFDCF;
+            font-size:0.9em;
+            text-align: left;
+            padding:5px;
+        }
+        
+        tr:nth-child(even) {background-color: #f2f2f2}
+        tr:hover {background-color: #f5f5f5}
+        
+        td {
+            font-family: Verdana, Arial, sans-serif;
+            color: black;
+            font-size:0.7em;
+            margin:10px;
+            margin-top:0px;
+            padding: 5px;
+        }
+        
+        .node {
+          stroke: #fff;
+          stroke-width: 1.5px;
+        }
+        
+        .link {
+          stroke: #999;
+          stroke-opacity: .6;
+        }
+        div.network_selection {float: left; margin-top: 6; margin-bottom: 10; font-size:0.8em;}
+        </style> 
+        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" charset="utf-8"></script>
+        <script src="https://shuzhao-li.github.io/mummichog.org/download/cytoscape.min.js" charset="utf-8"></script>
+        <script src="https://cdn.rawgit.com/cytoscape/cytoscape.js-spread/1.0.9/cytoscape-spread.js"></script> 
+        <script src="js/plotly-latest.min.js"></script>
+        <script src="js/plotly-graphs.js"></script>
+        <script src="js/result.js"></script>
+        </head> 
+        <body> 
+        <h1>Mummichog Report: MTBLS1033_positive_result</h1>
+<div id="colorbar" class="colorbar"></div>
+<div class="stats">mummichog version: 2.6.1, using metabolic model MFN_1.10.4.<br></div>
+<h2>User input data</h2>
+<p>User supplied 1949 features as reference list.We are using 488 features (p < 2.161000) as significant list. The feature level data are shown in the Manhattan plots below.</p>
+<div id="mz_user_input"></div>
+<div id="retention_time_input"></div>
+<h2>Top pathways</h2>
+<p>The reference feature list is mapped to 29 EmpiricalCompounds, significant features to 6 EmpiricalCompounds. In the table below, pathway_size is number of detected EmpiricalCompounds for each pathway; overlap_size is number of significant EmpiricalCompounds.                                Empirical p-values are estimated by permutation test. Details on EmpiricalCompounds are in 'tables/ListOfEmpiricalCompounds.tsv'.</p>
+<div class="pathwaystablly"><table><tr><th>Pathways</th>                    <th>overlap_size</th><th>pathway_size</th><th>p-value</th>                    <th>overlap_EmpiricalCompounds</th></tr><tr> <td>Pyrimidine metabolism</td> <td>4</td><td>8</td><td>0.00092</td><td>E80,E45,E69,E2</td></tr><tr> <td>Pyruvate Metabolism</td> <td>1</td><td>1</td><td>0.01361</td><td>E2</td></tr><tr> <td>De novo fatty acid biosynthesis</td> <td>1</td><td>1</td><td>0.01361</td><td>E2</td></tr><tr> <td>Valine, leucine and isoleucine degradation</td> <td>1</td><td>1</td><td>0.01361</td><td>E2</td></tr><tr> <td>Fatty Acid Metabolism</td> <td>1</td><td>1</td><td>0.01361</td><td>E2</td></tr><tr> <td>Glutamate metabolism</td> <td>1</td><td>1</td><td>0.01361</td><td>E2</td></tr><tr> <td>Pentose and Glucuronate Interconversions</td> <td>1</td><td>1</td><td>0.01361</td><td>E55</td></tr><tr> <td>Nucleotide Sugar Metabolism</td> <td>1</td><td>1</td><td>0.01361</td><td>E45</td></tr><tr> <td>Purine metabolism</td> <td>2</td><td>5</td><td>0.0284</td><td>E58,E69</td></tr></table></div>
+<div id="pathwayBarPlot"></div>
+<h2>Top modules</h2>
+<p>Network modules may capture concerted metabolite activities that are missed by predefined pathways.         Use pull-down menus to visualize modules and the activity network, which tries to combine the results of         pathway/module analyses. The visualization requires interenet connection.</p>
+<div id="network_selection" class="network_selection">Showing
+        <select id="nmodule_select" onchange="updateDrawing();">
+          <option>Activity network</option>
+                   </select>
+                    Node size <select id="nsize_select"  onchange="updateDrawing();">
+                      <option value=16>Medium</option>
+                      <option value=8>Small</option>
+                      <option value=32>Large</option>
+                    </select>
+                    Visual style <select id="vstyle_select"  onchange="updateDrawing();">
+                      <option value=0>Drag</option>
+                      <option value=1>Force</option>
+                    </select>
+                    </div>
+<div id="networkvisual" class="networkvisual"></div>
+<div class="modulestablly">
+</div>
+<h2>EmpiricalCompounds favored by above analyses</h2>
+<p>An EmpiricalCompound is a computational unit for a tentative metabolite. It can group multiple ions,                     and be any of the isobaric/isomeric species. This table contains EmpiricalCompounds prioritized by pathway/module analysis.</p>
+<div class="metabolitestablly"><table><tr><th>EmpiricalCompound</th><th>Input m/z</th>                    <th>Retention time</th><th>ion</th><th>mz_diff</th><th>Statistic</th>                    <th>Significant</th></tr><tr > <td>E58</td> <td colspan="2">Best guess: C04392, P1,P4-Bis(5'-xanthosyl) tetraphosphate</td><td colspan="4">C04392</td></tr><tr> <td> </td> <td>893.0</td> <td>133.0801</td><td>M+Na[1+]</td><td>0.0046</td><td>0.18</td><td>no</td></tr><tr> <td> </td> <td>939.0</td> <td>142.0613</td><td>M+HCOONa[1+]</td><td>-0.0008</td><td>0.0</td><td>yes</td></tr><tr > <td>E69</td> <td colspan="2">Best guess: C00286, dGTP</td><td colspan="4">C00286</td></tr><tr> <td> </td> <td>508.0</td> <td>667.431</td><td>M+H[1+]</td><td>-0.003</td><td>0.39</td><td>yes</td></tr><tr > <td>E45</td> <td colspan="2">Best guess: C00459, dTTP</td><td colspan="4">C00459</td></tr><tr> <td> </td> <td>483.0</td> <td>281.194</td><td>M+H[1+]</td><td>0.0034</td><td>0.23</td><td>yes</td></tr><tr > <td>E80</td> <td colspan="2">Best guess: C06198, P1,P4-Bis(5'-uridyl) tetraphosphate</td><td colspan="4">C06198</td></tr><tr> <td> </td> <td>791.0</td> <td>327.2018</td><td>M+H[1+]</td><td>-0.0011</td><td>0.68</td><td>yes</td></tr><tr > <td>E2</td> <td colspan="2">Best guess: C00288, Bicarbonate</td><td colspan="4">C00288</td></tr><tr> <td> </td> <td>62.0</td> <td>403.2736</td><td>M+H[1+]</td><td>0.0001</td><td>0.67</td><td>yes</td></tr><tr > <td>E55</td> <td colspan="2">Best guess: C05385, </td><td colspan="4">C05385</td></tr><tr> <td> </td> <td>297.0</td> <td>447.2999</td><td>M+Na[1+]</td><td>0.0017</td><td>0.95</td><td>yes</td></tr></table></div>
+<h2>More data</h2>
+<p class="moreinformation">Full data tables from pathway analysis, module analysis and activity network are stored in the 'tables/' directory. 
+            The tsv files can be imported into a spreadsheet program, e.g. MS Excel.
+            Under the 'figures/network_modules/' directory are files intended for Cytoscape (cytoscape.org) visualization. Please refer to Cytoscape's guides for details.
+            Details of this run are recorded in file mummichog.log.txt.
+            </p>
+<footer>Mummichog algorithms are described in Li et al. Predicting Network Activity from High Throughput Metabolomics. PLoS Computational Biology (2013); doi:10.1371/journal.pcbi.1003123.        This software is provided as is, without warranty of any kind. Visit <a href="http://mummichog.org">http://mummichog.org</a> for updates.
+        </footer>
+
+        <script type="text/javascript" charset="utf-8">
+        var nodes = [ [{name:"dGDP", group:10}, {name:"dUTP", group:10}, {name:"XTP", group:10}, {name:"2-Methylbut-2-enoyl-CoA", group:10}, {name:"GTP", group:10}, {name:"Deoxyuridine", group:10}, {name:"UDP", group:10}, {name:"AMP", group:10}, {name:"GMP", group:10}, {name:"Propanoyl-CoA", group:10}, {name:"dITP", group:10}, {name:"GDP", group:10}, {name:"5-Fluorouridine monophosphate", group:10}, {name:"C05385", group:19}, {name:"L-Glutamine", group:10}, {name:"6-Mercaptopurine ribonucleoside triphosphate", group:10}, {name:"CMP", group:10}, {name:"(S)-Methylmalonyl-CoA", group:10}, {name:"CTP", group:10}, {name:"Uridine", group:10}, {name:"Pyruvate", group:10}, {name:"dTTP", group:11}, {name:"2-methylglutaconyl-CoA", group:10}, {name:"CMP", group:10}, {name:"Malonyl-CoA", group:10}, {name:"Xanthosine 5'-phosphate", group:10}, {name:"Ammonium", group:10}, {name:"IDP", group:10}, {name:"dGMP", group:10}, {name:"dCDP", group:10}, {name:"NDP", group:10}, {name:"dTDP", group:10}, {name:"D-Glucose 1-phosphate", group:10}, {name:"dTDP-glucose", group:10}, {name:"Nucleotide", group:10}, {name:"dUMP", group:10}, {name:"P1,P4-Bis(5'-xanthosyl) tetraphosphate", group:9}, {name:"Bicarbonate", group:16}, {name:"UTP", group:10}, {name:"ITP", group:10}, {name:"Acetyl-CoA", group:10}, {name:"3-Methylglutaconyl-CoA", group:10}, {name:"Cytidine", group:10}, {name:"CDP", group:10}, {name:"Nucleoside triphosphate", group:10}, {name:"GDP", group:10}, {name:"dCTP", group:10}, {name:"UDP", group:10}, {name:"Carboxybiotin-carboxyl-carrier protein", group:10}, {name:"Holo-[carboxylase]", group:10}, {name:"2'-Deoxyinosine 5'-phosphate", group:10}, {name:"Phosphoenolpyruvate", group:10}, {name:"6-Thioinosine 5'-monophosphate", group:10}, {name:"dATP", group:10}, {name:"5-Fluorouridine", group:10}, {name:"P1,P4-Bis(5'-uridyl) tetraphosphate", group:16}, {name:"dADP", group:10}, {name:"UDP-D-glucuronate", group:10}, {name:"D-Glucuronate", group:10}, {name:"3-Methylcrotonyl-CoA", group:10}, {name:"dIDP", group:10}, {name:"IMP", group:10}, {name:"L-Glutamate", group:10}, {name:"UMP", group:10}, {name:"dGTP", group:13}, {name:"dTMP", group:10}, {name:"Carbamoyl phosphate", group:10}, {name:"Oxaloacetate", group:10}, {name:"NH4+", group:10}, {name:"dUDP", group:10}, {name:"DNA", group:10}, ], ];
+
+        var links = [[{source:0, target:21}, {source:0, target:64}, {source:1, target:21}, {source:1, target:64}, {source:2, target:36}, {source:2, target:64}, {source:3, target:37}, {source:4, target:21}, {source:4, target:64}, {source:5, target:64}, {source:6, target:21}, {source:6, target:64}, {source:7, target:21}, {source:8, target:21}, {source:8, target:64}, {source:9, target:37}, {source:10, target:21}, {source:10, target:64}, {source:11, target:21}, {source:11, target:64}, {source:12, target:21}, {source:12, target:64}, {source:13, target:57}, {source:13, target:58}, {source:13, target:63}, {source:14, target:37}, {source:15, target:64}, {source:16, target:21}, {source:16, target:64}, {source:17, target:37}, {source:18, target:21}, {source:18, target:64}, {source:19, target:21}, {source:19, target:64}, {source:20, target:21}, {source:20, target:37}, {source:20, target:64}, {source:21, target:23}, {source:21, target:27}, {source:21, target:29}, {source:21, target:30}, {source:21, target:31}, {source:21, target:32}, {source:21, target:33}, {source:21, target:38}, {source:21, target:39}, {source:21, target:42}, {source:21, target:43}, {source:21, target:44}, {source:21, target:45}, {source:21, target:46}, {source:21, target:47}, {source:21, target:51}, {source:21, target:53}, {source:21, target:54}, {source:21, target:56}, {source:21, target:60}, {source:21, target:61}, {source:21, target:63}, {source:21, target:64}, {source:21, target:65}, {source:21, target:69}, {source:21, target:70}, {source:22, target:37}, {source:23, target:64}, {source:24, target:37}, {source:25, target:36}, {source:25, target:64}, {source:26, target:37}, {source:27, target:64}, {source:28, target:64}, {source:29, target:64}, {source:30, target:64}, {source:31, target:64}, {source:34, target:64}, {source:35, target:64}, {source:37, target:40}, {source:37, target:41}, {source:37, target:48}, {source:37, target:49}, {source:37, target:59}, {source:37, target:62}, {source:37, target:66}, {source:37, target:67}, {source:37, target:68}, {source:38, target:55}, {source:38, target:64}, {source:39, target:64}, {source:42, target:64}, {source:43, target:64}, {source:44, target:64}, {source:45, target:64}, {source:46, target:64}, {source:47, target:64}, {source:50, target:64}, {source:51, target:64}, {source:52, target:64}, {source:53, target:64}, {source:54, target:64}, {source:55, target:63}, {source:56, target:64}, {source:60, target:64}, {source:61, target:64}, {source:63, target:64}, {source:64, target:69}, {source:64, target:70}, ], ];
+
+        var cytonodes = [ [{ data: {id:"dGDP", group:10} }, { data: {id:"dUTP", group:10} }, { data: {id:"XTP", group:10} }, { data: {id:"2-Methylbut-2-enoyl-CoA", group:10} }, { data: {id:"GTP", group:10} }, { data: {id:"Deoxyuridine", group:10} }, { data: {id:"UDP", group:10} }, { data: {id:"AMP", group:10} }, { data: {id:"GMP", group:10} }, { data: {id:"Propanoyl-CoA", group:10} }, { data: {id:"dITP", group:10} }, { data: {id:"GDP", group:10} }, { data: {id:"5-Fluorouridine monophosphate", group:10} }, { data: {id:"C05385", group:19} }, { data: {id:"L-Glutamine", group:10} }, { data: {id:"6-Mercaptopurine ribonucleoside triphosphate", group:10} }, { data: {id:"CMP", group:10} }, { data: {id:"(S)-Methylmalonyl-CoA", group:10} }, { data: {id:"CTP", group:10} }, { data: {id:"Uridine", group:10} }, { data: {id:"Pyruvate", group:10} }, { data: {id:"dTTP", group:11} }, { data: {id:"2-methylglutaconyl-CoA", group:10} }, { data: {id:"CMP", group:10} }, { data: {id:"Malonyl-CoA", group:10} }, { data: {id:"Xanthosine 5'-phosphate", group:10} }, { data: {id:"Ammonium", group:10} }, { data: {id:"IDP", group:10} }, { data: {id:"dGMP", group:10} }, { data: {id:"dCDP", group:10} }, { data: {id:"NDP", group:10} }, { data: {id:"dTDP", group:10} }, { data: {id:"D-Glucose 1-phosphate", group:10} }, { data: {id:"dTDP-glucose", group:10} }, { data: {id:"Nucleotide", group:10} }, { data: {id:"dUMP", group:10} }, { data: {id:"P1,P4-Bis(5'-xanthosyl) tetraphosphate", group:9} }, { data: {id:"Bicarbonate", group:16} }, { data: {id:"UTP", group:10} }, { data: {id:"ITP", group:10} }, { data: {id:"Acetyl-CoA", group:10} }, { data: {id:"3-Methylglutaconyl-CoA", group:10} }, { data: {id:"Cytidine", group:10} }, { data: {id:"CDP", group:10} }, { data: {id:"Nucleoside triphosphate", group:10} }, { data: {id:"GDP", group:10} }, { data: {id:"dCTP", group:10} }, { data: {id:"UDP", group:10} }, { data: {id:"Carboxybiotin-carboxyl-carrier protein", group:10} }, { data: {id:"Holo-[carboxylase]", group:10} }, { data: {id:"2'-Deoxyinosine 5'-phosphate", group:10} }, { data: {id:"Phosphoenolpyruvate", group:10} }, { data: {id:"6-Thioinosine 5'-monophosphate", group:10} }, { data: {id:"dATP", group:10} }, { data: {id:"5-Fluorouridine", group:10} }, { data: {id:"P1,P4-Bis(5'-uridyl) tetraphosphate", group:16} }, { data: {id:"dADP", group:10} }, { data: {id:"UDP-D-glucuronate", group:10} }, { data: {id:"D-Glucuronate", group:10} }, { data: {id:"3-Methylcrotonyl-CoA", group:10} }, { data: {id:"dIDP", group:10} }, { data: {id:"IMP", group:10} }, { data: {id:"L-Glutamate", group:10} }, { data: {id:"UMP", group:10} }, { data: {id:"dGTP", group:13} }, { data: {id:"dTMP", group:10} }, { data: {id:"Carbamoyl phosphate", group:10} }, { data: {id:"Oxaloacetate", group:10} }, { data: {id:"NH4+", group:10} }, { data: {id:"dUDP", group:10} }, { data: {id:"DNA", group:10} }, ], ];
+
+        var cytoedges = [[{ data: { id: "C00361-C00459", weight: 1, source: "dGDP", target: "dTTP" } }, { data: { id: "C00361-C00286", weight: 1, source: "dGDP", target: "dGTP" } }, { data: { id: "C00460-C00459", weight: 1, source: "dUTP", target: "dTTP" } }, { data: { id: "C00460-C00286", weight: 1, source: "dUTP", target: "dGTP" } }, { data: { id: "C00700-C04392", weight: 1, source: "XTP", target: "P1,P4-Bis(5'-xanthosyl) tetraphosphate" } }, { data: { id: "C00700-C00286", weight: 1, source: "XTP", target: "dGTP" } }, { data: { id: "C03345-C00288", weight: 1, source: "2-Methylbut-2-enoyl-CoA", target: "Bicarbonate" } }, { data: { id: "C00044-C00459", weight: 1, source: "GTP", target: "dTTP" } }, { data: { id: "C00044-C00286", weight: 1, source: "GTP", target: "dGTP" } }, { data: { id: "C00526-C00286", weight: 1, source: "Deoxyuridine", target: "dGTP" } }, { data: { id: "G10619-C00459", weight: 1, source: "UDP", target: "dTTP" } }, { data: { id: "G10619-C00286", weight: 1, source: "UDP", target: "dGTP" } }, { data: { id: "C00020-C00459", weight: 1, source: "AMP", target: "dTTP" } }, { data: { id: "C00144-C00459", weight: 1, source: "GMP", target: "dTTP" } }, { data: { id: "C00144-C00286", weight: 1, source: "GMP", target: "dGTP" } }, { data: { id: "C00100-C00288", weight: 1, source: "Propanoyl-CoA", target: "Bicarbonate" } }, { data: { id: "C01345-C00459", weight: 1, source: "dITP", target: "dTTP" } }, { data: { id: "C01345-C00286", weight: 1, source: "dITP", target: "dGTP" } }, { data: { id: "C00035-C00459", weight: 1, source: "GDP", target: "dTTP" } }, { data: { id: "C00035-C00286", weight: 1, source: "GDP", target: "dGTP" } }, { data: { id: "C16634-C00459", weight: 1, source: "5-Fluorouridine monophosphate", target: "dTTP" } }, { data: { id: "C16634-C00286", weight: 1, source: "5-Fluorouridine monophosphate", target: "dGTP" } }, { data: { id: "C05385-C00167", weight: 1, source: "C05385", target: "UDP-D-glucuronate" } }, { data: { id: "C05385-C00191", weight: 1, source: "C05385", target: "D-Glucuronate" } }, { data: { id: "C05385-C00105", weight: 1, source: "C05385", target: "UMP" } }, { data: { id: "C00064-C00288", weight: 1, source: "L-Glutamine", target: "Bicarbonate" } }, { data: { id: "C16617-C00286", weight: 1, source: "6-Mercaptopurine ribonucleoside triphosphate", target: "dGTP" } }, { data: { id: "G10621-C00459", weight: 1, source: "CMP", target: "dTTP" } }, { data: { id: "G10621-C00286", weight: 1, source: "CMP", target: "dGTP" } }, { data: { id: "C00683-C00288", weight: 1, source: "(S)-Methylmalonyl-CoA", target: "Bicarbonate" } }, { data: { id: "C00063-C00459", weight: 1, source: "CTP", target: "dTTP" } }, { data: { id: "C00063-C00286", weight: 1, source: "CTP", target: "dGTP" } }, { data: { id: "C00299-C00459", weight: 1, source: "Uridine", target: "dTTP" } }, { data: { id: "C00299-C00286", weight: 1, source: "Uridine", target: "dGTP" } }, { data: { id: "C00022-C00459", weight: 1, source: "Pyruvate", target: "dTTP" } }, { data: { id: "C00022-C00288", weight: 1, source: "Pyruvate", target: "Bicarbonate" } }, { data: { id: "C00022-C00286", weight: 1, source: "Pyruvate", target: "dGTP" } }, { data: { id: "C00459-C00055", weight: 1, source: "dTTP", target: "CMP" } }, { data: { id: "C00459-C00104", weight: 1, source: "dTTP", target: "IDP" } }, { data: { id: "C00459-C00705", weight: 1, source: "dTTP", target: "dCDP" } }, { data: { id: "C00459-C00454", weight: 1, source: "dTTP", target: "NDP" } }, { data: { id: "C00459-C00363", weight: 1, source: "dTTP", target: "dTDP" } }, { data: { id: "C00459-C00103", weight: 1, source: "dTTP", target: "D-Glucose 1-phosphate" } }, { data: { id: "C00459-C00842", weight: 1, source: "dTTP", target: "dTDP-glucose" } }, { data: { id: "C00459-C00075", weight: 1, source: "dTTP", target: "UTP" } }, { data: { id: "C00459-C00081", weight: 1, source: "dTTP", target: "ITP" } }, { data: { id: "C00459-C00475", weight: 1, source: "dTTP", target: "Cytidine" } }, { data: { id: "C00459-C00112", weight: 1, source: "dTTP", target: "CDP" } }, { data: { id: "C00459-C00201", weight: 1, source: "dTTP", target: "Nucleoside triphosphate" } }, { data: { id: "C00459-G10620", weight: 1, source: "dTTP", target: "GDP" } }, { data: { id: "C00459-C00458", weight: 1, source: "dTTP", target: "dCTP" } }, { data: { id: "C00459-C00015", weight: 1, source: "dTTP", target: "UDP" } }, { data: { id: "C00459-C00074", weight: 1, source: "dTTP", target: "Phosphoenolpyruvate" } }, { data: { id: "C00459-C00131", weight: 1, source: "dTTP", target: "dATP" } }, { data: { id: "C00459-C16633", weight: 1, source: "dTTP", target: "5-Fluorouridine" } }, { data: { id: "C00459-C00206", weight: 1, source: "dTTP", target: "dADP" } }, { data: { id: "C00459-C01344", weight: 1, source: "dTTP", target: "dIDP" } }, { data: { id: "C00459-C00130", weight: 1, source: "dTTP", target: "IMP" } }, { data: { id: "C00459-C00105", weight: 1, source: "dTTP", target: "UMP" } }, { data: { id: "C00459-C00286", weight: 1, source: "dTTP", target: "dGTP" } }, { data: { id: "C00459-C00364", weight: 1, source: "dTTP", target: "dTMP" } }, { data: { id: "C00459-C01346", weight: 1, source: "dTTP", target: "dUDP" } }, { data: { id: "C00459-C00039", weight: 1, source: "dTTP", target: "DNA" } }, { data: { id: "CE5875-C00288", weight: 1, source: "2-methylglutaconyl-CoA", target: "Bicarbonate" } }, { data: { id: "C00055-C00286", weight: 1, source: "CMP", target: "dGTP" } }, { data: { id: "C00083-C00288", weight: 1, source: "Malonyl-CoA", target: "Bicarbonate" } }, { data: { id: "C00655-C04392", weight: 1, source: "Xanthosine 5'-phosphate", target: "P1,P4-Bis(5'-xanthosyl) tetraphosphate" } }, { data: { id: "C00655-C00286", weight: 1, source: "Xanthosine 5'-phosphate", target: "dGTP" } }, { data: { id: "C00014-C00288", weight: 1, source: "Ammonium", target: "Bicarbonate" } }, { data: { id: "C00104-C00286", weight: 1, source: "IDP", target: "dGTP" } }, { data: { id: "C00362-C00286", weight: 1, source: "dGMP", target: "dGTP" } }, { data: { id: "C00705-C00286", weight: 1, source: "dCDP", target: "dGTP" } }, { data: { id: "C00454-C00286", weight: 1, source: "NDP", target: "dGTP" } }, { data: { id: "C00363-C00286", weight: 1, source: "dTDP", target: "dGTP" } }, { data: { id: "C00215-C00286", weight: 1, source: "Nucleotide", target: "dGTP" } }, { data: { id: "C00365-C00286", weight: 1, source: "dUMP", target: "dGTP" } }, { data: { id: "C00288-C00024", weight: 1, source: "Bicarbonate", target: "Acetyl-CoA" } }, { data: { id: "C00288-C03231", weight: 1, source: "Bicarbonate", target: "3-Methylglutaconyl-CoA" } }, { data: { id: "C00288-C04419", weight: 1, source: "Bicarbonate", target: "Carboxybiotin-carboxyl-carrier protein" } }, { data: { id: "C00288-C06250", weight: 1, source: "Bicarbonate", target: "Holo-[carboxylase]" } }, { data: { id: "C00288-C03069", weight: 1, source: "Bicarbonate", target: "3-Methylcrotonyl-CoA" } }, { data: { id: "C00288-C00025", weight: 1, source: "Bicarbonate", target: "L-Glutamate" } }, { data: { id: "C00288-C00169", weight: 1, source: "Bicarbonate", target: "Carbamoyl phosphate" } }, { data: { id: "C00288-C00036", weight: 1, source: "Bicarbonate", target: "Oxaloacetate" } }, { data: { id: "C00288-C01342", weight: 1, source: "Bicarbonate", target: "NH4+" } }, { data: { id: "C00075-C06198", weight: 1, source: "UTP", target: "P1,P4-Bis(5'-uridyl) tetraphosphate" } }, { data: { id: "C00075-C00286", weight: 1, source: "UTP", target: "dGTP" } }, { data: { id: "C00081-C00286", weight: 1, source: "ITP", target: "dGTP" } }, { data: { id: "C00475-C00286", weight: 1, source: "Cytidine", target: "dGTP" } }, { data: { id: "C00112-C00286", weight: 1, source: "CDP", target: "dGTP" } }, { data: { id: "C00201-C00286", weight: 1, source: "Nucleoside triphosphate", target: "dGTP" } }, { data: { id: "G10620-C00286", weight: 1, source: "GDP", target: "dGTP" } }, { data: { id: "C00458-C00286", weight: 1, source: "dCTP", target: "dGTP" } }, { data: { id: "C00015-C00286", weight: 1, source: "UDP", target: "dGTP" } }, { data: { id: "C06196-C00286", weight: 1, source: "2'-Deoxyinosine 5'-phosphate", target: "dGTP" } }, { data: { id: "C00074-C00286", weight: 1, source: "Phosphoenolpyruvate", target: "dGTP" } }, { data: { id: "C04646-C00286", weight: 1, source: "6-Thioinosine 5'-monophosphate", target: "dGTP" } }, { data: { id: "C00131-C00286", weight: 1, source: "dATP", target: "dGTP" } }, { data: { id: "C16633-C00286", weight: 1, source: "5-Fluorouridine", target: "dGTP" } }, { data: { id: "C06198-C00105", weight: 1, source: "P1,P4-Bis(5'-uridyl) tetraphosphate", target: "UMP" } }, { data: { id: "C00206-C00286", weight: 1, source: "dADP", target: "dGTP" } }, { data: { id: "C01344-C00286", weight: 1, source: "dIDP", target: "dGTP" } }, { data: { id: "C00130-C00286", weight: 1, source: "IMP", target: "dGTP" } }, { data: { id: "C00105-C00286", weight: 1, source: "UMP", target: "dGTP" } }, { data: { id: "C00286-C01346", weight: 1, source: "dGTP", target: "dUDP" } }, { data: { id: "C00286-C00039", weight: 1, source: "dGTP", target: "DNA" } }, ], ];
+
+
+        var w = 960, h = 600;
+        var color = d3.scale.category20b();
+        var node_sizes = [16, 8, 32]
+        
+        var scalebar = d3.select("#colorbar").append("svg").attr("id", "svg_colorbar").attr("width", w).attr("height", 10);
+        var coloridx = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19];
+        scalebar.selectAll("rect")
+           .data(coloridx)
+           .enter()
+           .append("rect")
+           .attr("x", function(d, i) {return i * 48;})
+           .attr("y", 0)
+           .attr("width", 48)
+           .attr("height", 10)
+           .attr("fill", function(d, i) { return color(i); });
+           
+        //user input plots
+        var data = JSON.parse(alldata);
+        makeMZUserInputPlot();
+        makeRetTimeUserInputPlot();
+
+        //Pathway Bar chart plot
+        makePathwayPlot()
+        
+        // initial draw
+        cyto_draw_figure(cytonodes[0], cytoedges[0], node_sizes[0]);
+    	var cy = $('#networkvisual').cytoscape('get');
+    	cy.panBy({ x: 0, y: -200 });
+    	
+        // support cytoscape.js  
+		function cyto_draw_figure(nodes, links, node_size) {  
+
+                    var svg = document.createElement('div');
+                    svg.setAttribute("id","svg2");
+                    svg.setAttribute("class","svg2");
+                    var nw = document.getElementById("networkvisual");
+                    nw.appendChild(svg);
+
+				$('#svg2').cytoscape({
+						style: cytoscape.stylesheet()
+						.selector('node')
+						  .css({
+							'content': 'data(id)',
+							'font-size': node_size,
+							'min-zoomed-font-size': 8,
+							'background-color': 'mapData(group, 0, 19, blue, red)'
+						  })
+						.selector('edge')
+						  .css({
+							'target-arrow-shape': 'triangle',
+							'width': 4,
+							'line-color': '#ddd',
+							'target-arrow-color': '#ddd'
+						  })
+						.selector('.highlighted')
+						  .css({
+							'background-color': '#61bffc',
+							'line-color': '#61bffc',
+							'target-arrow-color': '#61bffc',
+							'transition-property': 'background-color, line-color, target-arrow-color',
+							'transition-duration': '0.5s'
+						  }),
+  
+					  layout: {
+						name: 'spread',
+						minDist: 40,
+						directed: true,
+						padding: 10,
+						//fit: false,
+					  },
+					  
+					  elements: {
+						  nodes: nodes, 
+						  edges: links
+						},
+  
+					  zoom: 1,
+					  minZoom: 0.1,
+ 					  maxZoom: 5,
+
+				});
+	
+		}
+	
+
+        // support d3.js  
+        function d3_draw_figure(nodes, links, node_size) {
+
+            var svg = document.createElement('div');
+            svg.setAttribute("id","svg2");
+            svg.setAttribute("class","svg2");
+            var nw = document.getElementById("networkvisual");
+            nw.appendChild(svg);
+
+            var svg = d3.select("#svg2").append("svg").attr("id", "svg_networkvisual").attr("width", w).attr("height", h);
+            var force = d3.layout.force()
+                      .charge(-480)
+                      .linkDistance(80)
+                      .gravity(0.3)
+                      .size([w, h]);
+    
+            force.nodes(nodes)
+              .links(links)
+              .start();
+            
+            var link = svg.selectAll(".link")
+              .data(links)
+              .enter().append("line")
+              .attr("class", "link")
+              .style("stroke-width", 2);
+            
+            var node = svg.selectAll(".node")
+              .data(nodes)
+              .enter().append("circle")
+              .attr("class", "node")
+              .attr("r", node_size)
+              .style("fill", function(d) { return color(d.group); })
+              .style("fill-opacity", .6)
+              .call(force.drag);
+            
+            var text = svg.selectAll(".text")
+              .data(nodes)
+              .enter().append("text")
+              .attr("font-family", "sans-serif")
+              .attr("font-size", "9px")
+              .attr("text-anchor", "middle")
+              .text(function(d) { return d.name; });
+            
+            force.on("tick", function() {
+                link.attr("x1", function(d) { return d.source.x; })
+                    .attr("y1", function(d) { return d.source.y; })
+                    .attr("x2", function(d) { return d.target.x; })
+                    .attr("y2", function(d) { return d.target.y; });
+            
+                node.attr("cx", function(d) { return d.x; })
+                    .attr("cy", function(d) { return d.y; });
+            
+                text.attr("x", function(d) { return d.x; })
+                    .attr("y", function(d) { return d.y; });
+              });
+        }
+    
+    
+        function inv(i) {
+           if (i==0)
+              return 0
+           else if (i==1)
+              return 2
+           else
+              return 1
+}
+
+    	// added support of two styles
+        function updateDrawing() {
+            var idx = document.getElementById("nmodule_select").selectedIndex;
+            var ndx = document.getElementById("nsize_select").selectedIndex;
+            var vdx = document.getElementById("vstyle_select").selectedIndex;
+            
+            //d3.select("#svg_networkvisual").remove();
+            var svg = document.getElementById("svg2");
+	    svg.parentNode.removeChild(svg);
+
+            //var cy = $('#networkvisual').cytoscape('get');
+            //cy.remove( cy.elements() );
+            
+            // 0 for cytoscape style, drag; 1 for d3 style, force
+            if (vdx == 0) {
+            cyto_draw_figure(cytonodes[idx], cytoedges[idx], node_sizes[inv(ndx)]);
+            
+    		var cy = $('#networkvisual').cytoscape('get');
+    		cy.panBy({ x: 0, y: -200 });
+            
+            } else {
+            d3_draw_figure(nodes[idx], links[idx], node_sizes[ndx]);
+            }
+        }
+    
+    </script>
+    </body> </html> 

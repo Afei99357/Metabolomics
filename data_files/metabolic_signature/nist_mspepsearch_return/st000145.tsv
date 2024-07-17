@@ -1,0 +1,19 @@
+> MSPepSearch ver. 0.96 build Fri Feb 22 13:22:10 2019. Started 05/05/22 at 12:10:28. Command line:
+> C:\MSPepSearch\2019_02_22_MSPepSearch_x64\MSPepSearch64.exe  Q /MAIN C:\NIST20\MSSEARCH\mainlib /REPL C:\NIST20\MSSEARCH\replib /MinMF 800 /MinInt 50 /HITS 1 /OutChemForm /OutCASrn /OutMW /OutIK /INP C:\Users\yliao13\Desktop\New_folder\nist_mspepsearch_files\msp_files\ST000145.msp /OUTTAB C:\Users\yliao13\Desktop\New_folder\nist_mspepsearch_files\st000145.tsv
+>
+Unknown	uInChIKey	Rank	Library	Id	Mass	Lib MW	InLib	MF	Prob(%)	Name	Charge	Formula	FlankRes	Mods	Pep	CAS	InChIKey	Nreps	Tfratio	Protein
+#1 147.0000@5.8006 MS1+		1	mainlib	168878	246.184	246	251	964	79.5	Disiloxane, 1,3-bis(1,1-dimethylethyl)-1,1,3,3-tetramethyl-		C12H30OSi2				67875552	FGTJJHCZWOVVNH-UHFFFAOYSA-N			
+#2 383.0000@9.8114 MS1+		1	mainlib	300047	440.236	440	207	968	46.9	Phosphoric acid, tris(tert-butyldimethylsilyl) ester		C18H45O4PSi3				85197280	XKIUTLXREGOBOW-UHFFFAOYSA-N			
+#4 147.0000@7.2067 MS1+		1	replib	29531	290.173	290	488	973	94.9	Bis(tert-butyldimethylsilyl) carbonate		C13H30O3Si2				39981925	IJWRJTUXZVVLND-UHFFFAOYSA-N			
+#6 146.0000@6.3558 MS1+		1	replib	29264	245.200	245	411	961	93.3	Bis(tert-butyldimethylsilyl)amine		C12H31NSi2				41879383	ZBLRLJUOIRWSCE-UHFFFAOYSA-N			
+#7 186.0000@8.6855 MS1+		1	mainlib	216914	345.252	345	664	981	46.8	L-Norvaline, N-(tert.-butyldimethylsilyl)-, tert.-butyldimethylsilyl ester		C17H39NO2Si2				0	XATDKTHYOZZXNB-UHFFFAOYSA-N			
+#8 221.0000@6.8642 MS1+		1	mainlib	246736	320.166	320	484	981	56.9	Thioglycolic acid, S-(tert-butyldimethylsilyl)-, tert-butyldimethylsilyl ester		C14H32O2SSi2				82112296	UBBMOAXOYVZRCS-UHFFFAOYSA-N			
+#13 149.0000@12.1670 MS1+		1	mainlib	172425	390.277	390	146	961	70.5	Bis(2-ethylhexyl) phthalate		C24H38O4				117817	BJQHLKABXJIVAM-UHFFFAOYSA-N			
+#15 73.0000@10.6934 MS1+		1	mainlib	55425	475.297	475	255	856	97.5	L-Aspartic acid, 3TBDMS derivative		C22H49NO4Si3				107715968	QQXNMPLNDTUYAN-KRWDZBQOSA-N			
+#18 73.0000@11.1188 MS1+		1	replib	12854	489.313	489	182	820	95.5	L-Glutamic acid, 3TBDMS derivative		C23H51NO4Si3				107715979	WBLAMWCQIMLWPE-SFHVURJKSA-N			
+#19 134.0000@5.8992 MS1+		1	mainlib	59175	241.111	241	177	839	77.7	N-(tert-butyldimethylsilyl)-2,2,2-trifluoro-N-methylacetamide		C9H18F3NOSi				0	QRKUHYFDBWGLHJ-UHFFFAOYSA-N			
+#20 221.0000@8.9656 MS1+		1	mainlib	246738	320.202	320	-181	858	46.5	1,3,5-Trisiloxane, 1,1,3,3,5,5-hexamethyl-1,5-di(tert.butyl)-		C14H36O2Si3				0	IMLREYFJPXWLCY-UHFFFAOYSA-N			
+#24 147.0000@7.8084 MS1+		1	mainlib	168055	318.205	318	522	964	69.9	Lactic acid, 2TBDMS derivative		C15H34O3Si2				0	YZJJQQKVFWRPJH-UHFFFAOYSA-N			
+#26 313.0000@11.2071 MS1+		1	mainlib	287328	370.327	370	284	915	90.7	Palmitic Acid, TBDMS derivative		C22H46O2Si				58160875	GPNFTJMLPUJTAA-UHFFFAOYSA-N			
+>
+> Completed. 33 spectra in 3.363 sec, process time = 3.371 sec (read 0.013s print 0.040s init pio 0.000s aux 0.000s sp 0.000s, search only: 0.830s+2.481s=3.311s, 9.96794 spec/s) 9.81167 spec/s Compared 71279 spec (21192.9 spec/s), No spectra compared 0, No hits 0, peaks/spec 85.97

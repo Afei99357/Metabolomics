@@ -1,0 +1,11 @@
+﻿,Unknown,uInChIKey,Rank,Library,Id,Mass,Lib MW,Score,Dot Product,Prob(%),Peptide,Charge,Formula,Prec.Type,FlankRes,Mods,Pep,CAS,NIST r.n.,InChIKey,Nreps,Tfratio,Protein,name
+125,#203 415.2121@0.589 MS1+,,1,lr_msms_nist,19249,414.205,414,990,990,38.1,His-Met-Lys,1,C17H30N6O4S,[M+H]+,,,,0,1083086,YYOCMTFVGKDNQP-UHFFFAOYSA-N,,,,Metacresol
+705,#1207 166.0844@4.187 MS1+,,1,hr_msms_nist,3570,165.079,165,903,903,15,DL-Phenylalanine,1,C9H11NO2,[M+H]+,,,,150301,1057623,COLNVLDHVKWLRT-UHFFFAOYSA-N,,,,Phenylalanine DL-form
+932,#1599 288.1447@5.910 MS1+,,1,hr_msms_nist,470099,287.142,287,590,590,93.9,"4,4'-[(4-Imino-2,5-cyclohexadien-1-ylidene)methylene]bis[benzenamine]",1,C19H17N3,[M+H]+,,,,479732,1775266,AFAIELJLZYUNPW-UHFFFAOYSA-N,,,,Basic Red 9
+1415,#2395 268.1045@2.677 MS1+,,1,hr_msms_nist,183644,267.097,267,997,997,47.7,Adenosine,1,C10H13N5O4,[M+H]+,,,,58617,1344849,OIRDTQYFTABQOQ-CRKDRTNXSA-N,,,,"9H-Purin-6-amine, 9-alpha-D-ribofuranosyl-"
+1576,#2675 191.1512@1.896 MS1+,,1,apci_msms_nist,183,586.351,586,975,975,58.3,Irganox 245,1,C34H50O8,[M+H-C21H32O7]+,,,,36443682,3485304,QSRJVOOOWGXUDY-UHFFFAOYSA-N,,,,TK 12627
+5304,#12074 216.1709@4.419 MS1+,,1,hr_msms_nist,733852,215.163,215,931,931,50.7,tert-Butyl 3-(aminomethyl)piperazine-1-carboxylate,1,C10H21N3O2,[M+H]+,,,,1376099807,3130373,SYPBUUQIMIYTEN-UHFFFAOYSA-N,,,,Hydroxychloroquine
+11194,#38738 288.1447@5.891 MS1+,,1,hr_msms_nist,470099,287.142,287,643,643,95.2,"4,4'-[(4-Imino-2,5-cyclohexadien-1-ylidene)methylene]bis[benzenamine]",1,C19H17N3,[M+H]+,,,,479732,1775266,AFAIELJLZYUNPW-UHFFFAOYSA-N,,,,Basic Red 9
+11132,#38470 394.2230@1.152 MS1+,,1,hr_msms_nist,245300,387.217,387,787,787,97.3,"1,3-Propanediol, 2-amino-2-[2-(4-octylphenyl)ethyl]-, 1-(dihydrogen phosphate)",1,C19H34NO5P,[M+Li]+,,,,402615912,1433590,LRFKWQGGENFBFO-UHFFFAOYSA-N,,,,
+3306,#6839 189.1469@1.897 MS1+,,1,hr_msms_nist,230989,188.131,188,446,446,79.4,.alpha.-Ethyltryptamine,1,C12H16N2,[M+H]+,,,,2235907,1413357,ZXUMUPVQYAFTLF-UHFFFAOYSA-N,,,,Etryptamine
+485,#840 115.0507@1.245 MS1+,,1,hr_msms_nist,182013,132.053,132,745,745,93.5,3-Ureidopropionic acid,1,C4H8N2O3,[M+H-H2O]+,,,,462884,1342447,JSJWCHRYRHKBBW-UHFFFAOYSA-N,,,,N-Carbamoyl-beta-alanine

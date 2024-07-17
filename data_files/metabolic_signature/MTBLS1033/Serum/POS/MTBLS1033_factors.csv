@@ -1,0 +1,54 @@
+injection_order,Source Name,Factor Value[Group],Characteristics[Organism part],sample_type
+1,C1.mzXML,Control,Serum,sample
+2,C2.mzXML,Control,Serum,sample
+3,C3.mzXML,Control,Serum,sample
+4,C4.mzXML,Control,Serum,sample
+5,C5.mzXML,Control,Serum,sample
+6,C6.mzXML,Control,Serum,sample
+7,C7.mzXML,Control,Serum,sample
+8,C8.mzXML,Control,Serum,sample
+9,C9.mzXML,Control,Serum,sample
+10,C10.mzXML,Control,Serum,sample
+11,C11.mzXML,Control,Serum,sample
+12,C12.mzXML,Control,Serum,sample
+13,C13.mzXML,Control,Serum,sample
+14,C14.mzXML,Control,Serum,sample
+15,C15.mzXML,Control,Serum,sample
+16,C16.mzXML,Control,Serum,sample
+17,C17.mzXML,Control,Serum,sample
+18,C18.mzXML,Control,Serum,sample
+19,C19.mzXML,Control,Serum,sample
+20,C20.mzXML,Control,Serum,sample
+21,C21.mzXML,Control,Serum,sample
+22,C22.mzXML,Control,Serum,sample
+23,D1.mzXML,POP,Serum,sample
+24,D2.mzXML,POP,Serum,sample
+25,D3.mzXML,POP,Serum,sample
+26,D4.mzXML,POP,Serum,sample
+27,D5.mzXML,POP,Serum,sample
+28,D6.mzXML,POP,Serum,sample
+29,D7.mzXML,POP,Serum,sample
+30,D8.mzXML,POP,Serum,sample
+31,D9.mzXML,POP,Serum,sample
+32,D10.mzXML,POP,Serum,sample
+33,D11.mzXML,POP,Serum,sample
+34,D12.mzXML,POP,Serum,sample
+35,D13.mzXML,POP,Serum,sample
+36,D14.mzXML,POP,Serum,sample
+37,D15.mzXML,POP,Serum,sample
+38,D16.mzXML,POP,Serum,sample
+39,D17.mzXML,POP,Serum,sample
+40,D18.mzXML,POP,Serum,sample
+41,D19.mzXML,POP,Serum,sample
+42,D20.mzXML,POP,Serum,sample
+43,D21.mzXML,POP,Serum,sample
+44,D22.mzXML,POP,Serum,sample
+45,D23.mzXML,POP,Serum,sample
+46,D24.mzXML,POP,Serum,sample
+47,QC01.mzXML,Quality control,Serum,sp
+48,QC02.mzXML,Quality control,Serum,sp
+49,QC03.mzXML,Quality control,Serum,sp
+50,QC04.mzXML,Quality control,Serum,sp
+51,QC05.mzXML,Quality control,Serum,sp
+52,QC06.mzXML,Quality control,Serum,sp
+53,QC07.mzXML,Quality control,Serum,sp

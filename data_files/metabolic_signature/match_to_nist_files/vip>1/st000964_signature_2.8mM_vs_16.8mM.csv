@@ -1,0 +1,133 @@
+,position name,Library,Id,Mass,Lib MW,InLib,MF,Prob(%),Name,Formula,CAS,InChIKey,VIP
+0,#183 147.0200@20.3248 MS1+,"55    replib
+Name: Library, dtype: object","55    12269.0
+Name: Id, dtype: float64","55    346.2
+Name: Mass, dtype: float64","55    346.0
+Name: Lib MW, dtype: float64","55   -155.0
+Name: InLib, dtype: float64","55    854.0
+Name: MF, dtype: float64","55    52.3
+Name: Prob(%), dtype: float64","55    Butanedioic acid, 2TBDMS derivative
+Name: Name, dtype: object","55    C16H34O4Si2
+Name: Formula, dtype: object","55    98847520.0
+Name: CAS, dtype: float64","55    XQWHUDQRNDFVPG-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",1.002913895856168
+1,#32 341.2300@39.2412 MS1+,"22    mainlib
+Name: Library, dtype: object","22    33456.0
+Name: Id, dtype: float64","22    341.138
+Name: Mass, dtype: float64","22    341.0
+Name: Lib MW, dtype: float64","22    122.0
+Name: InLib, dtype: float64","22    861.0
+Name: MF, dtype: float64","22    81.8
+Name: Prob(%), dtype: float64","22    1-(2-Dimethylamino-ethyl)-4-(furan-2-carbonyl)...
+Name: Name, dtype: object","22    C18H19N3O4
+Name: Formula, dtype: object","22    0.0
+Name: CAS, dtype: float64","22    OMZWRPLTYLEIME-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",1.0239910660539358
+2,#22 341.2400@38.9407 MS1+,"15    replib
+Name: Library, dtype: object","15    42801.0
+Name: Id, dtype: float64","15    398.358
+Name: Mass, dtype: float64","15    398.0
+Name: Lib MW, dtype: float64","15    118.0
+Name: InLib, dtype: float64","15    957.0
+Name: MF, dtype: float64","15    37.6
+Name: Prob(%), dtype: float64","15    Stearic acid, TBDMS derivative
+Name: Name, dtype: object","15    C24H50O2Si
+Name: Formula, dtype: object","15    87020517.0
+Name: CAS, dtype: float64","15    KQJVBEYMSUXDQG-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",1.0747508857570216
+3,#41 221.0400@15.9336 MS1+,"26    replib
+Name: Library, dtype: object","26    12604.0
+Name: Id, dtype: float64","26    278.136
+Name: Mass, dtype: float64","26    278.0
+Name: Lib MW, dtype: float64","26    146.0
+Name: InLib, dtype: float64","26    917.0
+Name: MF, dtype: float64","26    66.8
+Name: Prob(%), dtype: float64","26    Boric acid, 3TMS derivative
+Name: Name, dtype: object","26    C9H27BO3Si3
+Name: Formula, dtype: object","26    4325853.0
+Name: CAS, dtype: float64","26    YZYKZHPNRDIPFA-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",1.1045470981384635
+4,#175 183.9900@9.3466 MS1+,"54    mainlib
+Name: Library, dtype: object","54    7730.0
+Name: Id, dtype: float64","54    226.005
+Name: Mass, dtype: float64","54    226.0
+Name: Lib MW, dtype: float64","54    588.0
+Name: InLib, dtype: float64","54    928.0
+Name: MF, dtype: float64","54    98.2
+Name: Prob(%), dtype: float64","54    1,1-Dioxo-[1,2]thiazolo[5,4-c]pyridin-3-one, N...
+Name: Name, dtype: object","54    C8H6N2O4S
+Name: Formula, dtype: object","54    0.0
+Name: CAS, dtype: float64","54    PGRODNUCYKYTNV-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",1.196747185373952
+5,#51 344.3900@33.4423 MS1+,"33    mainlib
+Name: Library, dtype: object","33    46304.0
+Name: Id, dtype: float64","33    416.199
+Name: Mass, dtype: float64","33    416.0
+Name: Lib MW, dtype: float64","33    103.0
+Name: InLib, dtype: float64","33    980.0
+Name: MF, dtype: float64","33    14.4
+Name: Prob(%), dtype: float64","33    Sotanol N,O-bis-trimethylsilyl-
+Name: Name, dtype: object","33    C18H36N2O3SSi2
+Name: Formula, dtype: object","33   -485731.0
+Name: CAS, dtype: float64","33    HZMFLRSMSQFKMF-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",1.3324121454424291
+6,#350 111.0700@30.9652 MS1+,"56    replib
+Name: Library, dtype: object","56    4951.0
+Name: Id, dtype: float64","56    242.261
+Name: Mass, dtype: float64","56    242.0
+Name: Lib MW, dtype: float64","56    239.0
+Name: InLib, dtype: float64","56    822.0
+Name: MF, dtype: float64","56    88.3
+Name: Prob(%), dtype: float64","56    2-Hexadecanol
+Name: Name, dtype: object","56    C16H34O
+Name: Formula, dtype: object","56    14852314.0
+Name: CAS, dtype: float64","56    FVDRFBGMOWJEOR-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",1.4225847839314094
+7,#46 127.0200@6.4128 MS1+,"30    mainlib
+Name: Library, dtype: object","30    137282.0
+Name: Id, dtype: float64","30    270.219
+Name: Mass, dtype: float64","30    270.0
+Name: Lib MW, dtype: float64","30   -140.0
+Name: InLib, dtype: float64","30    998.0
+Name: MF, dtype: float64","30    3.0
+Name: Prob(%), dtype: float64","30    Hexanoic acid, 2-ethyl-, anhydride
+Name: Name, dtype: object","30    C16H30O3
+Name: Formula, dtype: object","30    36765896.0
+Name: CAS, dtype: float64","30    TVPCUVQDVRZTAL-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",2.227723091180099
+8,#102 404.1800@32.1037 MS1+,"47    replib
+Name: Library, dtype: object","47    18882.0
+Name: Id, dtype: float64","47    474.205
+Name: Mass, dtype: float64","47    474.0
+Name: Lib MW, dtype: float64","47    251.0
+Name: InLib, dtype: float64","47    966.0
+Name: MF, dtype: float64","47    82.0
+Name: Prob(%), dtype: float64","47    Viagra
+Name: Name, dtype: object","47    C22H30N6O4S
+Name: Formula, dtype: object","47    139755832.0
+Name: CAS, dtype: float64","47    BNRNXUUZRGQAQC-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",2.3420578601213395
+9,#69 113.0600@6.8069 MS1+,"39    mainlib
+Name: Library, dtype: object","39    8935.0
+Name: Id, dtype: float64","39    170.131
+Name: Mass, dtype: float64","39    170.0
+Name: Lib MW, dtype: float64","39    152.0
+Name: InLib, dtype: float64","39    850.0
+Name: MF, dtype: float64","39    62.5
+Name: Prob(%), dtype: float64","39    2,9-Decanedione
+Name: Name, dtype: object","39    C10H18O2
+Name: Formula, dtype: object","39    16538913.0
+Name: CAS, dtype: float64","39    YUMJAVUEKNJIQY-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",2.7510544154397296
+10,#55 152.9600@7.4699 MS1+,"35    replib
+Name: Library, dtype: object","35    17893.0
+Name: Id, dtype: float64","35    153.079
+Name: Mass, dtype: float64","35    153.0
+Name: Lib MW, dtype: float64","35    106.0
+Name: InLib, dtype: float64","35    999.0
+Name: MF, dtype: float64","35    18.8
+Name: Prob(%), dtype: float64","35    1H-Pyrrole-2-acetic acid, 1-methyl-, methyl ester
+Name: Name, dtype: object","35    C8H11NO2
+Name: Formula, dtype: object","35    51856792.0
+Name: CAS, dtype: float64","35    CGYVDYLHQYNGFC-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",2.766664213828587

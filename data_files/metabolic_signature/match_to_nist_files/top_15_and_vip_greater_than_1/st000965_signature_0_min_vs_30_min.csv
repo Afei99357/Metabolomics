@@ -1,0 +1,13 @@
+,position name,Library,Id,Mass,Lib MW,InLib,MF,Prob(%),Name,Formula,CAS,InChIKey,VIP
+0,#145 355.0600@7.5214 MS1+,"53    mainlib
+Name: Library, dtype: object","53    296276.0
+Name: Id, dtype: float64","53    592.15
+Name: Mass, dtype: float64","53    592.0
+Name: Lib MW, dtype: float64","53    108.0
+Name: InLib, dtype: float64","53    814.0
+Name: MF, dtype: float64","53    80.8
+Name: Prob(%), dtype: float64","53    Cyclooctasiloxane, hexadecamethyl-
+Name: Name, dtype: object","53    C16H48O8Si8
+Name: Formula, dtype: object","53    556683.0
+Name: CAS, dtype: float64","53    XKJMJYZFAWYREL-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",2.072090153173708

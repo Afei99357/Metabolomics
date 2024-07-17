@@ -1,0 +1,13 @@
+,position name,Library,Id,Mass,Lib MW,InLib,MF,Prob(%),Name,Formula,CAS,InChIKey,VIP
+0,#3 147.0000@12.0013 MS1+,"2    replib
+Name: Library, dtype: object","2    12342.0
+Name: Id, dtype: float64","2    612.301
+Name: Mass, dtype: float64","2    612.0
+Name: Lib MW, dtype: float64","2    405.0
+Name: InLib, dtype: float64","2    951.0
+Name: MF, dtype: float64","2    75.5
+Name: Prob(%), dtype: float64","2    Myo-Inositol, 6TMS
+Name: Name, dtype: object","2    C24H60O6Si6
+Name: Formula, dtype: object","2    2582798.0
+Name: CAS, dtype: float64","2    FRTKXRNTVMCAKI-HPEVMFQJSA-N
+Name: InChIKey, dtype: object",0.9703454215944436

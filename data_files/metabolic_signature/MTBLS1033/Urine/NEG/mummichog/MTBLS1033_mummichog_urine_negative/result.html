@@ -1,0 +1,303 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+        <html xmlns="http://www.w3.org/1999/xhtml"> 
+        <head> 
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /> 
+        <title>Mummichog Report</title> 
+
+        <style type="text/css"> 
+        body {width: 960px; padding: 10px; }
+        
+        div.colorbar {margin-bottom: 7px}
+        div.networkvisual { margin: auto; height: 600px; width: 960px; overflow: auto !important;}
+        div.svg2 { margin: auto; height: 600px; width: 960px; overflow: auto !important;}
+
+        div.stats {margin-top: 10; font-size:0.7em; color:#888;}
+
+        div.moduleline{font-size: 0.9em; font-weight: bold;
+        }
+        div.metabolites {
+            font-size: 0.7em;
+            padding-left: 15px; padding-bottom: 7px;
+        }
+        
+        footer { margin-top: 30px;    padding: 10px 0;    border-top: 1px solid #582E2E;    font-size:0.7em;    color:#888;}
+        
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Trebuchet MS', 'Lucida Grande', Arial, Sans-Serif;
+            font-weight: bold;
+        }
+        
+        h1 { font-size: 1.4em; }
+        h2 { font-size: 1.2em; }
+        h3 { font-size: 1em; }
+        h4 { font-size: 0.9em;     padding-left: 15px; padding-bottom: 2px; margin-bottom:0px;}
+        th {
+            background: #DAFDCF;
+            font-size:0.9em;
+            text-align: left;
+            padding:5px;
+        }
+        
+        tr:nth-child(even) {background-color: #f2f2f2}
+        tr:hover {background-color: #f5f5f5}
+        
+        td {
+            font-family: Verdana, Arial, sans-serif;
+            color: black;
+            font-size:0.7em;
+            margin:10px;
+            margin-top:0px;
+            padding: 5px;
+        }
+        
+        .node {
+          stroke: #fff;
+          stroke-width: 1.5px;
+        }
+        
+        .link {
+          stroke: #999;
+          stroke-opacity: .6;
+        }
+        div.network_selection {float: left; margin-top: 6; margin-bottom: 10; font-size:0.8em;}
+        </style> 
+        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js" charset="utf-8"></script>
+        <script src="https://shuzhao-li.github.io/mummichog.org/download/cytoscape.min.js" charset="utf-8"></script>
+        <script src="https://cdn.rawgit.com/cytoscape/cytoscape.js-spread/1.0.9/cytoscape-spread.js"></script> 
+        <script src="js/plotly-latest.min.js"></script>
+        <script src="js/plotly-graphs.js"></script>
+        <script src="js/result.js"></script>
+        </head> 
+        <body> 
+        <h1>Mummichog Report: myResult_1033</h1>
+<div id="colorbar" class="colorbar"></div>
+<div class="stats">mummichog version: 2.6.1, using metabolic model MFN_1.10.4.<br></div>
+<h2>User input data</h2>
+<p>User supplied 1949 features as reference list.We are using 487 features (p < 1.727000) as significant list. The feature level data are shown in the Manhattan plots below.</p>
+<div id="mz_user_input"></div>
+<div id="retention_time_input"></div>
+<h2>Top pathways</h2>
+<p>The reference feature list is mapped to 29 EmpiricalCompounds, significant features to 7 EmpiricalCompounds. In the table below, pathway_size is number of detected EmpiricalCompounds for each pathway; overlap_size is number of significant EmpiricalCompounds.                                Empirical p-values are estimated by permutation test. Details on EmpiricalCompounds are in 'tables/ListOfEmpiricalCompounds.tsv'.</p>
+<div class="pathwaystablly"><table><tr><th>Pathways</th>                    <th>overlap_size</th><th>pathway_size</th><th>p-value</th>                    <th>overlap_EmpiricalCompounds</th></tr><tr> <td>Selenoamino acid metabolism</td> <td>2</td><td>2</td><td>0.0016</td><td>E50,E27</td></tr><tr> <td>Glycosphingolipid biosynthesis - ganglioseries</td> <td>1</td><td>1</td><td>0.01697</td><td>E77</td></tr><tr> <td>Sialic acid metabolism</td> <td>1</td><td>1</td><td>0.01697</td><td>E77</td></tr><tr> <td>Propanoate metabolism</td> <td>1</td><td>1</td><td>0.01697</td><td>E8</td></tr><tr> <td>Pentose and Glucuronate Interconversions</td> <td>1</td><td>1</td><td>0.01697</td><td>E51</td></tr></table></div>
+<div id="pathwayBarPlot"></div>
+<h2>Top modules</h2>
+<p>Network modules may capture concerted metabolite activities that are missed by predefined pathways.         Use pull-down menus to visualize modules and the activity network, which tries to combine the results of         pathway/module analyses. The visualization requires interenet connection.</p>
+<div id="network_selection" class="network_selection">Showing
+        <select id="nmodule_select" onchange="updateDrawing();">
+          <option>Activity network</option>
+                   </select>
+                    Node size <select id="nsize_select"  onchange="updateDrawing();">
+                      <option value=16>Medium</option>
+                      <option value=8>Small</option>
+                      <option value=32>Large</option>
+                    </select>
+                    Visual style <select id="vstyle_select"  onchange="updateDrawing();">
+                      <option value=0>Drag</option>
+                      <option value=1>Force</option>
+                    </select>
+                    </div>
+<div id="networkvisual" class="networkvisual"></div>
+<div class="modulestablly">
+</div>
+<h2>EmpiricalCompounds favored by above analyses</h2>
+<p>An EmpiricalCompound is a computational unit for a tentative metabolite. It can group multiple ions,                     and be any of the isobaric/isomeric species. This table contains EmpiricalCompounds prioritized by pathway/module analysis.</p>
+<div class="metabolitestablly"><table><tr><th>EmpiricalCompound</th><th>Input m/z</th>                    <th>Retention time</th><th>ion</th><th>mz_diff</th><th>Statistic</th>                    <th>Significant</th></tr><tr > <td>E27</td> <td colspan="2">Best guess: C00265, Dithiothreitol</td><td colspan="4">C00265</td></tr><tr> <td> </td> <td>177.0</td> <td>300.0382</td><td>M+Na[1+]</td><td>-0.0015</td><td>0.5</td><td>yes</td></tr><tr > <td>E77</td> <td colspan="2">Best guess: C04911, D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide</td><td colspan="4">C04911</td></tr><tr> <td> </td> <td>1645.0</td> <td>363.164</td><td>M+H[1+]</td><td>0.0065</td><td>0.78</td><td>no</td></tr><tr> <td> </td> <td>1646.0</td> <td>384.1544</td><td>M(C13)+H[1+]</td><td>0.0031</td><td>0.94</td><td>yes</td></tr><tr> <td> </td> <td>823.0</td> <td>405.0474</td><td>M+2H[2+]</td><td>-0.0004</td><td>0.83</td><td>no</td></tr><tr > <td>E50</td> <td colspan="2">Best guess: C05699, Selenocystathionine</td><td colspan="4">C05699</td></tr><tr> <td> </td> <td>293.0</td> <td>401.0096</td><td>M+Na[1+]</td><td>-0.0012</td><td>0.14</td><td>yes</td></tr><tr > <td>E51</td> <td colspan="2">Best guess: C05385, </td><td colspan="4">C05385</td></tr><tr> <td> </td> <td>297.0</td> <td>331.1202</td><td>M+Na[1+]</td><td>0.0017</td><td>0.24</td><td>yes</td></tr><tr > <td>E8</td> <td colspan="2">Best guess: C05985, 2-Propyn-1-al</td><td colspan="4">C05985</td></tr><tr> <td> </td> <td>77.0</td> <td>344.0871</td><td>M+Na[1+]</td><td>0.0001</td><td>0.51</td><td>yes</td></tr></table></div>
+<h2>More data</h2>
+<p class="moreinformation">Full data tables from pathway analysis, module analysis and activity network are stored in the 'tables/' directory. 
+            The tsv files can be imported into a spreadsheet program, e.g. MS Excel.
+            Under the 'figures/network_modules/' directory are files intended for Cytoscape (cytoscape.org) visualization. Please refer to Cytoscape's guides for details.
+            Details of this run are recorded in file mummichog.log.txt.
+            </p>
+<footer>Mummichog algorithms are described in Li et al. Predicting Network Activity from High Throughput Metabolomics. PLoS Computational Biology (2013); doi:10.1371/journal.pcbi.1003123.        This software is provided as is, without warranty of any kind. Visit <a href="http://mummichog.org">http://mummichog.org</a> for updates.
+        </footer>
+
+        <script type="text/javascript" charset="utf-8">
+        var nodes = [ [{name:"alpha-D-Glucose", group:10}, {name:"beta-D-Gal-(1->4)-D-Glc", group:10}, {name:"GalNAc-GM1", group:10}, {name:"Lactose 6-phosphate", group:10}, {name:"D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", group:19}, {name:"GA1", group:10}, {name:"GT1a", group:10}, {name:"3-beta-D-Galactosyl-sn-glycerol", group:10}, {name:"GD3", group:10}, {name:"glucocerebroside ", group:10}, {name:"N-Acetylneuraminate", group:10}, {name:"alpha-N-Acetylneuraminyl-2,3-beta-D-galactosyl-1,3-N-acetyl-alpha-D-galactosaminyl-R", group:10}, {name:"CMP", group:10}, {name:"Galactosylgloboside", group:10}, {name:"GT1b", group:10}, {name:"(Gal)3 (GlcNAc)2 (S)2", group:10}, {name:"(Gal)1 (GalNAc)1 (Neu5Ac)1 (Ser/Thr)1", group:10}, {name:"Glucocerebroside", group:10}, {name:"GQ1", group:10}, {name:"D-Galactose", group:10}, {name:"Sialyl-3-paragloboside", group:10}, {name:"GM3", group:10}, {name:"(Gal)1 (*)2", group:10}, {name:"N-Acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", group:10}, {name:"3-Ketolactose", group:10}, {name:"CMP-N-acetylneuraminate", group:10}, {name:"3-Keto-beta-D-galactose", group:10}, {name:"galactosyl glucosyl ceramide", group:10}, {name:"GM2", group:10}, {name:"GT1b", group:10}, {name:"GQ1b", group:10}, {name:"galactocerebroside ", group:10}, {name:"T antigen", group:10}, {name:"(Gal)2 (GlcNAc)2 (S)2", group:10}, {name:"GDP-L-fucose", group:10}, {name:"GD2", group:10}, {name:"GD1b", group:10}, {name:"N-Acetylneuraminyl-D-galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", group:10}, {name:"Lactose", group:10}, {name:"GD1a", group:10}, {name:"Lactose", group:10}, {name:"GA1", group:10}, {name:"beta-D-Galactosyl-1,3-N-acetyl-alpha-D-galactosaminyl-R", group:10}, {name:"3',8'-LD1", group:10}, {name:"Galactose", group:10}, {name:"Galactosylceramide", group:10}, {name:"GM1", group:10}, {name:"UDP-N-acetyl-D-galactosamine", group:10}, {name:"UDPgalactose", group:10}, {name:"Galactan", group:10}, {name:"Glycerol", group:10}, {name:"GD1b", group:10}, {name:"D-Galactosyl-3-(N-acetyl-beta-D-galactosaminyl)-L-serine", group:10}, {name:"GT1a", group:10}, {name:"GM4", group:10}, {name:"GM4", group:10}, {name:"alpha-N-Acetylneuraminyl-2,3-beta-D-galactosyl-1,4-N-acetyl-beta-D-glucosaminyl-1,3-beta-D-galactosyl-1,4-D-glucosylceramide", group:10}, {name:"Lactosylceramide", group:10}, {name:"UDP", group:10}, {name:"Lactose 6-phosphate", group:10}, {name:"beta-D-Glucose", group:10}, {name:"GDP", group:10}, {name:"GM3", group:10}, {name:"GM1b", group:10}, {name:"alpha-N-Acetylneuraminyl-2,8-alpha-N-acetylneuraminyl-2,3-beta-D-galactosyl-R", group:10}, {name:"GA2", group:10}, {name:"GD2", group:10}, {name:"GA2", group:10}, {name:"CMP", group:10}, {name:"3-Ketolactose", group:10}, {name:"GD3", group:10}, {name:"alpha-N-Acetylneuraminyl-2,3-beta-D-galactosyl-R", group:10}, {name:"Monosialylgalactosylgloboside", group:10}, ], ];
+
+        var links = [[{source:0, target:4}, {source:1, target:4}, {source:2, target:4}, {source:3, target:4}, {source:4, target:5}, {source:4, target:6}, {source:4, target:7}, {source:4, target:8}, {source:4, target:9}, {source:4, target:10}, {source:4, target:11}, {source:4, target:12}, {source:4, target:13}, {source:4, target:14}, {source:4, target:15}, {source:4, target:16}, {source:4, target:17}, {source:4, target:18}, {source:4, target:19}, {source:4, target:20}, {source:4, target:21}, {source:4, target:22}, {source:4, target:23}, {source:4, target:24}, {source:4, target:25}, {source:4, target:26}, {source:4, target:27}, {source:4, target:28}, {source:4, target:29}, {source:4, target:30}, {source:4, target:31}, {source:4, target:32}, {source:4, target:33}, {source:4, target:34}, {source:4, target:35}, {source:4, target:36}, {source:4, target:37}, {source:4, target:38}, {source:4, target:39}, {source:4, target:40}, {source:4, target:41}, {source:4, target:42}, {source:4, target:43}, {source:4, target:44}, {source:4, target:45}, {source:4, target:46}, {source:4, target:47}, {source:4, target:48}, {source:4, target:49}, {source:4, target:50}, {source:4, target:51}, {source:4, target:52}, {source:4, target:53}, {source:4, target:54}, {source:4, target:55}, {source:4, target:56}, {source:4, target:57}, {source:4, target:58}, {source:4, target:59}, {source:4, target:60}, {source:4, target:61}, {source:4, target:62}, {source:4, target:63}, {source:4, target:64}, {source:4, target:65}, {source:4, target:66}, {source:4, target:67}, {source:4, target:68}, {source:4, target:69}, {source:4, target:70}, {source:4, target:71}, {source:4, target:72}, ], ];
+
+        var cytonodes = [ [{ data: {id:"alpha-D-Glucose", group:10} }, { data: {id:"beta-D-Gal-(1->4)-D-Glc", group:10} }, { data: {id:"GalNAc-GM1", group:10} }, { data: {id:"Lactose 6-phosphate", group:10} }, { data: {id:"D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", group:19} }, { data: {id:"GA1", group:10} }, { data: {id:"GT1a", group:10} }, { data: {id:"3-beta-D-Galactosyl-sn-glycerol", group:10} }, { data: {id:"GD3", group:10} }, { data: {id:"glucocerebroside ", group:10} }, { data: {id:"N-Acetylneuraminate", group:10} }, { data: {id:"alpha-N-Acetylneuraminyl-2,3-beta-D-galactosyl-1,3-N-acetyl-alpha-D-galactosaminyl-R", group:10} }, { data: {id:"CMP", group:10} }, { data: {id:"Galactosylgloboside", group:10} }, { data: {id:"GT1b", group:10} }, { data: {id:"(Gal)3 (GlcNAc)2 (S)2", group:10} }, { data: {id:"(Gal)1 (GalNAc)1 (Neu5Ac)1 (Ser/Thr)1", group:10} }, { data: {id:"Glucocerebroside", group:10} }, { data: {id:"GQ1", group:10} }, { data: {id:"D-Galactose", group:10} }, { data: {id:"Sialyl-3-paragloboside", group:10} }, { data: {id:"GM3", group:10} }, { data: {id:"(Gal)1 (*)2", group:10} }, { data: {id:"N-Acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", group:10} }, { data: {id:"3-Ketolactose", group:10} }, { data: {id:"CMP-N-acetylneuraminate", group:10} }, { data: {id:"3-Keto-beta-D-galactose", group:10} }, { data: {id:"galactosyl glucosyl ceramide", group:10} }, { data: {id:"GM2", group:10} }, { data: {id:"GT1b", group:10} }, { data: {id:"GQ1b", group:10} }, { data: {id:"galactocerebroside ", group:10} }, { data: {id:"T antigen", group:10} }, { data: {id:"(Gal)2 (GlcNAc)2 (S)2", group:10} }, { data: {id:"GDP-L-fucose", group:10} }, { data: {id:"GD2", group:10} }, { data: {id:"GD1b", group:10} }, { data: {id:"N-Acetylneuraminyl-D-galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", group:10} }, { data: {id:"Lactose", group:10} }, { data: {id:"GD1a", group:10} }, { data: {id:"Lactose", group:10} }, { data: {id:"GA1", group:10} }, { data: {id:"beta-D-Galactosyl-1,3-N-acetyl-alpha-D-galactosaminyl-R", group:10} }, { data: {id:"3',8'-LD1", group:10} }, { data: {id:"Galactose", group:10} }, { data: {id:"Galactosylceramide", group:10} }, { data: {id:"GM1", group:10} }, { data: {id:"UDP-N-acetyl-D-galactosamine", group:10} }, { data: {id:"UDPgalactose", group:10} }, { data: {id:"Galactan", group:10} }, { data: {id:"Glycerol", group:10} }, { data: {id:"GD1b", group:10} }, { data: {id:"D-Galactosyl-3-(N-acetyl-beta-D-galactosaminyl)-L-serine", group:10} }, { data: {id:"GT1a", group:10} }, { data: {id:"GM4", group:10} }, { data: {id:"GM4", group:10} }, { data: {id:"alpha-N-Acetylneuraminyl-2,3-beta-D-galactosyl-1,4-N-acetyl-beta-D-glucosaminyl-1,3-beta-D-galactosyl-1,4-D-glucosylceramide", group:10} }, { data: {id:"Lactosylceramide", group:10} }, { data: {id:"UDP", group:10} }, { data: {id:"Lactose 6-phosphate", group:10} }, { data: {id:"beta-D-Glucose", group:10} }, { data: {id:"GDP", group:10} }, { data: {id:"GM3", group:10} }, { data: {id:"GM1b", group:10} }, { data: {id:"alpha-N-Acetylneuraminyl-2,8-alpha-N-acetylneuraminyl-2,3-beta-D-galactosyl-R", group:10} }, { data: {id:"GA2", group:10} }, { data: {id:"GD2", group:10} }, { data: {id:"GA2", group:10} }, { data: {id:"CMP", group:10} }, { data: {id:"3-Ketolactose", group:10} }, { data: {id:"GD3", group:10} }, { data: {id:"alpha-N-Acetylneuraminyl-2,3-beta-D-galactosyl-R", group:10} }, { data: {id:"Monosialylgalactosylgloboside", group:10} }, ], ];
+
+        var cytoedges = [[{ data: { id: "C00267-C04911", weight: 1, source: "alpha-D-Glucose", target: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide" } }, { data: { id: "C06373-C04911", weight: 1, source: "beta-D-Gal-(1->4)-D-Glc", target: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide" } }, { data: { id: "CE5741-C04911", weight: 1, source: "GalNAc-GM1", target: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide" } }, { data: { id: "G10517-C04911", weight: 1, source: "Lactose 6-phosphate", target: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide" } }, { data: { id: "C04911-G00124", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "GA1" } }, { data: { id: "C04911-C06138", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "GT1a" } }, { data: { id: "C04911-C05401", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "3-beta-D-Galactosyl-sn-glycerol" } }, { data: { id: "C04911-G00113", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "GD3" } }, { data: { id: "C04911-C01190", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "glucocerebroside " } }, { data: { id: "C04911-C00270", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "N-Acetylneuraminate" } }, { data: { id: "C04911-C04901", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "alpha-N-Acetylneuraminyl-2,3-beta-D-galactosyl-1,3-N-acetyl-alpha-D-galactosaminyl-R" } }, { data: { id: "C04911-G10621", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "CMP" } }, { data: { id: "C04911-G00097", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "Galactosylgloboside" } }, { data: { id: "C04911-C06140", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "GT1b" } }, { data: { id: "C04911-G13032", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "(Gal)3 (GlcNAc)2 (S)2" } }, { data: { id: "C04911-G00026", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "(Gal)1 (GalNAc)1 (Neu5Ac)1 (Ser/Thr)1" } }, { data: { id: "C04911-G10238", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "Glucocerebroside" } }, { data: { id: "C04911-C06139", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "GQ1" } }, { data: { id: "C04911-C00124", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "D-Galactose" } }, { data: { id: "C04911-G00062", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "Sialyl-3-paragloboside" } }, { data: { id: "C04911-C04730", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "GM3" } }, { data: { id: "C04911-G10534", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "(Gal)1 (*)2" } }, { data: { id: "C04911-C04884", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "N-Acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide" } }, { data: { id: "C04911-G10531", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "3-Ketolactose" } }, { data: { id: "C04911-C00128", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "CMP-N-acetylneuraminate" } }, { data: { id: "C04911-C05394", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "3-Keto-beta-D-galactose" } }, { data: { id: "C04911-C01290", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "galactosyl glucosyl ceramide" } }, { data: { id: "C04911-G00109", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "GM2" } }, { data: { id: "C04911-G00116", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "GT1b" } }, { data: { id: "C04911-G00117", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "GQ1b" } }, { data: { id: "C04911-C02686", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "galactocerebroside " } }, { data: { id: "C04911-G00024", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "T antigen" } }, { data: { id: "C04911-G06780", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "(Gal)2 (GlcNAc)2 (S)2" } }, { data: { id: "C04911-C00325", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "GDP-L-fucose" } }, { data: { id: "C04911-C06134", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "GD2" } }, { data: { id: "C04911-C06141", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "GD1b" } }, { data: { id: "C04911-C04927", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "N-Acetylneuraminyl-D-galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide" } }, { data: { id: "C04911-G10504", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "Lactose" } }, { data: { id: "C04911-G00111", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "GD1a" } }, { data: { id: "C04911-C00243", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "Lactose" } }, { data: { id: "C04911-C06136", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "GA1" } }, { data: { id: "C04911-C04750", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "beta-D-Galactosyl-1,3-N-acetyl-alpha-D-galactosaminyl-R" } }, { data: { id: "C04911-G00064", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "3',8'-LD1" } }, { data: { id: "C04911-C01582", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "Galactose" } }, { data: { id: "C04911-G11121", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "Galactosylceramide" } }, { data: { id: "C04911-G00110", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "GM1" } }, { data: { id: "C04911-C00203", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "UDP-N-acetyl-D-galactosamine" } }, { data: { id: "C04911-C00052", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "UDPgalactose" } }, { data: { id: "C04911-C05796", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "Galactan" } }, { data: { id: "C04911-C00116", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "Glycerol" } }, { data: { id: "C04911-G00115", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "GD1b" } }, { data: { id: "C04911-C04776", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "D-Galactosyl-3-(N-acetyl-beta-D-galactosaminyl)-L-serine" } }, { data: { id: "C04911-G00112", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "GT1a" } }, { data: { id: "C04911-G00317", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "GM4" } }, { data: { id: "C04911-C06128", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "GM4" } }, { data: { id: "C04911-C04936", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "alpha-N-Acetylneuraminyl-2,3-beta-D-galactosyl-1,4-N-acetyl-beta-D-glucosaminyl-1,3-beta-D-galactosyl-1,4-D-glucosylceramide" } }, { data: { id: "C04911-G00092", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "Lactosylceramide" } }, { data: { id: "C04911-C00015", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "UDP" } }, { data: { id: "C04911-C05396", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "Lactose 6-phosphate" } }, { data: { id: "C04911-C00221", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "beta-D-Glucose" } }, { data: { id: "C04911-C00035", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "GDP" } }, { data: { id: "C04911-G00108", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "GM3" } }, { data: { id: "C04911-G00125", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "GM1b" } }, { data: { id: "C04911-C04887", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "alpha-N-Acetylneuraminyl-2,8-alpha-N-acetylneuraminyl-2,3-beta-D-galactosyl-R" } }, { data: { id: "C04911-C06135", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "GA2" } }, { data: { id: "C04911-G00114", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "GD2" } }, { data: { id: "C04911-G00123", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "GA2" } }, { data: { id: "C04911-C00055", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "CMP" } }, { data: { id: "C04911-C05403", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "3-Ketolactose" } }, { data: { id: "C04911-C06133", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "GD3" } }, { data: { id: "C04911-C04683", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "alpha-N-Acetylneuraminyl-2,3-beta-D-galactosyl-R" } }, { data: { id: "C04911-G00098", weight: 1, source: "D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide", target: "Monosialylgalactosylgloboside" } }, ], ];
+
+
+        var w = 960, h = 600;
+        var color = d3.scale.category20b();
+        var node_sizes = [16, 8, 32]
+        
+        var scalebar = d3.select("#colorbar").append("svg").attr("id", "svg_colorbar").attr("width", w).attr("height", 10);
+        var coloridx = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19];
+        scalebar.selectAll("rect")
+           .data(coloridx)
+           .enter()
+           .append("rect")
+           .attr("x", function(d, i) {return i * 48;})
+           .attr("y", 0)
+           .attr("width", 48)
+           .attr("height", 10)
+           .attr("fill", function(d, i) { return color(i); });
+           
+        //user input plots
+        var data = JSON.parse(alldata);
+        makeMZUserInputPlot();
+        makeRetTimeUserInputPlot();
+
+        //Pathway Bar chart plot
+        makePathwayPlot()
+        
+        // initial draw
+        cyto_draw_figure(cytonodes[0], cytoedges[0], node_sizes[0]);
+    	var cy = $('#networkvisual').cytoscape('get');
+    	cy.panBy({ x: 0, y: -200 });
+    	
+        // support cytoscape.js  
+		function cyto_draw_figure(nodes, links, node_size) {  
+
+                    var svg = document.createElement('div');
+                    svg.setAttribute("id","svg2");
+                    svg.setAttribute("class","svg2");
+                    var nw = document.getElementById("networkvisual");
+                    nw.appendChild(svg);
+
+				$('#svg2').cytoscape({
+						style: cytoscape.stylesheet()
+						.selector('node')
+						  .css({
+							'content': 'data(id)',
+							'font-size': node_size,
+							'min-zoomed-font-size': 8,
+							'background-color': 'mapData(group, 0, 19, blue, red)'
+						  })
+						.selector('edge')
+						  .css({
+							'target-arrow-shape': 'triangle',
+							'width': 4,
+							'line-color': '#ddd',
+							'target-arrow-color': '#ddd'
+						  })
+						.selector('.highlighted')
+						  .css({
+							'background-color': '#61bffc',
+							'line-color': '#61bffc',
+							'target-arrow-color': '#61bffc',
+							'transition-property': 'background-color, line-color, target-arrow-color',
+							'transition-duration': '0.5s'
+						  }),
+  
+					  layout: {
+						name: 'spread',
+						minDist: 40,
+						directed: true,
+						padding: 10,
+						//fit: false,
+					  },
+					  
+					  elements: {
+						  nodes: nodes, 
+						  edges: links
+						},
+  
+					  zoom: 1,
+					  minZoom: 0.1,
+ 					  maxZoom: 5,
+
+				});
+	
+		}
+	
+
+        // support d3.js  
+        function d3_draw_figure(nodes, links, node_size) {
+
+            var svg = document.createElement('div');
+            svg.setAttribute("id","svg2");
+            svg.setAttribute("class","svg2");
+            var nw = document.getElementById("networkvisual");
+            nw.appendChild(svg);
+
+            var svg = d3.select("#svg2").append("svg").attr("id", "svg_networkvisual").attr("width", w).attr("height", h);
+            var force = d3.layout.force()
+                      .charge(-480)
+                      .linkDistance(80)
+                      .gravity(0.3)
+                      .size([w, h]);
+    
+            force.nodes(nodes)
+              .links(links)
+              .start();
+            
+            var link = svg.selectAll(".link")
+              .data(links)
+              .enter().append("line")
+              .attr("class", "link")
+              .style("stroke-width", 2);
+            
+            var node = svg.selectAll(".node")
+              .data(nodes)
+              .enter().append("circle")
+              .attr("class", "node")
+              .attr("r", node_size)
+              .style("fill", function(d) { return color(d.group); })
+              .style("fill-opacity", .6)
+              .call(force.drag);
+            
+            var text = svg.selectAll(".text")
+              .data(nodes)
+              .enter().append("text")
+              .attr("font-family", "sans-serif")
+              .attr("font-size", "9px")
+              .attr("text-anchor", "middle")
+              .text(function(d) { return d.name; });
+            
+            force.on("tick", function() {
+                link.attr("x1", function(d) { return d.source.x; })
+                    .attr("y1", function(d) { return d.source.y; })
+                    .attr("x2", function(d) { return d.target.x; })
+                    .attr("y2", function(d) { return d.target.y; });
+            
+                node.attr("cx", function(d) { return d.x; })
+                    .attr("cy", function(d) { return d.y; });
+            
+                text.attr("x", function(d) { return d.x; })
+                    .attr("y", function(d) { return d.y; });
+              });
+        }
+    
+    
+        function inv(i) {
+           if (i==0)
+              return 0
+           else if (i==1)
+              return 2
+           else
+              return 1
+}
+
+    	// added support of two styles
+        function updateDrawing() {
+            var idx = document.getElementById("nmodule_select").selectedIndex;
+            var ndx = document.getElementById("nsize_select").selectedIndex;
+            var vdx = document.getElementById("vstyle_select").selectedIndex;
+            
+            //d3.select("#svg_networkvisual").remove();
+            var svg = document.getElementById("svg2");
+	    svg.parentNode.removeChild(svg);
+
+            //var cy = $('#networkvisual').cytoscape('get');
+            //cy.remove( cy.elements() );
+            
+            // 0 for cytoscape style, drag; 1 for d3 style, force
+            if (vdx == 0) {
+            cyto_draw_figure(cytonodes[idx], cytoedges[idx], node_sizes[inv(ndx)]);
+            
+    		var cy = $('#networkvisual').cytoscape('get');
+    		cy.panBy({ x: 0, y: -200 });
+            
+            } else {
+            d3_draw_figure(nodes[idx], links[idx], node_sizes[ndx]);
+            }
+        }
+    
+    </script>
+    </body> </html> 

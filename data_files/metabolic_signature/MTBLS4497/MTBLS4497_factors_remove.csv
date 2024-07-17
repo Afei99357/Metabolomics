@@ -1,0 +1,17 @@
+﻿inj_order,Sample Name,Characteristics[Organism part],Characteristics[Sample type],Factor Value[Treatment],Factor Value[Replicate],sample_type
+1,DMEM_1.mzXML,macrophage,experimental sample,Dulbecco's Modified Eagle Medium,1,sample
+2,DMEM_2.mzXML,macrophage,experimental sample,Dulbecco's Modified Eagle Medium,2,sample
+3,DMEM_3.mzXML,macrophage,experimental sample,Dulbecco's Modified Eagle Medium,3,sample
+4,DMEM_4.mzXML,macrophage,experimental sample,Dulbecco's Modified Eagle Medium,4,sample
+5,KMV_1.mzXML,macrophage,experimental sample,alpha-keto-beta-methylvalerate,1,sample
+6,KMV_2.mzXML,macrophage,experimental sample,alpha-keto-beta-methylvalerate,2,sample
+7,KMV_3.mzXML,macrophage,experimental sample,alpha-keto-beta-methylvalerate,3,sample
+8,KMV_4.mzXML,macrophage,experimental sample,alpha-keto-beta-methylvalerate,4,sample
+9,KIV_1.mzXML,macrophage,experimental sample,alpha-ketoisovalerate,1,sample
+10,KIV_2.mzXML,macrophage,experimental sample,alpha-ketoisovalerate,2,sample
+11,KIV_3.mzXML,macrophage,experimental sample,alpha-ketoisovalerate,3,sample
+12,KIV_4.mzXML,macrophage,experimental sample,alpha-ketoisovalerate,4,sample
+13,KIC_1.mzXML,macrophage,experimental sample,alpha-ketoisocaproate,1,sample
+14,KIC_2.mzXML,macrophage,experimental sample,alpha-ketoisocaproate,2,sample
+15,KIC_3.mzXML,macrophage,experimental sample,alpha-ketoisocaproate,3,sample
+16,KIC_4.mzXML,macrophage,experimental sample,alpha-ketoisocaproate,4,sample

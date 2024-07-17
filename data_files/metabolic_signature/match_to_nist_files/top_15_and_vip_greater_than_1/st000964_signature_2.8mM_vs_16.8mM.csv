@@ -1,0 +1,49 @@
+,position name,Library,Id,Mass,Lib MW,InLib,MF,Prob(%),Name,Formula,CAS,InChIKey,VIP
+0,#55 152.9600@7.4699 MS1+,"35    replib
+Name: Library, dtype: object","35    17893.0
+Name: Id, dtype: float64","35    153.079
+Name: Mass, dtype: float64","35    153.0
+Name: Lib MW, dtype: float64","35    106.0
+Name: InLib, dtype: float64","35    999.0
+Name: MF, dtype: float64","35    18.8
+Name: Prob(%), dtype: float64","35    1H-Pyrrole-2-acetic acid, 1-methyl-, methyl ester
+Name: Name, dtype: object","35    C8H11NO2
+Name: Formula, dtype: object","35    51856792.0
+Name: CAS, dtype: float64","35    CGYVDYLHQYNGFC-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",2.766664213828587
+1,#69 113.0600@6.8069 MS1+,"39    mainlib
+Name: Library, dtype: object","39    8935.0
+Name: Id, dtype: float64","39    170.131
+Name: Mass, dtype: float64","39    170.0
+Name: Lib MW, dtype: float64","39    152.0
+Name: InLib, dtype: float64","39    850.0
+Name: MF, dtype: float64","39    62.5
+Name: Prob(%), dtype: float64","39    2,9-Decanedione
+Name: Name, dtype: object","39    C10H18O2
+Name: Formula, dtype: object","39    16538913.0
+Name: CAS, dtype: float64","39    YUMJAVUEKNJIQY-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",2.7510544154397296
+2,#102 404.1800@32.1037 MS1+,"47    replib
+Name: Library, dtype: object","47    18882.0
+Name: Id, dtype: float64","47    474.205
+Name: Mass, dtype: float64","47    474.0
+Name: Lib MW, dtype: float64","47    251.0
+Name: InLib, dtype: float64","47    966.0
+Name: MF, dtype: float64","47    82.0
+Name: Prob(%), dtype: float64","47    Viagra
+Name: Name, dtype: object","47    C22H30N6O4S
+Name: Formula, dtype: object","47    139755832.0
+Name: CAS, dtype: float64","47    BNRNXUUZRGQAQC-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",2.3420578601213395
+3,#46 127.0200@6.4128 MS1+,"30    mainlib
+Name: Library, dtype: object","30    137282.0
+Name: Id, dtype: float64","30    270.219
+Name: Mass, dtype: float64","30    270.0
+Name: Lib MW, dtype: float64","30   -140.0
+Name: InLib, dtype: float64","30    998.0
+Name: MF, dtype: float64","30    3.0
+Name: Prob(%), dtype: float64","30    Hexanoic acid, 2-ethyl-, anhydride
+Name: Name, dtype: object","30    C16H30O3
+Name: Formula, dtype: object","30    36765896.0
+Name: CAS, dtype: float64","30    TVPCUVQDVRZTAL-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",2.227723091180099

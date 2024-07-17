@@ -1,0 +1,34 @@
+> MSPepSearch ver. 0.96 build Fri Feb 22 13:22:10 2019. Started 05/05/22 at 12:10:07. Command line:
+> C:\MSPepSearch\2019_02_22_MSPepSearch_x64\MSPepSearch64.exe  Q /MAIN C:\NIST20\MSSEARCH\mainlib /REPL C:\NIST20\MSSEARCH\replib /MinMF 800 /MinInt 50 /HITS 1 /OutChemForm /OutCASrn /OutMW /OutIK /INP C:\Users\yliao13\Desktop\New_folder\nist_mspepsearch_files\msp_files\ST000144.msp /OUTTAB C:\Users\yliao13\Desktop\New_folder\nist_mspepsearch_files\st000144.tsv
+>
+Unknown	uInChIKey	Rank	Library	Id	Mass	Lib MW	InLib	MF	Prob(%)	Name	Charge	Formula	FlankRes	Mods	Pep	CAS	InChIKey	Nreps	Tfratio	Protein
+#2 147.0000@7.2482 MS1+		1	replib	29531	290.173	290	481	970	94.8	Bis(tert-butyldimethylsilyl) carbonate		C13H30O3Si2				39981925	IJWRJTUXZVVLND-UHFFFAOYSA-N			
+#3 383.0000@9.8580 MS1+		1	mainlib	300047	440.236	440	197	972	48.9	Phosphoric acid, tris(tert-butyldimethylsilyl) ester		C18H45O4PSi3				85197280	XKIUTLXREGOBOW-UHFFFAOYSA-N			
+#4 147.0000@5.8368 MS1+		1	mainlib	168878	246.184	246	205	955	80.3	Disiloxane, 1,3-bis(1,1-dimethylethyl)-1,1,3,3-tetramethyl-		C12H30OSi2				67875552	FGTJJHCZWOVVNH-UHFFFAOYSA-N			
+#6 221.0000@6.9056 MS1+		1	mainlib	246736	320.166	320	416	978	54.3	Thioglycolic acid, S-(tert-butyldimethylsilyl)-, tert-butyldimethylsilyl ester		C14H32O2SSi2				82112296	UBBMOAXOYVZRCS-UHFFFAOYSA-N			
+#7 186.0000@8.7320 MS1+		1	mainlib	216914	345.252	345	614	980	50.3	L-Norvaline, N-(tert.-butyldimethylsilyl)-, tert.-butyldimethylsilyl ester		C17H39NO2Si2				0	XATDKTHYOZZXNB-UHFFFAOYSA-N			
+#9 149.0000@12.2136 MS1+		1	mainlib	172425	390.277	390	170	964	66.7	Bis(2-ethylhexyl) phthalate		C24H38O4				117817	BJQHLKABXJIVAM-UHFFFAOYSA-N			
+#15 146.0000@6.3920 MS1+		1	replib	29264	245.200	245	522	962	92.8	Bis(tert-butyldimethylsilyl)amine		C12H31NSi2				41879383	ZBLRLJUOIRWSCE-UHFFFAOYSA-N			
+#16 113.0000@5.3491 MS1+		1	mainlib	111514	254.207	254	-246	865	26.2	(Z)-3-Methyl-4-(1-methoxycyclohexyl)-2-butenyltrimethylsilane		C15H30OSi				0	SLMOZOJRBQRILI-ZROIWOOFSA-N			
+#17 313.0000@11.2433 MS1+		1	mainlib	287328	370.327	370	273	947	87.4	Palmitic Acid, TBDMS derivative		C22H46O2Si				58160875	GPNFTJMLPUJTAA-UHFFFAOYSA-N			
+#21 339.0000@11.9022 MS1+		1	mainlib	293436	396.342	396	101	958	27.9	Oleic Acid, (E)-, TBDMS derivative		C24H48O2Si				0	AHEYVESKZHRBPB-CCEZHUSRSA-N			
+#23 221.0000@9.0123 MS1+		1	mainlib	246738	320.202	320	-158	844	40.2	1,3,5-Trisiloxane, 1,1,3,3,5,5-hexamethyl-1,5-di(tert.butyl)-		C14H36O2Si3				0	IMLREYFJPXWLCY-UHFFFAOYSA-N			
+#24 341.0000@11.9905 MS1+		1	replib	42801	398.358	398	251	962	84.8	Stearic acid, TBDMS derivative		C24H50O2Si				87020517	KQJVBEYMSUXDQG-UHFFFAOYSA-N			
+#26 147.0000@7.8551 MS1+		1	mainlib	168055	318.205	318	320	949	70.3	Lactic acid, 2TBDMS derivative		C15H34O3Si2				0	YZJJQQKVFWRPJH-UHFFFAOYSA-N			
+#27 73.0000@8.8358 MS1+		1	mainlib	49761	404.277	404	858	921	98.1	Boric acid, 3TBDMS derivative		C18H45BO3Si3				0	HURPMAKXMNYTRR-UHFFFAOYSA-N			
+#31 152.0000@6.6203 MS1+		1	mainlib	177055	209.124	209	-124	919	15.0	3-Pyridinol, TBDMS derivative		C11H19NOSi				0	SMOBTWLYXIHVJD-UHFFFAOYSA-N			
+#33 129.0000@11.6222 MS1+		1	replib	25951	370.308	370	141	946	69.0	Hexanedioic acid, bis(2-ethylhexyl) ester		C22H42O4				103231	SAOKZLXYCUGLFA-UHFFFAOYSA-N			
+#36 147.0000@8.2287 MS1+		1	replib	29364	303.205	303	475	956	89.5	Glycine, 2TBDMS derivative		C14H33NO2Si2				107715888	KWGCEVDISSEKES-UHFFFAOYSA-N			
+#37 103.0000@5.5983 MS1+		1	mainlib	94960	204.155	204	330	964	90.5	2-Ethoxyethanol, TBDMS derivative		C10H24O2Si				0	SNAYDYWGJAKRPU-UHFFFAOYSA-N			
+#38 73.0000@10.1123 MS1+		1	replib	12806	447.302	447	137	808	97.3	L-Serine, 3TBDMS derivative		C21H49NO3Si3				107715935	FSJAIWAMUHRDKR-KRWDZBQOSA-N			
+#39 147.0000@7.0925 MS1+		1	replib	29354	204.137	204	-284	830	44.3	tert-Butylpentamethyldisiloxane		C9H24OSi2				67875541	KDJUMPQFOPXSMM-UHFFFAOYSA-N			
+#40 184.0000@9.2250 MS1+		1	mainlib	213959	343.236	343	398	941	93.6	L-Proline, 2TBDMS derivative		C17H37NO2Si2				107715913	ZSQADQXTZNAIQH-AWEZNQCLSA-N			
+#41 285.0000@10.5065 MS1+		1	mainlib	278466	342.295	342	374	927	62.9	Myristic acid, TBDMS derivative		C20H42O2Si				104255790	LSNQDHCEXPRRSY-UHFFFAOYSA-N			
+#43 257.0000@9.7077 MS1+		1	replib	40467	314.264	314	146	897	57.1	Dodecanoic acid, TBDMS derivative		C18H38O2Si				104255778	BXOQPDPLCKIVSL-UHFFFAOYSA-N			
+#45 330.0000@10.3457 MS1+		1	mainlib	291719	387.226	387	596	919	96.8	(2R)-Pyrrolidine-1,2-dicarboxylic acid, bis(tert-butyldimethylsilyl) ester		C18H37NO4Si2				0	LBXPKVVMJYSDAI-UHFFFAOYSA-N			
+#50 73.0000@12.5665 MS1+		1	replib	12291	360.215	360	-493	833	7.7	Methylsuccinic acid, 2TBDMS derivative		C17H36O4Si2				98830332	RMDDLEXHNWAQGQ-UHFFFAOYSA-N			
+#51 152.0000@7.2948 MS1+		1	mainlib	177055	209.124	209	244	943	62.7	3-Pyridinol, TBDMS derivative		C11H19NOSi				0	SMOBTWLYXIHVJD-UHFFFAOYSA-N			
+#56 200.0000@8.8670 MS1+		1	replib	36599	359.268	359	160	931	31.7	L-Leucine, 2TBDMS derivative		C18H41NO2Si2				92771658	HKPKPAQMCPAPSM-HNNXBMFYSA-N			
+#60 441.0000@13.1112 MS1+		1	mainlib	237021	456.288	456	122	866	78.2	Bisphenol A, 2TBDMS derivative		C27H44O2Si2				0	UBQOPYRGNNTVOC-UHFFFAOYSA-N			
+>
+> Completed. 69 spectra in 5.510 sec, process time = 5.518 sec (read 0.018s print 0.012s init pio 0.000s aux 0.000s sp 0.000s, search only: 1.307s+4.172s=5.479s, 12.5924 spec/s) 12.5221 spec/s Compared 164517 spec (29856.5 spec/s), No spectra compared 0, No hits 0, peaks/spec 85.22

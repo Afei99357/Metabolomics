@@ -1,0 +1,31 @@
+input_row	EID	str_row_ion	compounds	compound_names	input_row	m/z	retention_time	p_value	statistic	CompoundID_from_user
+row54	E11	row54_M+Na[1+]	C00067	Formaldehyde	row54	53.0	327.2333	24.246	0.0025340978836634566	3.2392116926844166
+row63	E30	row63_M+H[1+]	C00288	Bicarbonate	row63	62.0	722.5141	49.549	0.0017306761712518187	3.3779823484162628
+row78	E68	row78_M+Na[1+]	C05985	2-Propyn-1-al	row78	77.0	706.6364	62.435	0.01946979317378079	2.4427682466074123
+row128	E81	row128_M+Na[1+]	C00168;C01146	Hydroxypyruvate$2-Hydroxy-3-oxopropanoate; Tartronate semialdehyde	row128	127.0	330.2522	26.318	1.392870824766874e-09	7.996611562734259
+row140	E57	row140_M+Na[1+]	C00122	Fumarate	row140	139.0	790.5611	45.583	0.2860067328839431	1.0825644097962328
+row155	E1	row155_M+H[1+]	C01962	Thiocysteine	row155	154.0	766.54	52.158	0.003951055670764032	3.0742928850076696
+row177	E14	row177_M+Na[1+]	C00606	3-Sulfino-L-alanine	row177	176.0	771.5189	33.341	6.887725923281687e-06	5.231366493332407
+row178	E27	row178_M+Na[1+]	C00265	Dithiothreitol; 1,4-Dithiothreitol; threo-1,4-Dimercapto-2,3-butanediol; DL-threo-1,4-Dimercapto-2,3-butanediol	row178	177.0	771.5184	33.351	0.28600673288394307	1.082564409796233
+row188	E25	row188_M+H[1+]	C00631;C00197	D-Glycerate 2-phosphate$3-Phospho-D-glycerate	row188	187.0	818.5924	50.734	0.05354912178694248	1.9941067142954028
+row209	E74	row209_M+Na[1+]	C01005	O-Phospho-L-serine	row209	208.0	641.0911	27.515	0.02874254063735953	2.275776841358003
+row214	E28	row214_M+Na[1+]	C05379	Oxalosuccinate; Oxalosuccinic acid	row214	213.0	445.2005	15.597	0.2518589995817712	-1.1640403565765505
+row224	E77	row224_M+Na[1+]	C00279	D-Erythrose 4-phosphate	row224	223.0	708.6521	65.357	0.00011677970812474829	4.307569076080047
+row284	E34	row284_M+Na[1+]	C04582;C04188	5-Methylthio-5-deoxy-D-ribulose 1-phosphate$5-Methylthio-5-deoxy-D-ribose 1-phosphate	row284	283.0	866.5059	30.303	0.016749542615007905	2.505677055560563
+row294	E39	row294_M+Na[1+]	C05699	Selenocystathionine	row294	293.0	719.4873	32.537	0.004349675697809953	3.0380853045810734
+row298	E29	row298_M+Na[1+]	C05385		row298	297.0	763.5334	39.064	0.006521466489891922	2.8832648909882903
+row342	E82	row342_M+H[1+]	C01220;C04063;C00665;C04062;C01231;C00354;C05378;C03785;C03693	1D-myo-Inositol 1,4-bisphosphate$D-myo-Inositol 3,4-bisphosphate; 1D-myo-Inositol 3,4-bisphosphate; Inositol 3,4-bisphosphate$D-Fructose 2,6-bisphosphate$D-myo-Inositol 1,3-bisphosphate; 1D-myo-Inositol 1,3-bisphosphate; myo-Inositol 1,3-bisphosphate; Inositol 1,3-bisphosphate$alpha-D-Glucose 1,6-bisphosphate; alpha-D-Glucose 1,6-biphosphate$D-Fructose 1,6-bisphosphate$beta-D-Fructose 1,6-bisphosphate$D-Tagatose 1,6-bisphosphate$D-Mannose 1,6-bisphosphate	row342	341.0	740.5275	45.583	0.28600673288394307	1.082564409796233
+row412	E59	row412_M+Na[1+]	C01346	dUDP	row412	411.0	325.3116	33.841	0.0012001621682020394	-3.5090518040325493
+row452	E19	row452_M+Na[1+]	C00104	IDP	row452	451.0	792.4909	30.487	0.05326703693359597	1.9965880870092951
+row469	E17	row469_M+H[1+]	C00458	dCTP	row469	468.0	529.3134	22.808	0.004208372997841318	3.0505477981145828
+row484	E43	row484_M+H[1+]	C00459	dTTP	row484	483.0	1049.679	22.315	3.718890325458616e-06	5.429531995797405
+row497	E44	row497_M+H[1+]	C04895	2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl)dihydropteridine triphosphate	row497	496.0	282.2442	27.458	5.325952372518427e-05	4.567121370461923
+row509	E76	row509_M+H[1+]	C00286	dGTP	row509	508.0	297.2802	29.798	0.4034281395800512	-0.845206587599164
+row525	E15	row525_M+H[1+];row526_M(C13)+H[1+]	C00044	GTP	row525	524.0	748.5225	38.577	0.0017353353385493617	3.377012267785949
+row526	E15	row525_M+H[1+];row526_M(C13)+H[1+]	C00044	GTP	row526	525.0	748.523	38.572	0.13546838823413115	1.5261816572571745
+row529	E73	row529_M+Na[1+]	C03028	Thiamin triphosphate; Thiamine triphosphate	row529	528.0	506.3255	26.336	7.0628190827973205e-06	5.223282512378244
+row537	E52	row537_M+Na[1+]	C05923;C06148	2,5-Diaminopyrimidine nucleoside triphosphate$2,5-Diamino-6-(5'-triphosphoryl-3',4'-trihydroxy-2'-oxopentyl)-amino-4-oxopyrimidine	row537	536.0	445.354	34.902	0.274952751445428	1.1081406701870349
+row743	E49	row743_M+Na[1+]	C02739	1-(5-Phospho-D-ribosyl)-ATP; Phosphoribosyl-ATP; N1-(5-Phospho-D-ribosyl)-ATP; 1-(5-Phosphoribosyl)-ATP	row743	742.0	812.5087	30.235	1.9901048149634726e-05	4.888458063503823
+row792	E18	row792_M+H[1+]	C06198	P1,P4-Bis(5'-uridyl) tetraphosphate; UppppU	row792	791.0	224.0283	22.034	3.6186633977093688e-06	5.4383050650735045
+row894	E46	row894_M+Na[1+]	C04392	P1,P4-Bis(5'-xanthosyl) tetraphosphate; XppppX	row894	893.0	814.5607	42.076	0.13422666123444557	1.5311980059417936
+row1646	E56	row1646_M+H[1+]	C04911	D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide; GM1; GM1a; D-Galactosyl-1,3-beta-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosyl-N-acylsphingosine; Gal-beta1->3GalNAc-beta1->4(Neu5Ac-alpha2->3)Gal-beta1->4Glc-beta1->1'Cer	row1646	1645.0	353.1647	22.732	0.0012498662250198943	3.4946174465532756

@@ -1,0 +1,601 @@
+﻿inj_order,Sample Name,Source Name,Vegetable intake,Collection time period,Study type,Replicate,sample_type
+1,20111031_G2U1N1_1.mzXML,pool sample,G2-intake vegetable=spinach,U1-period=fasting,exploratory,1,sp
+2,20111031_G2U1N1_3.mzXML,pool sample,G2-intake vegetable=spinach,U1-period=fasting,exploratory,3,sp
+3,20111031_G2U1N1_4.mzXML,pool sample,G2-intake vegetable=spinach,U1-period=fasting,exploratory,4,sp
+4,20111031_G2U1N1_5.mzXML,pool sample,G2-intake vegetable=spinach,U1-period=fasting,exploratory,5,sp
+5,20111031_G2U1N1_6.mzXML,pool sample,G2-intake vegetable=spinach,U1-period=fasting,exploratory,6,sp
+6,20111031_G2U1N1_7.mzXML,pool sample,G2-intake vegetable=spinach,U1-period=fasting,exploratory,7,sp
+7,20111031_G2U2N1_1.mzXML,pool sample,G2-intake vegetable=spinach,U2-period=pre-lunch,exploratory,1,sp
+8,20111031_G2U2N1_3.mzXML,pool sample,G2-intake vegetable=spinach,U2-period=pre-lunch,exploratory,3,sp
+9,20111031_G2U2N1_4.mzXML,pool sample,G2-intake vegetable=spinach,U2-period=pre-lunch,exploratory,4,sp
+10,20111031_G2U2N1_5.mzXML,pool sample,G2-intake vegetable=spinach,U2-period=pre-lunch,exploratory,5,sp
+11,20111031_G2U2N1_6.mzXML,pool sample,G2-intake vegetable=spinach,U2-period=pre-lunch,exploratory,6,sp
+12,20111031_G2U2N1_7.mzXML,pool sample,G2-intake vegetable=spinach,U2-period=pre-lunch,exploratory,7,sp
+13,20111031_G2U3N1_1.mzXML,pool sample,G2-intake vegetable=spinach,U3-period=0-2hr post-lunch,exploratory,1,sp
+14,20111031_G2U3N1_2.mzXML,pool sample,G2-intake vegetable=spinach,U3-period=0-2hr post-lunch,exploratory,2,sp
+15,20111031_G2U3N1_3.mzXML,pool sample,G2-intake vegetable=spinach,U3-period=0-2hr post-lunch,exploratory,3,sp
+16,20111031_G2U3N1_4.mzXML,pool sample,G2-intake vegetable=spinach,U3-period=0-2hr post-lunch,exploratory,4,sp
+17,20111031_G2U3N1_5.mzXML,pool sample,G2-intake vegetable=spinach,U3-period=0-2hr post-lunch,exploratory,5,sp
+18,20111031_G2U3N1_6.mzXML,pool sample,G2-intake vegetable=spinach,U3-period=0-2hr post-lunch,exploratory,6,sp
+19,20111031_G2U4N1_1.mzXML,pool sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,exploratory,1,sp
+20,20111031_G2U4N1_2.mzXML,pool sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,exploratory,2,sp
+21,20111031_G2U4N1_3.mzXML,pool sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,exploratory,3,sp
+22,20111031_G2U4N1_4.mzXML,pool sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,exploratory,4,sp
+23,20111031_G2U4N1_5.mzXML,pool sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,exploratory,5,sp
+24,20111031_G2U4N1_6.mzXML,pool sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,exploratory,6,sp
+25,20111031_G2U5N1_1.mzXML,pool sample,G2-intake vegetable=spinach,U5-period=4-7hr post-lunch,exploratory,1,sp
+26,20111031_G2U5N1_2.mzXML,pool sample,G2-intake vegetable=spinach,U5-period=4-7hr post-lunch,exploratory,2,sp
+27,20111031_G2U5N1_3.mzXML,pool sample,G2-intake vegetable=spinach,U5-period=4-7hr post-lunch,exploratory,3,sp
+28,20111031_G2U5N1_4.mzXML,pool sample,G2-intake vegetable=spinach,U5-period=4-7hr post-lunch,exploratory,4,sp
+29,20111031_G2U5N1_5.mzXML,pool sample,G2-intake vegetable=spinach,U5-period=4-7hr post-lunch,exploratory,5,sp
+30,20111031_G2U5N1_6.mzXML,pool sample,G2-intake vegetable=spinach,U5-period=4-7hr post-lunch,exploratory,6,sp
+31,20111031_G4U1N1_1.mzXML,pool sample,G4-intake vegetable=none,U1-period=fasting,exploratory,1,sp
+32,20111031_G4U1N1_2.mzXML,pool sample,G4-intake vegetable=none,U1-period=fasting,exploratory,2,sp
+33,20111031_G4U1N1_3.mzXML,pool sample,G4-intake vegetable=none,U1-period=fasting,exploratory,3,sp
+34,20111031_G4U1N1_4.mzXML,pool sample,G4-intake vegetable=none,U1-period=fasting,exploratory,4,sp
+35,20111031_G4U1N1_5.mzXML,pool sample,G4-intake vegetable=none,U1-period=fasting,exploratory,5,sp
+36,20111031_G4U1N1_6.mzXML,pool sample,G4-intake vegetable=none,U1-period=fasting,exploratory,6,sp
+37,20111031_G4U2N1_1.mzXML,pool sample,G4-intake vegetable=none,U2-period=pre-lunch,exploratory,1,sp
+38,20111031_G4U2N1_2.mzXML,pool sample,G4-intake vegetable=none,U2-period=pre-lunch,exploratory,2,sp
+39,20111031_G4U2N1_3.mzXML,pool sample,G4-intake vegetable=none,U2-period=pre-lunch,exploratory,3,sp
+40,20111031_G4U2N1_4.mzXML,pool sample,G4-intake vegetable=none,U2-period=pre-lunch,exploratory,4,sp
+41,20111031_G4U2N1_6.mzXML,pool sample,G4-intake vegetable=none,U2-period=pre-lunch,exploratory,6,sp
+42,20111031_G4U2N1_7.mzXML,pool sample,G4-intake vegetable=none,U2-period=pre-lunch,exploratory,7,sp
+43,20111031_G4U3N1_1.mzXML,pool sample,G4-intake vegetable=none,U3-period=0-2hr post-lunch,exploratory,1,sp
+44,20111031_G4U3N1_2.mzXML,pool sample,G4-intake vegetable=none,U3-period=0-2hr post-lunch,exploratory,2,sp
+45,20111031_G4U3N1_3.mzXML,pool sample,G4-intake vegetable=none,U3-period=0-2hr post-lunch,exploratory,3,sp
+46,20111031_G4U3N1_4.mzXML,pool sample,G4-intake vegetable=none,U3-period=0-2hr post-lunch,exploratory,4,sp
+47,20111031_G4U3N1_6.mzXML,pool sample,G4-intake vegetable=none,U3-period=0-2hr post-lunch,exploratory,6,sp
+48,20111031_G4U3N1_7.mzXML,pool sample,G4-intake vegetable=none,U3-period=0-2hr post-lunch,exploratory,7,sp
+49,20111031_G4U4N1_1.mzXML,pool sample,G4-intake vegetable=none,U4-period=2-4hr post-lunch,exploratory,1,sp
+50,20111031_G4U4N1_2.mzXML,pool sample,G4-intake vegetable=none,U4-period=2-4hr post-lunch,exploratory,2,sp
+51,20111031_G4U4N1_3.mzXML,pool sample,G4-intake vegetable=none,U4-period=2-4hr post-lunch,exploratory,3,sp
+52,20111031_G4U4N1_4.mzXML,pool sample,G4-intake vegetable=none,U4-period=2-4hr post-lunch,exploratory,4,sp
+53,20111031_G4U4N1_5.mzXML,pool sample,G4-intake vegetable=none,U4-period=2-4hr post-lunch,exploratory,5,sp
+54,20111031_G4U4N1_6.mzXML,pool sample,G4-intake vegetable=none,U4-period=2-4hr post-lunch,exploratory,6,sp
+55,20111031_G4U5N1_1.mzXML,pool sample,G4-intake vegetable=none,U5-period=4-7hr post-lunch,exploratory,1,sp
+56,20111031_G4U5N1_2.mzXML,pool sample,G4-intake vegetable=none,U5-period=4-7hr post-lunch,exploratory,2,sp
+57,20111031_G4U5N1_3.mzXML,pool sample,G4-intake vegetable=none,U5-period=4-7hr post-lunch,exploratory,3,sp
+58,20111031_G4U5N1_4.mzXML,pool sample,G4-intake vegetable=none,U5-period=4-7hr post-lunch,exploratory,4,sp
+59,20111031_G4U5N1_5.mzXML,pool sample,G4-intake vegetable=none,U5-period=4-7hr post-lunch,exploratory,5,sp
+60,20111031_G4U5N1_6.mzXML,pool sample,G4-intake vegetable=none,U5-period=4-7hr post-lunch,exploratory,6,sp
+61,20111031_G5U1N1_1.mzXML,pool sample,G5-intake vegetable=celery,U1-period=fasting,exploratory,1,sp
+62,20111031_G5U1N1_2.mzXML,pool sample,G5-intake vegetable=celery,U1-period=fasting,exploratory,2,sp
+63,20111031_G5U1N1_3.mzXML,pool sample,G5-intake vegetable=celery,U1-period=fasting,exploratory,3,sp
+64,20111031_G5U1N1_4.mzXML,pool sample,G5-intake vegetable=celery,U1-period=fasting,exploratory,4,sp
+65,20111031_G5U1N1_5.mzXML,pool sample,G5-intake vegetable=celery,U1-period=fasting,exploratory,5,sp
+66,20111031_G5U1N1_6.mzXML,pool sample,G5-intake vegetable=celery,U1-period=fasting,exploratory,6,sp
+67,20111031_G5U2N1_1.mzXML,pool sample,G5-intake vegetable=celery,U2-period=pre-lunch,exploratory,1,sp
+68,20111031_G5U2N1_2.mzXML,pool sample,G5-intake vegetable=celery,U2-period=pre-lunch,exploratory,2,sp
+69,20111031_G5U2N1_3.mzXML,pool sample,G5-intake vegetable=celery,U2-period=pre-lunch,exploratory,3,sp
+70,20111031_G5U2N1_4.mzXML,pool sample,G5-intake vegetable=celery,U2-period=pre-lunch,exploratory,4,sp
+71,20111031_G5U2N1_5.mzXML,pool sample,G5-intake vegetable=celery,U2-period=pre-lunch,exploratory,5,sp
+72,20111031_G5U2N1_6.mzXML,pool sample,G5-intake vegetable=celery,U2-period=pre-lunch,exploratory,6,sp
+73,20111031_G5U3N1_1.mzXML,pool sample,G5-intake vegetable=celery,U3-period=0-2hr post-lunch,exploratory,1,sp
+74,20111031_G5U3N1_2.mzXML,pool sample,G5-intake vegetable=celery,U3-period=0-2hr post-lunch,exploratory,2,sp
+75,20111031_G5U3N1_3.mzXML,pool sample,G5-intake vegetable=celery,U3-period=0-2hr post-lunch,exploratory,3,sp
+76,20111031_G5U3N1_4.mzXML,pool sample,G5-intake vegetable=celery,U3-period=0-2hr post-lunch,exploratory,4,sp
+77,20111031_G5U3N1_5.mzXML,pool sample,G5-intake vegetable=celery,U3-period=0-2hr post-lunch,exploratory,5,sp
+78,20111031_G5U3N1_7.mzXML,pool sample,G5-intake vegetable=celery,U3-period=0-2hr post-lunch,exploratory,7,sp
+79,20111031_G5U4N1_2.mzXML,pool sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,exploratory,2,sp
+80,20111031_G5U4N1_3.mzXML,pool sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,exploratory,3,sp
+81,20111031_G5U4N1_4.mzXML,pool sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,exploratory,4,sp
+82,20111031_G5U4N1_5.mzXML,pool sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,exploratory,5,sp
+83,20111031_G5U4N1_6.mzXML,pool sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,exploratory,6,sp
+84,20111031_G5U4N1_7.mzXML,pool sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,exploratory,7,sp
+85,20111031_G5U5N1_1.mzXML,pool sample,G5-intake vegetable=celery,U5-period=4-7hr post-lunch,exploratory,1,sp
+86,20111031_G5U5N1_2.mzXML,pool sample,G5-intake vegetable=celery,U5-period=4-7hr post-lunch,exploratory,2,sp
+87,20111031_G5U5N1_3.mzXML,pool sample,G5-intake vegetable=celery,U5-period=4-7hr post-lunch,exploratory,3,sp
+88,20111031_G5U5N1_4.mzXML,pool sample,G5-intake vegetable=celery,U5-period=4-7hr post-lunch,exploratory,4,sp
+89,20111031_G5U5N1_5.mzXML,pool sample,G5-intake vegetable=celery,U5-period=4-7hr post-lunch,exploratory,5,sp
+90,20111031_G5U5N1_6.mzXML,pool sample,G5-intake vegetable=celery,U5-period=4-7hr post-lunch,exploratory,6,sp
+91,20111031_G7U1N1_1.mzXML,pool sample,G7-intake vegetable=onion,U1-period=fasting,exploratory,1,sp
+92,20111031_G7U1N1_2.mzXML,pool sample,G7-intake vegetable=onion,U1-period=fasting,exploratory,2,sp
+93,20111031_G7U1N1_3.mzXML,pool sample,G7-intake vegetable=onion,U1-period=fasting,exploratory,3,sp
+94,20111031_G7U1N1_4.mzXML,pool sample,G7-intake vegetable=onion,U1-period=fasting,exploratory,4,sp
+95,20111031_G7U1N1_5.mzXML,pool sample,G7-intake vegetable=onion,U1-period=fasting,exploratory,5,sp
+96,20111031_G7U1N1_6.mzXML,pool sample,G7-intake vegetable=onion,U1-period=fasting,exploratory,6,sp
+97,20111031_G7U2N1_1.mzXML,pool sample,G7-intake vegetable=onion,U2-period=pre-lunch,exploratory,1,sp
+98,20111031_G7U2N1_3.mzXML,pool sample,G7-intake vegetable=onion,U2-period=pre-lunch,exploratory,3,sp
+99,20111031_G7U2N1_4.mzXML,pool sample,G7-intake vegetable=onion,U2-period=pre-lunch,exploratory,4,sp
+100,20111031_G7U2N1_5.mzXML,pool sample,G7-intake vegetable=onion,U2-period=pre-lunch,exploratory,5,sp
+101,20111031_G7U2N1_6.mzXML,pool sample,G7-intake vegetable=onion,U2-period=pre-lunch,exploratory,6,sp
+102,20111031_G7U2N1_7.mzXML,pool sample,G7-intake vegetable=onion,U2-period=pre-lunch,exploratory,7,sp
+103,20111031_G7U3N1_1.mzXML,pool sample,G7-intake vegetable=onion,U3-period=0-2hr post-lunch,exploratory,1,sp
+104,20111031_G7U3N1_3.mzXML,pool sample,G7-intake vegetable=onion,U3-period=0-2hr post-lunch,exploratory,3,sp
+105,20111031_G7U3N1_4.mzXML,pool sample,G7-intake vegetable=onion,U3-period=0-2hr post-lunch,exploratory,4,sp
+106,20111031_G7U3N1_5.mzXML,pool sample,G7-intake vegetable=onion,U3-period=0-2hr post-lunch,exploratory,5,sp
+107,20111031_G7U3N1_6.mzXML,pool sample,G7-intake vegetable=onion,U3-period=0-2hr post-lunch,exploratory,6,sp
+108,20111031_G7U3N1_7.mzXML,pool sample,G7-intake vegetable=onion,U3-period=0-2hr post-lunch,exploratory,7,sp
+109,20111031_G7U4N1_1.mzXML,pool sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,exploratory,1,sp
+110,20111031_G7U4N1_2.mzXML,pool sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,exploratory,2,sp
+111,20111031_G7U4N1_3.mzXML,pool sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,exploratory,3,sp
+112,20111031_G7U4N1_4.mzXML,pool sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,exploratory,4,sp
+113,20111031_G7U4N1_5.mzXML,pool sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,exploratory,5,sp
+114,20111031_G7U4N1_6.mzXML,pool sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,exploratory,6,sp
+115,20111031_G7U5N1_1.mzXML,pool sample,G7-intake vegetable=onion,U5-period=4-7hr post-lunch,exploratory,1,sp
+116,20111031_G7U5N1_2.mzXML,pool sample,G7-intake vegetable=onion,U5-period=4-7hr post-lunch,exploratory,2,sp
+117,20111031_G7U5N1_3.mzXML,pool sample,G7-intake vegetable=onion,U5-period=4-7hr post-lunch,exploratory,3,sp
+118,20111031_G7U5N1_4.mzXML,pool sample,G7-intake vegetable=onion,U5-period=4-7hr post-lunch,exploratory,4,sp
+119,20111031_G7U5N1_5.mzXML,pool sample,G7-intake vegetable=onion,U5-period=4-7hr post-lunch,exploratory,5,sp
+120,20111031_G7U5N1_7.mzXML,pool sample,G7-intake vegetable=onion,U5-period=4-7hr post-lunch,exploratory,7,sp
+121,20111108_G2U1N1_1.mzXML,pool sample,G2-intake vegetable=spinach,U1-period=fasting,exploratory,1,sp
+122,20111108_G2U1N1_2.mzXML,pool sample,G2-intake vegetable=spinach,U1-period=fasting,exploratory,2,sp
+123,20111108_G2U1N1_3.mzXML,pool sample,G2-intake vegetable=spinach,U1-period=fasting,exploratory,3,sp
+124,20111108_G2U1N1_4.mzXML,pool sample,G2-intake vegetable=spinach,U1-period=fasting,exploratory,4,sp
+125,20111108_G2U1N1_5.mzXML,pool sample,G2-intake vegetable=spinach,U1-period=fasting,exploratory,5,sp
+126,20111108_G2U1N1_6.mzXML,pool sample,G2-intake vegetable=spinach,U1-period=fasting,exploratory,6,sp
+127,20111108_G2U2N1_1.mzXML,pool sample,G2-intake vegetable=spinach,U2-period=pre-lunch,exploratory,1,sp
+128,20111108_G2U2N1_2.mzXML,pool sample,G2-intake vegetable=spinach,U2-period=pre-lunch,exploratory,2,sp
+129,20111108_G2U2N1_3.mzXML,pool sample,G2-intake vegetable=spinach,U2-period=pre-lunch,exploratory,3,sp
+130,20111108_G2U2N1_4.mzXML,pool sample,G2-intake vegetable=spinach,U2-period=pre-lunch,exploratory,4,sp
+131,20111108_G2U2N1_5.mzXML,pool sample,G2-intake vegetable=spinach,U2-period=pre-lunch,exploratory,5,sp
+132,20111108_G2U2N1_6.mzXML,pool sample,G2-intake vegetable=spinach,U2-period=pre-lunch,exploratory,6,sp
+133,20111108_G2U3N1_1.mzXML,pool sample,G2-intake vegetable=spinach,U3-period=0-2hr post-lunch,exploratory,1,sp
+134,20111108_G2U3N1_2.mzXML,pool sample,G2-intake vegetable=spinach,U3-period=0-2hr post-lunch,exploratory,2,sp
+135,20111108_G2U3N1_3.mzXML,pool sample,G2-intake vegetable=spinach,U3-period=0-2hr post-lunch,exploratory,3,sp
+136,20111108_G2U3N1_4.mzXML,pool sample,G2-intake vegetable=spinach,U3-period=0-2hr post-lunch,exploratory,4,sp
+137,20111108_G2U3N1_5.mzXML,pool sample,G2-intake vegetable=spinach,U3-period=0-2hr post-lunch,exploratory,5,sp
+138,20111108_G2U3N1_6.mzXML,pool sample,G2-intake vegetable=spinach,U3-period=0-2hr post-lunch,exploratory,6,sp
+139,20111108_G2U4N1_1.mzXML,pool sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,exploratory,1,sp
+140,20111108_G2U4N1_2.mzXML,pool sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,exploratory,2,sp
+141,20111108_G2U4N1_3.mzXML,pool sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,exploratory,3,sp
+142,20111108_G2U4N1_4.mzXML,pool sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,exploratory,4,sp
+143,20111108_G2U4N1_5.mzXML,pool sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,exploratory,5,sp
+144,20111108_G2U4N1_6.mzXML,pool sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,exploratory,6,sp
+145,20111108_G2U5N1_1.mzXML,pool sample,G2-intake vegetable=spinach,U5-period=4-7hr post-lunch,exploratory,1,sp
+146,20111108_G2U5N1_2.mzXML,pool sample,G2-intake vegetable=spinach,U5-period=4-7hr post-lunch,exploratory,2,sp
+147,20111108_G2U5N1_3.mzXML,pool sample,G2-intake vegetable=spinach,U5-period=4-7hr post-lunch,exploratory,3,sp
+148,20111108_G2U5N1_4.mzXML,pool sample,G2-intake vegetable=spinach,U5-period=4-7hr post-lunch,exploratory,4,sp
+149,20111108_G2U5N1_5.mzXML,pool sample,G2-intake vegetable=spinach,U5-period=4-7hr post-lunch,exploratory,5,sp
+150,20111108_G2U5N1_6.mzXML,pool sample,G2-intake vegetable=spinach,U5-period=4-7hr post-lunch,exploratory,6,sp
+151,20111108_G4U1N1_1.mzXML,pool sample,G4-intake vegetable=none,U1-period=fasting,exploratory,1,sp
+152,20111108_G4U1N1_2.mzXML,pool sample,G4-intake vegetable=none,U1-period=fasting,exploratory,2,sp
+153,20111108_G4U1N1_3.mzXML,pool sample,G4-intake vegetable=none,U1-period=fasting,exploratory,3,sp
+154,20111108_G4U1N1_4.mzXML,pool sample,G4-intake vegetable=none,U1-period=fasting,exploratory,4,sp
+155,20111108_G4U1N1_5.mzXML,pool sample,G4-intake vegetable=none,U1-period=fasting,exploratory,5,sp
+156,20111108_G4U1N1_6.mzXML,pool sample,G4-intake vegetable=none,U1-period=fasting,exploratory,6,sp
+157,20111108_G4U2N1_1.mzXML,pool sample,G4-intake vegetable=none,U2-period=pre-lunch,exploratory,1,sp
+158,20111108_G4U2N1_2.mzXML,pool sample,G4-intake vegetable=none,U2-period=pre-lunch,exploratory,2,sp
+159,20111108_G4U2N1_3.mzXML,pool sample,G4-intake vegetable=none,U2-period=pre-lunch,exploratory,3,sp
+160,20111108_G4U2N1_4.mzXML,pool sample,G4-intake vegetable=none,U2-period=pre-lunch,exploratory,4,sp
+161,20111108_G4U2N1_5.mzXML,pool sample,G4-intake vegetable=none,U2-period=pre-lunch,exploratory,5,sp
+162,20111108_G4U2N1_6.mzXML,pool sample,G4-intake vegetable=none,U2-period=pre-lunch,exploratory,6,sp
+163,20111108_G4U3N1_1.mzXML,pool sample,G4-intake vegetable=none,U3-period=0-2hr post-lunch,exploratory,1,sp
+164,20111108_G4U3N1_2.mzXML,pool sample,G4-intake vegetable=none,U3-period=0-2hr post-lunch,exploratory,2,sp
+165,20111108_G4U3N1_3.mzXML,pool sample,G4-intake vegetable=none,U3-period=0-2hr post-lunch,exploratory,3,sp
+166,20111108_G4U3N1_4.mzXML,pool sample,G4-intake vegetable=none,U3-period=0-2hr post-lunch,exploratory,4,sp
+167,20111108_G4U3N1_5.mzXML,pool sample,G4-intake vegetable=none,U3-period=0-2hr post-lunch,exploratory,5,sp
+168,20111108_G4U3N1_6.mzXML,pool sample,G4-intake vegetable=none,U3-period=0-2hr post-lunch,exploratory,6,sp
+169,20111108_G4U4N1_1.mzXML,pool sample,G4-intake vegetable=none,U4-period=2-4hr post-lunch,exploratory,1,sp
+170,20111108_G4U4N1_2.mzXML,pool sample,G4-intake vegetable=none,U4-period=2-4hr post-lunch,exploratory,2,sp
+171,20111108_G4U4N1_3.mzXML,pool sample,G4-intake vegetable=none,U4-period=2-4hr post-lunch,exploratory,3,sp
+172,20111108_G4U4N1_4.mzXML,pool sample,G4-intake vegetable=none,U4-period=2-4hr post-lunch,exploratory,4,sp
+173,20111108_G4U4N1_5.mzXML,pool sample,G4-intake vegetable=none,U4-period=2-4hr post-lunch,exploratory,5,sp
+174,20111108_G4U4N1_6.mzXML,pool sample,G4-intake vegetable=none,U4-period=2-4hr post-lunch,exploratory,6,sp
+175,20111108_G4U5N1_1.mzXML,pool sample,G4-intake vegetable=none,U5-period=4-7hr post-lunch,exploratory,1,sp
+176,20111108_G4U5N1_2.mzXML,pool sample,G4-intake vegetable=none,U5-period=4-7hr post-lunch,exploratory,2,sp
+177,20111108_G4U5N1_3.mzXML,pool sample,G4-intake vegetable=none,U5-period=4-7hr post-lunch,exploratory,3,sp
+178,20111108_G4U5N1_4.mzXML,pool sample,G4-intake vegetable=none,U5-period=4-7hr post-lunch,exploratory,4,sp
+179,20111108_G4U5N1_5.mzXML,pool sample,G4-intake vegetable=none,U5-period=4-7hr post-lunch,exploratory,5,sp
+180,20111108_G4U5N1_6.mzXML,pool sample,G4-intake vegetable=none,U5-period=4-7hr post-lunch,exploratory,6,sp
+181,20111108_G5U1N1_1.mzXML,pool sample,G5-intake vegetable=celery,U1-period=fasting,exploratory,1,sp
+182,20111108_G5U1N1_2.mzXML,pool sample,G5-intake vegetable=celery,U1-period=fasting,exploratory,2,sp
+183,20111108_G5U1N1_3.mzXML,pool sample,G5-intake vegetable=celery,U1-period=fasting,exploratory,3,sp
+184,20111108_G5U1N1_4.mzXML,pool sample,G5-intake vegetable=celery,U1-period=fasting,exploratory,4,sp
+185,20111108_G5U1N1_5.mzXML,pool sample,G5-intake vegetable=celery,U1-period=fasting,exploratory,5,sp
+186,20111108_G5U1N1_6.mzXML,pool sample,G5-intake vegetable=celery,U1-period=fasting,exploratory,6,sp
+187,20111108_G5U2N1_1.mzXML,pool sample,G5-intake vegetable=celery,U2-period=pre-lunch,exploratory,1,sp
+188,20111108_G5U2N1_2.mzXML,pool sample,G5-intake vegetable=celery,U2-period=pre-lunch,exploratory,2,sp
+189,20111108_G5U2N1_3.mzXML,pool sample,G5-intake vegetable=celery,U2-period=pre-lunch,exploratory,3,sp
+190,20111108_G5U2N1_4.mzXML,pool sample,G5-intake vegetable=celery,U2-period=pre-lunch,exploratory,4,sp
+191,20111108_G5U2N1_5.mzXML,pool sample,G5-intake vegetable=celery,U2-period=pre-lunch,exploratory,5,sp
+192,20111108_G5U2N1_6.mzXML,pool sample,G5-intake vegetable=celery,U2-period=pre-lunch,exploratory,6,sp
+193,20111108_G5U3N1_1.mzXML,pool sample,G5-intake vegetable=celery,U3-period=0-2hr post-lunch,exploratory,1,sp
+194,20111108_G5U3N1_2.mzXML,pool sample,G5-intake vegetable=celery,U3-period=0-2hr post-lunch,exploratory,2,sp
+195,20111108_G5U3N1_3.mzXML,pool sample,G5-intake vegetable=celery,U3-period=0-2hr post-lunch,exploratory,3,sp
+196,20111108_G5U3N1_4.mzXML,pool sample,G5-intake vegetable=celery,U3-period=0-2hr post-lunch,exploratory,4,sp
+197,20111108_G5U3N1_5.mzXML,pool sample,G5-intake vegetable=celery,U3-period=0-2hr post-lunch,exploratory,5,sp
+198,20111108_G5U3N1_6.mzXML,pool sample,G5-intake vegetable=celery,U3-period=0-2hr post-lunch,exploratory,6,sp
+199,20111108_G5U4N1_1.mzXML,pool sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,exploratory,1,sp
+200,20111108_G5U4N1_2.mzXML,pool sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,exploratory,2,sp
+201,20111108_G5U4N1_3.mzXML,pool sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,exploratory,3,sp
+202,20111108_G5U4N1_4.mzXML,pool sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,exploratory,4,sp
+203,20111108_G5U4N1_5.mzXML,pool sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,exploratory,5,sp
+204,20111108_G5U4N1_6.mzXML,pool sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,exploratory,6,sp
+205,20111108_G5U5N1_1.mzXML,pool sample,G5-intake vegetable=celery,U5-period=4-7hr post-lunch,exploratory,1,sp
+206,20111108_G5U5N1_2.mzXML,pool sample,G5-intake vegetable=celery,U5-period=4-7hr post-lunch,exploratory,2,sp
+207,20111108_G5U5N1_3.mzXML,pool sample,G5-intake vegetable=celery,U5-period=4-7hr post-lunch,exploratory,3,sp
+208,20111108_G5U5N1_4.mzXML,pool sample,G5-intake vegetable=celery,U5-period=4-7hr post-lunch,exploratory,4,sp
+209,20111108_G5U5N1_5.mzXML,pool sample,G5-intake vegetable=celery,U5-period=4-7hr post-lunch,exploratory,5,sp
+210,20111108_G5U5N1_6.mzXML,pool sample,G5-intake vegetable=celery,U5-period=4-7hr post-lunch,exploratory,6,sp
+211,20111108_G7U1N1_1.mzXML,pool sample,G7-intake vegetable=onion,U1-period=fasting,exploratory,1,sp
+212,20111108_G7U1N1_2.mzXML,pool sample,G7-intake vegetable=onion,U1-period=fasting,exploratory,2,sp
+213,20111108_G7U1N1_3.mzXML,pool sample,G7-intake vegetable=onion,U1-period=fasting,exploratory,3,sp
+214,20111108_G7U1N1_4.mzXML,pool sample,G7-intake vegetable=onion,U1-period=fasting,exploratory,4,sp
+215,20111108_G7U1N1_5.mzXML,pool sample,G7-intake vegetable=onion,U1-period=fasting,exploratory,5,sp
+216,20111108_G7U1N1_6.mzXML,pool sample,G7-intake vegetable=onion,U1-period=fasting,exploratory,6,sp
+217,20111108_G7U2N1_1.mzXML,pool sample,G7-intake vegetable=onion,U2-period=pre-lunch,exploratory,1,sp
+218,20111108_G7U2N1_2.mzXML,pool sample,G7-intake vegetable=onion,U2-period=pre-lunch,exploratory,2,sp
+219,20111108_G7U2N1_3.mzXML,pool sample,G7-intake vegetable=onion,U2-period=pre-lunch,exploratory,3,sp
+220,20111108_G7U2N1_4.mzXML,pool sample,G7-intake vegetable=onion,U2-period=pre-lunch,exploratory,4,sp
+221,20111108_G7U2N1_5.mzXML,pool sample,G7-intake vegetable=onion,U2-period=pre-lunch,exploratory,5,sp
+222,20111108_G7U2N1_6.mzXML,pool sample,G7-intake vegetable=onion,U2-period=pre-lunch,exploratory,6,sp
+223,20111108_G7U3N1_1.mzXML,pool sample,G7-intake vegetable=onion,U3-period=0-2hr post-lunch,exploratory,1,sp
+224,20111108_G7U3N1_2.mzXML,pool sample,G7-intake vegetable=onion,U3-period=0-2hr post-lunch,exploratory,2,sp
+225,20111108_G7U3N1_3.mzXML,pool sample,G7-intake vegetable=onion,U3-period=0-2hr post-lunch,exploratory,3,sp
+226,20111108_G7U3N1_4.mzXML,pool sample,G7-intake vegetable=onion,U3-period=0-2hr post-lunch,exploratory,4,sp
+227,20111108_G7U3N1_5.mzXML,pool sample,G7-intake vegetable=onion,U3-period=0-2hr post-lunch,exploratory,5,sp
+228,20111108_G7U3N1_6.mzXML,pool sample,G7-intake vegetable=onion,U3-period=0-2hr post-lunch,exploratory,6,sp
+229,20111108_G7U4N1_1.mzXML,pool sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,exploratory,1,sp
+230,20111108_G7U4N1_2.mzXML,pool sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,exploratory,2,sp
+231,20111108_G7U4N1_3.mzXML,pool sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,exploratory,3,sp
+232,20111108_G7U4N1_4.mzXML,pool sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,exploratory,4,sp
+233,20111108_G7U4N1_5.mzXML,pool sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,exploratory,5,sp
+234,20111108_G7U4N1_6.mzXML,pool sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,exploratory,6,sp
+235,20111108_G7U5N1_1.mzXML,pool sample,G7-intake vegetable=onion,U5-period=4-7hr post-lunch,exploratory,1,sp
+236,20111108_G7U5N1_2.mzXML,pool sample,G7-intake vegetable=onion,U5-period=4-7hr post-lunch,exploratory,2,sp
+237,20111108_G7U5N1_3.mzXML,pool sample,G7-intake vegetable=onion,U5-period=4-7hr post-lunch,exploratory,3,sp
+238,20111108_G7U5N1_4.mzXML,pool sample,G7-intake vegetable=onion,U5-period=4-7hr post-lunch,exploratory,4,sp
+239,20111108_G7U5N1_5.mzXML,pool sample,G7-intake vegetable=onion,U5-period=4-7hr post-lunch,exploratory,5,sp
+240,20111108_G7U5N1_6.mzXML,pool sample,G7-intake vegetable=onion,U5-period=4-7hr post-lunch,exploratory,6,sp
+241,20140821_I01G0U0_N2_01.mzXML,I01: individual_1 urine sample,G1-intake vegetable=none,U0-period=pre-lunch,confirmatory,1,sample
+242,20140821_I01G0U0_N2_02.mzXML,I01: individual_1 urine sample,G1-intake vegetable=none,U0-period=pre-lunch,confirmatory,2,sample
+243,20140821_I01G0U0_N2_03.mzXML,I01: individual_1 urine sample,G1-intake vegetable=none,U0-period=pre-lunch,confirmatory,3,sample
+244,20140821_I01G0U0_N2_04.mzXML,I01: individual_1 urine sample,G1-intake vegetable=none,U0-period=pre-lunch,confirmatory,4,sample
+245,20140821_I01G0U0_N2_05.mzXML,I01: individual_1 urine sample,G1-intake vegetable=none,U0-period=pre-lunch,confirmatory,5,sample
+246,20140821_I01G0U0_N2_06.mzXML,I01: individual_1 urine sample,G1-intake vegetable=none,U0-period=pre-lunch,confirmatory,6,sample
+247,20140821_I01G0U4_N2_01.mzXML,I01: individual_1 urine sample,G1-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,1,sample
+248,20140821_I01G0U4_N2_02.mzXML,I01: individual_1 urine sample,G1-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,2,sample
+249,20140821_I01G0U4_N2_03.mzXML,I01: individual_1 urine sample,G1-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,3,sample
+250,20140821_I01G0U4_N2_04.mzXML,I01: individual_1 urine sample,G1-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,4,sample
+251,20140821_I01G0U4_N2_05.mzXML,I01: individual_1 urine sample,G1-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,5,sample
+252,20140821_I01G0U4_N2_06.mzXML,I01: individual_1 urine sample,G1-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,6,sample
+253,20140821_I01G2U0_N2_01.mzXML,I01: individual_1 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,1,sample
+254,20140821_I01G2U0_N2_02.mzXML,I01: individual_1 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,2,sample
+255,20140821_I01G2U0_N2_03.mzXML,I01: individual_1 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,3,sample
+256,20140821_I01G2U0_N2_04.mzXML,I01: individual_1 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,4,sample
+257,20140821_I01G2U0_N2_05.mzXML,I01: individual_1 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,5,sample
+258,20140821_I01G2U0_N2_06.mzXML,I01: individual_1 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,6,sample
+259,20140821_I01G2U4_N2_01.mzXML,I01: individual_1 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,1,sample
+260,20140821_I01G2U4_N2_02.mzXML,I01: individual_1 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,2,sample
+261,20140821_I01G2U4_N2_03.mzXML,I01: individual_1 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,3,sample
+262,20140821_I01G2U4_N2_04.mzXML,I01: individual_1 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,4,sample
+263,20140821_I01G2U4_N2_05.mzXML,I01: individual_1 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,5,sample
+264,20140821_I01G2U4_N2_06.mzXML,I01: individual_1 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,6,sample
+265,20140821_I01G5U0_N2_01.mzXML,I01: individual_1 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,1,sample
+266,20140821_I01G5U0_N2_02.mzXML,I01: individual_1 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,2,sample
+267,20140821_I01G5U0_N2_03.mzXML,I01: individual_1 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,3,sample
+268,20140821_I01G5U0_N2_04.mzXML,I01: individual_1 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,4,sample
+269,20140821_I01G5U0_N2_05.mzXML,I01: individual_1 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,5,sample
+270,20140821_I01G5U0_N2_06.mzXML,I01: individual_1 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,6,sample
+271,20140821_I01G5U4_N2_01.mzXML,I01: individual_1 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,1,sample
+272,20140821_I01G5U4_N2_02.mzXML,I01: individual_1 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,2,sample
+273,20140821_I01G5U4_N2_03.mzXML,I01: individual_1 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,3,sample
+274,20140821_I01G5U4_N2_04.mzXML,I01: individual_1 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,4,sample
+275,20140821_I01G5U4_N2_05.mzXML,I01: individual_1 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,5,sample
+276,20140821_I01G5U4_N2_06.mzXML,I01: individual_1 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,6,sample
+277,20140821_I01G7U0_N2_01.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,1,sample
+278,20140821_I01G7U0_N2_02.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,2,sample
+279,20140821_I01G7U0_N2_03.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,3,sample
+280,20140821_I01G7U0_N2_04.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,4,sample
+281,20140821_I01G7U0_N2_05.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,5,sample
+282,20140821_I01G7U0_N2_06.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,6,sample
+283,20140821_I01G7U4_N2_01.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,1,sample
+284,20140821_I01G7U4_N2_02.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,2,sample
+285,20140821_I01G7U4_N2_03.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,3,sample
+286,20140821_I01G7U4_N2_04.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,4,sample
+287,20140821_I01G7U4_N2_05.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,5,sample
+288,20140821_I01G7U4_N2_06.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,6,sample
+289,20140821_I01GMU0_N2_01.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,1,sample
+290,20140821_I01GMU0_N2_02.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,2,sample
+291,20140821_I01GMU0_N2_03.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,3,sample
+292,20140821_I01GMU0_N2_04.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,4,sample
+293,20140821_I01GMU0_N2_05.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,5,sample
+294,20140821_I01GMU0_N2_06.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,6,sample
+295,20140821_I01GMU4_N2_01.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,1,sample
+296,20140821_I01GMU4_N2_02.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,2,sample
+297,20140821_I01GMU4_N2_03.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,3,sample
+298,20140821_I01GMU4_N2_04.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,4,sample
+299,20140821_I01GMU4_N2_05.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,5,sample
+300,20140821_I01GMU4_N2_06.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,6,sample
+301,20140821_I02G0U0_N2_01.mzXML,I02: individual_2 urine sample,G1-intake vegetable=none,U0-period=pre-lunch,confirmatory,1,sample
+302,20140821_I02G0U0_N2_02.mzXML,I02: individual_2 urine sample,G1-intake vegetable=none,U0-period=pre-lunch,confirmatory,2,sample
+303,20140821_I02G0U0_N2_03.mzXML,I02: individual_2 urine sample,G1-intake vegetable=none,U0-period=pre-lunch,confirmatory,3,sample
+304,20140821_I02G0U0_N2_04.mzXML,I02: individual_2 urine sample,G1-intake vegetable=none,U0-period=pre-lunch,confirmatory,4,sample
+305,20140821_I02G0U0_N2_05.mzXML,I02: individual_2 urine sample,G1-intake vegetable=none,U0-period=pre-lunch,confirmatory,5,sample
+306,20140821_I02G0U0_N2_06.mzXML,I02: individual_2 urine sample,G1-intake vegetable=none,U0-period=pre-lunch,confirmatory,6,sample
+307,20140821_I02G0U4_N2_01.mzXML,I02: individual_2 urine sample,G1-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,1,sample
+308,20140821_I02G0U4_N2_02.mzXML,I02: individual_2 urine sample,G1-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,2,sample
+309,20140821_I02G0U4_N2_03.mzXML,I02: individual_2 urine sample,G1-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,3,sample
+310,20140821_I02G0U4_N2_04.mzXML,I02: individual_2 urine sample,G1-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,4,sample
+311,20140821_I02G0U4_N2_05.mzXML,I02: individual_2 urine sample,G1-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,5,sample
+312,20140821_I02G0U4_N2_06.mzXML,I02: individual_2 urine sample,G1-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,6,sample
+313,20140821_I02G2U0_N2_01.mzXML,I02: individual_2 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,1,sample
+314,20140821_I02G2U0_N2_02.mzXML,I02: individual_2 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,2,sample
+315,20140821_I02G2U0_N2_03.mzXML,I02: individual_2 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,3,sample
+316,20140821_I02G2U0_N2_04.mzXML,I02: individual_2 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,4,sample
+317,20140821_I02G2U0_N2_05.mzXML,I02: individual_2 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,5,sample
+318,20140821_I02G2U0_N2_06.mzXML,I02: individual_2 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,6,sample
+319,20140821_I02G2U4_N2_01.mzXML,I02: individual_2 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,1,sample
+320,20140821_I02G2U4_N2_02.mzXML,I02: individual_2 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,2,sample
+321,20140821_I02G2U4_N2_03.mzXML,I02: individual_2 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,3,sample
+322,20140821_I02G2U4_N2_04.mzXML,I02: individual_2 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,4,sample
+323,20140821_I02G2U4_N2_05.mzXML,I02: individual_2 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,5,sample
+324,20140821_I02G2U4_N2_06.mzXML,I02: individual_2 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,6,sample
+325,20140821_I02G5U0_N2_01.mzXML,I02: individual_2 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,1,sample
+326,20140821_I02G5U0_N2_02.mzXML,I02: individual_2 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,2,sample
+327,20140821_I02G5U0_N2_03.mzXML,I02: individual_2 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,3,sample
+328,20140821_I02G5U0_N2_04.mzXML,I02: individual_2 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,4,sample
+329,20140821_I02G5U0_N2_05.mzXML,I02: individual_2 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,5,sample
+330,20140821_I02G5U0_N2_06.mzXML,I02: individual_2 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,6,sample
+331,20140821_I02G5U4_N2_01.mzXML,I02: individual_2 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,1,sample
+332,20140821_I02G5U4_N2_02.mzXML,I02: individual_2 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,2,sample
+333,20140821_I02G5U4_N2_03.mzXML,I02: individual_2 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,3,sample
+334,20140821_I02G5U4_N2_04.mzXML,I02: individual_2 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,4,sample
+335,20140821_I02G5U4_N2_05.mzXML,I02: individual_2 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,5,sample
+336,20140821_I02G5U4_N2_06.mzXML,I02: individual_2 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,6,sample
+337,20140821_I02G7U0_N2_01.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,1,sample
+338,20140821_I02G7U0_N2_02.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,2,sample
+339,20140821_I02G7U0_N2_03.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,3,sample
+340,20140821_I02G7U0_N2_04.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,4,sample
+341,20140821_I02G7U0_N2_05.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,5,sample
+342,20140821_I02G7U0_N2_06.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,6,sample
+343,20140821_I02G7U4_N2_01.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,1,sample
+344,20140821_I02G7U4_N2_02.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,2,sample
+345,20140821_I02G7U4_N2_03.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,3,sample
+346,20140821_I02G7U4_N2_04.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,4,sample
+347,20140821_I02G7U4_N2_05.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,5,sample
+348,20140821_I02G7U4_N2_06.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,6,sample
+349,20140821_I02GMU0_N2_01.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,1,sample
+350,20140821_I02GMU0_N2_02.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,2,sample
+351,20140821_I02GMU0_N2_03.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,3,sample
+352,20140821_I02GMU0_N2_04.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,4,sample
+353,20140821_I02GMU0_N2_05.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,5,sample
+354,20140821_I02GMU0_N2_06.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,6,sample
+355,20140821_I02GMU4_N2_01.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,1,sample
+356,20140821_I02GMU4_N2_02.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,2,sample
+357,20140821_I02GMU4_N2_03.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,3,sample
+358,20140821_I02GMU4_N2_04.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,4,sample
+359,20140821_I02GMU4_N2_05.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,5,sample
+360,20140821_I02GMU4_N2_06.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,6,sample
+361,20140821_I03G0U0_N2_01.mzXML,I03: individual_3 urine sample,G1-intake vegetable=none,U0-period=pre-lunch,confirmatory,1,sample
+362,20140821_I03G0U0_N2_02.mzXML,I03: individual_3 urine sample,G1-intake vegetable=none,U0-period=pre-lunch,confirmatory,2,sample
+363,20140821_I03G0U0_N2_03.mzXML,I03: individual_3 urine sample,G1-intake vegetable=none,U0-period=pre-lunch,confirmatory,3,sample
+364,20140821_I03G0U0_N2_04.mzXML,I03: individual_3 urine sample,G1-intake vegetable=none,U0-period=pre-lunch,confirmatory,4,sample
+365,20140821_I03G0U0_N2_05.mzXML,I03: individual_3 urine sample,G1-intake vegetable=none,U0-period=pre-lunch,confirmatory,5,sample
+366,20140821_I03G0U0_N2_06.mzXML,I03: individual_3 urine sample,G1-intake vegetable=none,U0-period=pre-lunch,confirmatory,6,sample
+367,20140821_I03G0U4_N2_01.mzXML,I03: individual_3 urine sample,G1-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,1,sample
+368,20140821_I03G0U4_N2_02.mzXML,I03: individual_3 urine sample,G1-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,2,sample
+369,20140821_I03G0U4_N2_03.mzXML,I03: individual_3 urine sample,G1-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,3,sample
+370,20140821_I03G0U4_N2_04.mzXML,I03: individual_3 urine sample,G1-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,4,sample
+371,20140821_I03G0U4_N2_05.mzXML,I03: individual_3 urine sample,G1-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,5,sample
+372,20140821_I03G0U4_N2_06.mzXML,I03: individual_3 urine sample,G1-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,6,sample
+373,20140821_I03G2U0_N2_01.mzXML,I03: individual_3 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,1,sample
+374,20140821_I03G2U0_N2_02.mzXML,I03: individual_3 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,2,sample
+375,20140821_I03G2U0_N2_03.mzXML,I03: individual_3 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,3,sample
+376,20140821_I03G2U0_N2_04.mzXML,I03: individual_3 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,4,sample
+377,20140821_I03G2U0_N2_05.mzXML,I03: individual_3 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,5,sample
+378,20140821_I03G2U0_N2_06.mzXML,I03: individual_3 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,6,sample
+379,20140821_I03G2U4_N2_01.mzXML,I03: individual_3 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,1,sample
+380,20140821_I03G2U4_N2_02.mzXML,I03: individual_3 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,2,sample
+381,20140821_I03G2U4_N2_03.mzXML,I03: individual_3 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,3,sample
+382,20140821_I03G2U4_N2_04.mzXML,I03: individual_3 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,4,sample
+383,20140821_I03G2U4_N2_05.mzXML,I03: individual_3 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,5,sample
+384,20140821_I03G2U4_N2_06.mzXML,I03: individual_3 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,6,sample
+385,20140821_I03G5U0_N2_01.mzXML,I03: individual_3 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,1,sample
+386,20140821_I03G5U0_N2_02.mzXML,I03: individual_3 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,2,sample
+387,20140821_I03G5U0_N2_03.mzXML,I03: individual_3 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,3,sample
+388,20140821_I03G5U0_N2_04.mzXML,I03: individual_3 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,4,sample
+389,20140821_I03G5U0_N2_05.mzXML,I03: individual_3 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,5,sample
+390,20140821_I03G5U0_N2_06.mzXML,I03: individual_3 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,6,sample
+391,20140821_I03G5U4_N2_01.mzXML,I03: individual_3 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,1,sample
+392,20140821_I03G5U4_N2_02.mzXML,I03: individual_3 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,2,sample
+393,20140821_I03G5U4_N2_03.mzXML,I03: individual_3 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,3,sample
+394,20140821_I03G5U4_N2_04.mzXML,I03: individual_3 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,4,sample
+395,20140821_I03G5U4_N2_05.mzXML,I03: individual_3 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,5,sample
+396,20140821_I03G5U4_N2_06.mzXML,I03: individual_3 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,6,sample
+397,20140821_I03G7U0_N2_01.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,1,sample
+398,20140821_I03G7U0_N2_02.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,2,sample
+399,20140821_I03G7U0_N2_03.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,3,sample
+400,20140821_I03G7U0_N2_04.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,4,sample
+401,20140821_I03G7U0_N2_05.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,5,sample
+402,20140821_I03G7U0_N2_06.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,6,sample
+403,20140821_I03G7U4_N2_01.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,1,sample
+404,20140821_I03G7U4_N2_02.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,2,sample
+405,20140821_I03G7U4_N2_03.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,3,sample
+406,20140821_I03G7U4_N2_04.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,4,sample
+407,20140821_I03G7U4_N2_05.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,5,sample
+408,20140821_I03G7U4_N2_06.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,6,sample
+409,20140821_I03GMU0_N2_01.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,1,sample
+410,20140821_I03GMU0_N2_02.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,2,sample
+411,20140821_I03GMU0_N2_03.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,3,sample
+412,20140821_I03GMU0_N2_04.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,4,sample
+413,20140821_I03GMU0_N2_05.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,5,sample
+414,20140821_I03GMU0_N2_06.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,6,sample
+415,20140821_I03GMU4_N2_01.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,1,sample
+416,20140821_I03GMU4_N2_02.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,2,sample
+417,20140821_I03GMU4_N2_03.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,3,sample
+418,20140821_I03GMU4_N2_04.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,4,sample
+419,20140821_I03GMU4_N2_05.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,5,sample
+420,20140821_I03GMU4_N2_06.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,6,sample
+421,20140909_I01G0U0_N2_01.mzXML,I01: individual_1 urine sample,G0-intake vegetable=none,U0-period=pre-lunch,confirmatory,1,sample
+422,20140909_I01G0U0_N2_02.mzXML,I01: individual_1 urine sample,G0-intake vegetable=none,U0-period=pre-lunch,confirmatory,2,sample
+423,20140909_I01G0U0_N2_03.mzXML,I01: individual_1 urine sample,G0-intake vegetable=none,U0-period=pre-lunch,confirmatory,3,sample
+424,20140909_I01G0U0_N2_04.mzXML,I01: individual_1 urine sample,G0-intake vegetable=none,U0-period=pre-lunch,confirmatory,4,sample
+425,20140909_I01G0U0_N2_05.mzXML,I01: individual_1 urine sample,G0-intake vegetable=none,U0-period=pre-lunch,confirmatory,5,sample
+426,20140909_I01G0U0_N2_06.mzXML,I01: individual_1 urine sample,G0-intake vegetable=none,U0-period=pre-lunch,confirmatory,6,sample
+427,20140909_I01G0U4_N2_01.mzXML,I01: individual_1 urine sample,G0-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,1,sample
+428,20140909_I01G0U4_N2_02.mzXML,I01: individual_1 urine sample,G0-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,2,sample
+429,20140909_I01G0U4_N2_03.mzXML,I01: individual_1 urine sample,G0-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,3,sample
+430,20140909_I01G0U4_N2_04.mzXML,I01: individual_1 urine sample,G0-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,4,sample
+431,20140909_I01G0U4_N2_05.mzXML,I01: individual_1 urine sample,G0-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,5,sample
+432,20140909_I01G0U4_N2_06.mzXML,I01: individual_1 urine sample,G0-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,6,sample
+433,20140909_I01G2U0_N2_01.mzXML,I01: individual_1 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,1,sample
+434,20140909_I01G2U0_N2_02.mzXML,I01: individual_1 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,2,sample
+435,20140909_I01G2U0_N2_03.mzXML,I01: individual_1 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,3,sample
+436,20140909_I01G2U0_N2_04.mzXML,I01: individual_1 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,4,sample
+437,20140909_I01G2U0_N2_05.mzXML,I01: individual_1 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,5,sample
+438,20140909_I01G2U0_N2_06.mzXML,I01: individual_1 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,6,sample
+439,20140909_I01G2U4_N2_01.mzXML,I01: individual_1 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,1,sample
+440,20140909_I01G2U4_N2_02.mzXML,I01: individual_1 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,2,sample
+441,20140909_I01G2U4_N2_03.mzXML,I01: individual_1 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,3,sample
+442,20140909_I01G2U4_N2_04.mzXML,I01: individual_1 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,4,sample
+443,20140909_I01G2U4_N2_05.mzXML,I01: individual_1 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,5,sample
+444,20140909_I01G2U4_N2_06.mzXML,I01: individual_1 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,6,sample
+445,20140909_I01G5U0_N2_01.mzXML,I01: individual_1 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,1,sample
+446,20140909_I01G5U0_N2_02.mzXML,I01: individual_1 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,2,sample
+447,20140909_I01G5U0_N2_03.mzXML,I01: individual_1 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,3,sample
+448,20140909_I01G5U0_N2_04.mzXML,I01: individual_1 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,4,sample
+449,20140909_I01G5U0_N2_05.mzXML,I01: individual_1 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,5,sample
+450,20140909_I01G5U0_N2_06.mzXML,I01: individual_1 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,6,sample
+451,20140909_I01G5U4_N2_01.mzXML,I01: individual_1 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,1,sample
+452,20140909_I01G5U4_N2_02.mzXML,I01: individual_1 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,2,sample
+453,20140909_I01G5U4_N2_03.mzXML,I01: individual_1 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,3,sample
+454,20140909_I01G5U4_N2_04.mzXML,I01: individual_1 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,4,sample
+455,20140909_I01G5U4_N2_05.mzXML,I01: individual_1 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,5,sample
+456,20140909_I01G5U4_N2_06.mzXML,I01: individual_1 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,6,sample
+457,20140909_I01G7U0_N2_01.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,1,sample
+458,20140909_I01G7U0_N2_02.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,2,sample
+459,20140909_I01G7U0_N2_03.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,3,sample
+460,20140909_I01G7U0_N2_04.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,4,sample
+461,20140909_I01G7U0_N2_05.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,5,sample
+462,20140909_I01G7U0_N2_06.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,6,sample
+463,20140909_I01G7U4_N2_01.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,1,sample
+464,20140909_I01G7U4_N2_02.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,2,sample
+465,20140909_I01G7U4_N2_03.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,3,sample
+466,20140909_I01G7U4_N2_04.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,4,sample
+467,20140909_I01G7U4_N2_05.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,5,sample
+468,20140909_I01G7U4_N2_06.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,6,sample
+469,20140909_I01GMU0_N2_01.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,1,sample
+470,20140909_I01GMU0_N2_02.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,2,sample
+471,20140909_I01GMU0_N2_03.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,3,sample
+472,20140909_I01GMU0_N2_04.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,4,sample
+473,20140909_I01GMU0_N2_05.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,5,sample
+474,20140909_I01GMU0_N2_06.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,6,sample
+475,20140909_I01GMU4_N2_01.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,1,sample
+476,20140909_I01GMU4_N2_02.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,2,sample
+477,20140909_I01GMU4_N2_03.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,3,sample
+478,20140909_I01GMU4_N2_04.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,4,sample
+479,20140909_I01GMU4_N2_05.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,5,sample
+480,20140909_I01GMU4_N2_06.mzXML,I01: individual_1 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,6,sample
+481,20140909_I02G0U0_N2_01.mzXML,I02: individual_2 urine sample,G0-intake vegetable=none,U0-period=pre-lunch,confirmatory,1,sample
+482,20140909_I02G0U0_N2_02.mzXML,I02: individual_2 urine sample,G0-intake vegetable=none,U0-period=pre-lunch,confirmatory,2,sample
+483,20140909_I02G0U0_N2_03.mzXML,I02: individual_2 urine sample,G0-intake vegetable=none,U0-period=pre-lunch,confirmatory,3,sample
+484,20140909_I02G0U0_N2_04.mzXML,I02: individual_2 urine sample,G0-intake vegetable=none,U0-period=pre-lunch,confirmatory,4,sample
+485,20140909_I02G0U0_N2_05.mzXML,I02: individual_2 urine sample,G0-intake vegetable=none,U0-period=pre-lunch,confirmatory,5,sample
+486,20140909_I02G0U0_N2_06.mzXML,I02: individual_2 urine sample,G0-intake vegetable=none,U0-period=pre-lunch,confirmatory,6,sample
+487,20140909_I02G0U4_N2_01.mzXML,I02: individual_2 urine sample,G0-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,1,sample
+488,20140909_I02G0U4_N2_02.mzXML,I02: individual_2 urine sample,G0-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,2,sample
+489,20140909_I02G0U4_N2_03.mzXML,I02: individual_2 urine sample,G0-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,3,sample
+490,20140909_I02G0U4_N2_04.mzXML,I02: individual_2 urine sample,G0-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,4,sample
+491,20140909_I02G0U4_N2_05.mzXML,I02: individual_2 urine sample,G0-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,5,sample
+492,20140909_I02G0U4_N2_06.mzXML,I02: individual_2 urine sample,G0-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,6,sample
+493,20140909_I02G2U0_N2_01.mzXML,I02: individual_2 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,1,sample
+494,20140909_I02G2U0_N2_02.mzXML,I02: individual_2 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,2,sample
+495,20140909_I02G2U0_N2_03.mzXML,I02: individual_2 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,3,sample
+496,20140909_I02G2U0_N2_04.mzXML,I02: individual_2 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,4,sample
+497,20140909_I02G2U0_N2_05.mzXML,I02: individual_2 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,5,sample
+498,20140909_I02G2U0_N2_06.mzXML,I02: individual_2 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,6,sample
+499,20140909_I02G2U4_N2_01.mzXML,I02: individual_2 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,1,sample
+500,20140909_I02G2U4_N2_02.mzXML,I02: individual_2 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,2,sample
+501,20140909_I02G2U4_N2_03.mzXML,I02: individual_2 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,3,sample
+502,20140909_I02G2U4_N2_04.mzXML,I02: individual_2 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,4,sample
+503,20140909_I02G2U4_N2_05.mzXML,I02: individual_2 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,5,sample
+504,20140909_I02G2U4_N2_06.mzXML,I02: individual_2 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,6,sample
+505,20140909_I02G5U0_N2_01.mzXML,I02: individual_2 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,1,sample
+506,20140909_I02G5U0_N2_02.mzXML,I02: individual_2 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,2,sample
+507,20140909_I02G5U0_N2_03.mzXML,I02: individual_2 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,3,sample
+508,20140909_I02G5U0_N2_04.mzXML,I02: individual_2 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,4,sample
+509,20140909_I02G5U0_N2_05.mzXML,I02: individual_2 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,5,sample
+510,20140909_I02G5U0_N2_06.mzXML,I02: individual_2 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,6,sample
+511,20140909_I02G5U4_N2_01.mzXML,I02: individual_2 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,1,sample
+512,20140909_I02G5U4_N2_02.mzXML,I02: individual_2 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,2,sample
+513,20140909_I02G5U4_N2_03.mzXML,I02: individual_2 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,3,sample
+514,20140909_I02G5U4_N2_04.mzXML,I02: individual_2 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,4,sample
+515,20140909_I02G5U4_N2_05.mzXML,I02: individual_2 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,5,sample
+516,20140909_I02G5U4_N2_06.mzXML,I02: individual_2 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,6,sample
+517,20140909_I02G7U0_N2_01.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,1,sample
+518,20140909_I02G7U0_N2_02.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,2,sample
+519,20140909_I02G7U0_N2_03.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,3,sample
+520,20140909_I02G7U0_N2_04.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,4,sample
+521,20140909_I02G7U0_N2_05.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,5,sample
+522,20140909_I02G7U0_N2_06.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,6,sample
+523,20140909_I02G7U4_N2_01.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,1,sample
+524,20140909_I02G7U4_N2_02.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,2,sample
+525,20140909_I02G7U4_N2_03.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,3,sample
+526,20140909_I02G7U4_N2_04.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,4,sample
+527,20140909_I02G7U4_N2_05.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,5,sample
+528,20140909_I02G7U4_N2_06.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,6,sample
+529,20140909_I02GMU0_N2_01.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,1,sample
+530,20140909_I02GMU0_N2_02.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,2,sample
+531,20140909_I02GMU0_N2_03.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,3,sample
+532,20140909_I02GMU0_N2_04.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,4,sample
+533,20140909_I02GMU0_N2_05.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,5,sample
+534,20140909_I02GMU0_N2_06.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,6,sample
+535,20140909_I02GMU4_N2_01.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,1,sample
+536,20140909_I02GMU4_N2_02.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,2,sample
+537,20140909_I02GMU4_N2_03.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,3,sample
+538,20140909_I02GMU4_N2_04.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,4,sample
+539,20140909_I02GMU4_N2_05.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,5,sample
+540,20140909_I02GMU4_N2_06.mzXML,I02: individual_2 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,6,sample
+541,20140909_I03G0U0_N2_01.mzXML,I03: individual_3 urine sample,G0-intake vegetable=none,U0-period=pre-lunch,confirmatory,1,sample
+542,20140909_I03G0U0_N2_02.mzXML,I03: individual_3 urine sample,G0-intake vegetable=none,U0-period=pre-lunch,confirmatory,2,sample
+543,20140909_I03G0U0_N2_03.mzXML,I03: individual_3 urine sample,G0-intake vegetable=none,U0-period=pre-lunch,confirmatory,3,sample
+544,20140909_I03G0U0_N2_04.mzXML,I03: individual_3 urine sample,G0-intake vegetable=none,U0-period=pre-lunch,confirmatory,4,sample
+545,20140909_I03G0U0_N2_05.mzXML,I03: individual_3 urine sample,G0-intake vegetable=none,U0-period=pre-lunch,confirmatory,5,sample
+546,20140909_I03G0U0_N2_06.mzXML,I03: individual_3 urine sample,G0-intake vegetable=none,U0-period=pre-lunch,confirmatory,6,sample
+547,20140909_I03G0U4_N2_01.mzXML,I03: individual_3 urine sample,G0-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,1,sample
+548,20140909_I03G0U4_N2_02.mzXML,I03: individual_3 urine sample,G0-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,2,sample
+549,20140909_I03G0U4_N2_03.mzXML,I03: individual_3 urine sample,G0-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,3,sample
+550,20140909_I03G0U4_N2_04.mzXML,I03: individual_3 urine sample,G0-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,4,sample
+551,20140909_I03G0U4_N2_05.mzXML,I03: individual_3 urine sample,G0-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,5,sample
+552,20140909_I03G0U4_N2_06.mzXML,I03: individual_3 urine sample,G0-intake vegetable=none,U4-period=2-4hr post-lunch,confirmatory,6,sample
+553,20140909_I03G2U0_N2_01.mzXML,I03: individual_3 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,1,sample
+554,20140909_I03G2U0_N2_02.mzXML,I03: individual_3 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,2,sample
+555,20140909_I03G2U0_N2_03.mzXML,I03: individual_3 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,3,sample
+556,20140909_I03G2U0_N2_04.mzXML,I03: individual_3 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,4,sample
+557,20140909_I03G2U0_N2_05.mzXML,I03: individual_3 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,5,sample
+558,20140909_I03G2U0_N2_06.mzXML,I03: individual_3 urine sample,G2-intake vegetable=spinach,U0-period=pre-lunch,confirmatory,6,sample
+559,20140909_I03G2U4_N2_01.mzXML,I03: individual_3 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,1,sample
+560,20140909_I03G2U4_N2_02.mzXML,I03: individual_3 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,2,sample
+561,20140909_I03G2U4_N2_03.mzXML,I03: individual_3 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,3,sample
+562,20140909_I03G2U4_N2_04.mzXML,I03: individual_3 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,4,sample
+563,20140909_I03G2U4_N2_05.mzXML,I03: individual_3 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,5,sample
+564,20140909_I03G2U4_N2_06.mzXML,I03: individual_3 urine sample,G2-intake vegetable=spinach,U4-period=2-4hr post-lunch,confirmatory,6,sample
+565,20140909_I03G5U0_N2_01.mzXML,I03: individual_3 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,1,sample
+566,20140909_I03G5U0_N2_02.mzXML,I03: individual_3 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,2,sample
+567,20140909_I03G5U0_N2_03.mzXML,I03: individual_3 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,3,sample
+568,20140909_I03G5U0_N2_04.mzXML,I03: individual_3 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,4,sample
+569,20140909_I03G5U0_N2_05.mzXML,I03: individual_3 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,5,sample
+570,20140909_I03G5U0_N2_06.mzXML,I03: individual_3 urine sample,G5-intake vegetable=celery,U0-period=pre-lunch,confirmatory,6,sample
+571,20140909_I03G5U4_N2_01.mzXML,I03: individual_3 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,1,sample
+572,20140909_I03G5U4_N2_02.mzXML,I03: individual_3 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,2,sample
+573,20140909_I03G5U4_N2_03.mzXML,I03: individual_3 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,3,sample
+574,20140909_I03G5U4_N2_04.mzXML,I03: individual_3 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,4,sample
+575,20140909_I03G5U4_N2_05.mzXML,I03: individual_3 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,5,sample
+576,20140909_I03G5U4_N2_06.mzXML,I03: individual_3 urine sample,G5-intake vegetable=celery,U4-period=2-4hr post-lunch,confirmatory,6,sample
+577,20140909_I03G7U0_N2_01.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,1,sample
+578,20140909_I03G7U0_N2_02.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,2,sample
+579,20140909_I03G7U0_N2_03.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,3,sample
+580,20140909_I03G7U0_N2_04.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,4,sample
+581,20140909_I03G7U0_N2_05.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,5,sample
+582,20140909_I03G7U0_N2_06.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,6,sample
+583,20140909_I03G7U4_N2_01.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,1,sample
+584,20140909_I03G7U4_N2_02.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,2,sample
+585,20140909_I03G7U4_N2_03.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,3,sample
+586,20140909_I03G7U4_N2_04.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,4,sample
+587,20140909_I03G7U4_N2_05.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,5,sample
+588,20140909_I03G7U4_N2_06.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,6,sample
+589,20140909_I03GMU0_N2_01.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,1,sample
+590,20140909_I03GMU0_N2_02.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,2,sample
+591,20140909_I03GMU0_N2_03.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,3,sample
+592,20140909_I03GMU0_N2_04.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,4,sample
+593,20140909_I03GMU0_N2_05.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,5,sample
+594,20140909_I03GMU0_N2_06.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U0-period=pre-lunch,confirmatory,6,sample
+595,20140909_I03GMU4_N2_01.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,1,sample
+596,20140909_I03GMU4_N2_02.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,2,sample
+597,20140909_I03GMU4_N2_03.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,3,sample
+598,20140909_I03GMU4_N2_04.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,4,sample
+599,20140909_I03GMU4_N2_05.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,5,sample
+600,20140909_I03GMU4_N2_06.mzXML,I03: individual_3 urine sample,G7-intake vegetable=onion,U4-period=2-4hr post-lunch,confirmatory,6,sample

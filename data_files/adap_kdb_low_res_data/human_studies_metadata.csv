@@ -1,0 +1,28 @@
+﻿SubmissionId,species,instrument name,column name,ms instrument name,sample source,disease
+98,human,agilent 6890n,restek corporation rtx-5sil ms,leco gc-tof,adipose tissue,cancer
+127,human,agilent 6890n,restek corporation rtx-5sil ms,leco gc-tof,adipose tissue,NULL
+174,human,agilent 6890n,restek corporation rtx-5sil ms,leco pegasus iii gc tof,b cells,cancer
+107,human,agilent 6890n,restek corporation rtx-5sil ms,¬†varian 210-ms gc ion trap,blood,cancer
+108,human,leco pegasus 4d gc,restek corporation rtx-5sil ms,leco pegasus 4d gcxgc tof,blood,environmental exposure
+165,human,agilent 6890n,restek corporation rtx-5sil ms,leco gc-tof,blood,cancer
+166,human,agilent 6890n,restek corporation rtx-5sil ms,leco gc-tof,blood,cancer
+167,human,leco pegasus iii gc,restek corporation rtx-5sil ms,leco pegasus iii gc tof,blood,cancer
+169,human,agilent 6890n,restek corporation rtx-5sil ms,varian 210-ms gc ion trap,blood,cancer
+171,human,agilent 6890n,restek corporation rtx-5sil ms,leco pegasus iii gc tof,blood,NULL
+181,human,agilent 6890n,"agilent db5-ms (15m √ó 0.25mm, 0.25um)",agilent 5975b,blood,NULL
+182,human,agilent 6890n,"agilent db5-ms (15m √ó 0.25mm, 0.25um)",agilent 5975b,blood,NULL
+184,human,agilent 7890a,agilent db_5ms + dg,agilent 5975c,blood,cancer
+96,human,agilent 6890n,restek corporation rtx-5sil ms,leco gc-tof,breast,cancer
+126,human,leco pegasus 4d gc,restek corporation rtx-5sil ms,leco pegasus 4d gcxgc tof,breast,cancer
+97,human,agilent 6890n,restek corporation rtx-5sil ms,leco gc-tof,cerebrospinal fluid,NULL
+120,human,leco pegasus iii gc,restek corporation rtx-5sil ms,leco pegasus iii gc tof,cerebrospinal fluid,chronic fatigue syndrome
+163,human,agilent 6890n,restek corporation rtx-5sil ms,leco pegasus iv tof,cultured cells,NULL
+104,human,NULL,phenomenex zebron zb-waxplus,agilent 5975c,feces,enterocolitis
+106,human,NULL,NULL,agilent 5975c,glioma cells,NULL
+175,human,leco pegasus iii gc,restek corporation rtx-5sil ms,leco pegasus iii gc tof,liver,NULL
+168,human,agilent 6890n,restek corporation rtx-5sil ms,leco pegasus iii gc tof,lung,cancer
+128,human,agilent 7890a,agilent hps-ms,agilent,mononuclear cells,cancer
+100,human,agilent 6890n,restek corporation rtx-5sil ms,leco gc-tof,NULL,cancer
+101,human,agilent 7890a,agilent hps-ms,agilent 5975c,urine,NULL
+111,human,agilent,restek corporation rtx-5sil ms,varian 210-ms gc ion trap,urine,interstitial cystitis
+164,human,agilent 6890n,restek corporation rtx-5sil ms,leco pegasus iii gc tof,urine,interstitial cystitis

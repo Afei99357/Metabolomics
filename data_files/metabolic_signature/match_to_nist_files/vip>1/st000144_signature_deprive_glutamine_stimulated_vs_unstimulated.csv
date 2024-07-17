@@ -1,0 +1,85 @@
+,position name,Library,Id,Mass,Lib MW,InLib,MF,Prob(%),Name,Formula,CAS,InChIKey,VIP
+0,#41 285.0000@10.5065 MS1+,"21    mainlib
+Name: Library, dtype: object","21    278466.0
+Name: Id, dtype: float64","21    342.295
+Name: Mass, dtype: float64","21    342.0
+Name: Lib MW, dtype: float64","21    374.0
+Name: InLib, dtype: float64","21    927.0
+Name: MF, dtype: float64","21    62.9
+Name: Prob(%), dtype: float64","21    Myristic acid, TBDMS derivative
+Name: Name, dtype: object","21    C20H42O2Si
+Name: Formula, dtype: object","21    104255790.0
+Name: CAS, dtype: float64","21    LSNQDHCEXPRRSY-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",1.1460458633566328
+1,#26 147.0000@7.8551 MS1+,"12    mainlib
+Name: Library, dtype: object","12    168055.0
+Name: Id, dtype: float64","12    318.205
+Name: Mass, dtype: float64","12    318.0
+Name: Lib MW, dtype: float64","12    320.0
+Name: InLib, dtype: float64","12    949.0
+Name: MF, dtype: float64","12    70.3
+Name: Prob(%), dtype: float64","12    Lactic acid, 2TBDMS derivative
+Name: Name, dtype: object","12    C15H34O3Si2
+Name: Formula, dtype: object","12    0.0
+Name: CAS, dtype: float64","12    YZJJQQKVFWRPJH-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",1.2969996572647222
+2,#50 73.0000@12.5665 MS1+,"24    replib
+Name: Library, dtype: object","24    12291.0
+Name: Id, dtype: float64","24    360.215
+Name: Mass, dtype: float64","24    360.0
+Name: Lib MW, dtype: float64","24   -493.0
+Name: InLib, dtype: float64","24    833.0
+Name: MF, dtype: float64","24    7.7
+Name: Prob(%), dtype: float64","24    Methylsuccinic acid, 2TBDMS derivative
+Name: Name, dtype: object","24    C17H36O4Si2
+Name: Formula, dtype: object","24    98830332.0
+Name: CAS, dtype: float64","24    RMDDLEXHNWAQGQ-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",1.384461387047681
+3,#15 146.0000@6.3920 MS1+,"6    replib
+Name: Library, dtype: object","6    29264.0
+Name: Id, dtype: float64","6    245.2
+Name: Mass, dtype: float64","6    245.0
+Name: Lib MW, dtype: float64","6    522.0
+Name: InLib, dtype: float64","6    962.0
+Name: MF, dtype: float64","6    92.8
+Name: Prob(%), dtype: float64","6    Bis(tert-butyldimethylsilyl)amine
+Name: Name, dtype: object","6    C12H31NSi2
+Name: Formula, dtype: object","6    41879383.0
+Name: CAS, dtype: float64","6    ZBLRLJUOIRWSCE-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",1.5275722177108009
+4,#36 147.0000@8.2287 MS1+,"16    replib
+Name: Library, dtype: object","16    29364.0
+Name: Id, dtype: float64","16    303.205
+Name: Mass, dtype: float64","16    303.0
+Name: Lib MW, dtype: float64","16    475.0
+Name: InLib, dtype: float64","16    956.0
+Name: MF, dtype: float64","16    89.5
+Name: Prob(%), dtype: float64","16    Glycine, 2TBDMS derivative
+Name: Name, dtype: object","16    C14H33NO2Si2
+Name: Formula, dtype: object","16    107715888.0
+Name: CAS, dtype: float64","16    KWGCEVDISSEKES-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",1.5966772821389954
+5,#45 330.0000@10.3457 MS1+,"23    mainlib
+Name: Library, dtype: object","23    291719.0
+Name: Id, dtype: float64","23    387.226
+Name: Mass, dtype: float64","23    387.0
+Name: Lib MW, dtype: float64","23    596.0
+Name: InLib, dtype: float64","23    919.0
+Name: MF, dtype: float64","23    96.8
+Name: Prob(%), dtype: float64","23    (2R)-Pyrrolidine-1,2-dicarboxylic acid, bis(te...
+Name: Name, dtype: object","23    C18H37NO4Si2
+Name: Formula, dtype: object","23    0.0
+Name: CAS, dtype: float64","23    LBXPKVVMJYSDAI-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",2.2128207129662405
+6,#40 184.0000@9.2250 MS1+,"20    mainlib
+Name: Library, dtype: object","20    213959.0
+Name: Id, dtype: float64","20    343.236
+Name: Mass, dtype: float64","20    343.0
+Name: Lib MW, dtype: float64","20    398.0
+Name: InLib, dtype: float64","20    941.0
+Name: MF, dtype: float64","20    93.6
+Name: Prob(%), dtype: float64","20    L-Proline, 2TBDMS derivative
+Name: Name, dtype: object","20    C17H37NO2Si2
+Name: Formula, dtype: object","20    107715913.0
+Name: CAS, dtype: float64","20    ZSQADQXTZNAIQH-AWEZNQCLSA-N
+Name: InChIKey, dtype: object",2.265454722161494

@@ -1,0 +1,157 @@
+,position name,Library,Id,Mass,Lib MW,InLib,MF,Prob(%),Name,Formula,CAS,InChIKey,VIP
+0,#63 169.0000@14.3798 MS1+,"51    replib
+Name: Library, dtype: object","51    32907.0
+Name: Id, dtype: float64","51    226.175
+Name: Mass, dtype: float64","51    226.0
+Name: Lib MW, dtype: float64","51   -315.0
+Name: InLib, dtype: float64","51    820.0
+Name: MF, dtype: float64","51    58.5
+Name: Prob(%), dtype: float64","51    Cyclohexene, 3-butyl-1-trimethylsilyloxy-
+Name: Name, dtype: object","51    C13H26OSi
+Name: Formula, dtype: object","51    56745701.0
+Name: CAS, dtype: float64","51    FWONKCRAJNZDNC-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",1.5943459426542257
+1,#40 245.0000@7.7854 MS1+,"32    replib
+Name: Library, dtype: object","32    39826.0
+Name: Id, dtype: float64","32    260.09
+Name: Mass, dtype: float64","32    260.0
+Name: Lib MW, dtype: float64","32    312.0
+Name: InLib, dtype: float64","32    932.0
+Name: MF, dtype: float64","32    91.4
+Name: Prob(%), dtype: float64","32    2-Butenedioic acid, (E)-, 2TMS derivative
+Name: Name, dtype: object","32    C10H20O4Si2
+Name: Formula, dtype: object","32    17962037.0
+Name: CAS, dtype: float64","32    OITVFMRNHJZOHF-BQYQJAHWSA-N
+Name: InChIKey, dtype: object",1.575583800661794
+2,#10 147.0000@8.6664 MS1+,"7    replib
+Name: Library, dtype: object","7    12361.0
+Name: Id, dtype: float64","7    350.14
+Name: Mass, dtype: float64","7    350.0
+Name: Lib MW, dtype: float64","7    562.0
+Name: InLib, dtype: float64","7    934.0
+Name: MF, dtype: float64","7    92.7
+Name: Prob(%), dtype: float64","7    Malic acid, 3TMS derivative
+Name: Name, dtype: object","7    C13H30O5Si3
+Name: Formula, dtype: object","7    38166119.0
+Name: CAS, dtype: float64","7    QCOBWZRPFJZHGU-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",1.5696150243270648
+3,#81 169.0000@15.2265 MS1+,"62    mainlib
+Name: Library, dtype: object","62    51583.0
+Name: Id, dtype: float64","62    684.234
+Name: Mass, dtype: float64","62    684.0
+Name: Lib MW, dtype: float64","62    124.0
+Name: InLib, dtype: float64","62    857.0
+Name: MF, dtype: float64","62    79.0
+Name: Prob(%), dtype: float64","62    2(1H)-Pyrimidinone, 1-[2,3-bis-O-(trimethylsil...
+Name: Name, dtype: object","62    C24H53N2O9PSi5
+Name: Formula, dtype: object","62    32645593.0
+Name: CAS, dtype: float64","62    IIJASRIZVKUCJI-JMJGKCIBSA-N
+Name: InChIKey, dtype: object",1.558159558515004
+4,#55 99.0000@7.7236 MS1+,"44    replib
+Name: Library, dtype: object","44    39613.0
+Name: Id, dtype: float64","44    256.106
+Name: Mass, dtype: float64","44    256.0
+Name: Lib MW, dtype: float64","44    178.0
+Name: InLib, dtype: float64","44    861.0
+Name: MF, dtype: float64","44    57.9
+Name: Prob(%), dtype: float64","44    Uracil, 2TMS derivative
+Name: Name, dtype: object","44    C10H20N2O2Si2
+Name: Formula, dtype: object","44    10457144.0
+Name: CAS, dtype: float64","44    FSBNTQRWSOTNEW-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",1.5368914299454062
+5,#57 241.0000@7.8638 MS1+,"46    mainlib
+Name: Library, dtype: object","46    258116.0
+Name: Id, dtype: float64","46    256.106
+Name: Mass, dtype: float64","46    256.0
+Name: Lib MW, dtype: float64","46    327.0
+Name: InLib, dtype: float64","46    904.0
+Name: MF, dtype: float64","46    87.1
+Name: Prob(%), dtype: float64","46    2,5-Bis((trimethylsilyl)oxy)pyrazine
+Name: Name, dtype: object","46    C10H20N2O2Si2
+Name: Formula, dtype: object","46    362516094.0
+Name: CAS, dtype: float64","46    RJVSLZFJMXAFGR-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",1.4603045257970435
+6,#64 103.0000@14.0515 MS1+,"52    mainlib
+Name: Library, dtype: object","52    52637.0
+Name: Id, dtype: float64","52    556.239
+Name: Mass, dtype: float64","52    556.0
+Name: Lib MW, dtype: float64","52    340.0
+Name: InLib, dtype: float64","52    897.0
+Name: MF, dtype: float64","52    94.9
+Name: Prob(%), dtype: float64","52    Inosine, 4TMS derivative
+Name: Name, dtype: object","52    C22H44N4O5Si4
+Name: Formula, dtype: object","52    0.0
+Name: CAS, dtype: float64","52    LEZIDMDMEIMSNO-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",1.4576055599068032
+7,#35 147.0000@10.5921 MS1+,"28    replib
+Name: Library, dtype: object","28    12683.0
+Name: Id, dtype: float64","28    480.185
+Name: Mass, dtype: float64","28    480.0
+Name: Lib MW, dtype: float64","28    143.0
+Name: InLib, dtype: float64","28    868.0
+Name: MF, dtype: float64","28    90.9
+Name: Prob(%), dtype: float64","28    Citric acid, 4TMS derivative
+Name: Name, dtype: object","28    C18H40O7Si4
+Name: Formula, dtype: object","28    14330973.0
+Name: CAS, dtype: float64","28    VFGAVMGYDWDESE-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",1.4542490657934906
+8,#65 147.0000@14.4631 MS1+,"53    mainlib
+Name: Library, dtype: object","53    52303.0
+Name: Id, dtype: float64","53    947.459
+Name: Mass, dtype: float64","53    947.0
+Name: Lib MW, dtype: float64","53   -124.0
+Name: InLib, dtype: float64","53    913.0
+Name: MF, dtype: float64","53    24.8
+Name: Prob(%), dtype: float64","53    D-Lactose, octakis(trimethylsilyl) ether, meth...
+Name: Name, dtype: object","53    C37H89NO11Si8
+Name: Formula, dtype: object","53    0.0
+Name: CAS, dtype: float64","53    KNAZTEWBFRPMHZ-HBAMXUDRSA-N
+Name: InChIKey, dtype: object",1.4081452064632762
+9,#53 169.0000@15.0658 MS1+,"43    mainlib
+Name: Library, dtype: object","43    51583.0
+Name: Id, dtype: float64","43    684.234
+Name: Mass, dtype: float64","43    684.0
+Name: Lib MW, dtype: float64","43    119.0
+Name: InLib, dtype: float64","43    829.0
+Name: MF, dtype: float64","43    90.6
+Name: Prob(%), dtype: float64","43    2(1H)-Pyrimidinone, 1-[2,3-bis-O-(trimethylsil...
+Name: Name, dtype: object","43    C24H53N2O9PSi5
+Name: Formula, dtype: object","43    32645593.0
+Name: CAS, dtype: float64","43    IIJASRIZVKUCJI-JMJGKCIBSA-N
+Name: InChIKey, dtype: object",1.3952355083401289
+10,#27 87.0000@10.1619 MS1+,"22    replib
+Name: Library, dtype: object","22    13002.0
+Name: Id, dtype: float64","22    228.209
+Name: Mass, dtype: float64","22    228.0
+Name: Lib MW, dtype: float64","22   -113.0
+Name: InLib, dtype: float64","22    938.0
+Name: MF, dtype: float64","22    25.2
+Name: Prob(%), dtype: float64","22    Tridecanoic acid, methyl ester
+Name: Name, dtype: object","22    C14H28O2
+Name: Formula, dtype: object","22    1731880.0
+Name: CAS, dtype: float64","22    JNDDPBOKWCBQSM-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",1.3925463177107538
+11,#8 156.0000@8.9535 MS1+,"6    replib
+Name: Library, dtype: object","6    30951.0
+Name: Id, dtype: float64","6    273.122
+Name: Mass, dtype: float64","6    273.0
+Name: Lib MW, dtype: float64","6    170.0
+Name: InLib, dtype: float64","6    967.0
+Name: MF, dtype: float64","6    37.5
+Name: Prob(%), dtype: float64","6    L-5-Oxoproline, 2TMS
+Name: Name, dtype: object","6    C11H23NO3Si2
+Name: Formula, dtype: object","6    30274772.0
+Name: CAS, dtype: float64","6    QACGFKAUSXGLCU-VIFPVBQESA-N
+Name: InChIKey, dtype: object",1.3830617995272376
+12,#41 103.0000@11.5172 MS1+,"33    replib
+Name: Library, dtype: object","33    12090.0
+Name: Id, dtype: float64","33    435.229
+Name: Mass, dtype: float64","33    435.0
+Name: Lib MW, dtype: float64","33    478.0
+Name: InLib, dtype: float64","33    898.0
+Name: MF, dtype: float64","33    97.5
+Name: Prob(%), dtype: float64","33    Pantothenic acid tritms
+Name: Name, dtype: object","33    C18H41NO5Si3
+Name: Formula, dtype: object","33    34427695.0
+Name: CAS, dtype: float64","33    PQFJBMOEKCYOJR-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",1.3489763492262548

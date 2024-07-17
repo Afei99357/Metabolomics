@@ -1,0 +1,37 @@
+,position name,Library,Id,Mass,Lib MW,InLib,MF,Prob(%),Name,Formula,CAS,InChIKey,VIP
+0,#101 152.9700@5.5385 MS1+,"38    mainlib
+Name: Library, dtype: object","38    177521.0
+Name: Id, dtype: float64","38    168.028
+Name: Mass, dtype: float64","38    168.0
+Name: Lib MW, dtype: float64","38    102.0
+Name: InLib, dtype: float64","38    969.0
+Name: MF, dtype: float64","38    25.0
+Name: Prob(%), dtype: float64","38    Methanesulfonic acid, TMS derivative
+Name: Name, dtype: object","38    C4H12O3SSi
+Name: Formula, dtype: object","38    10090058.0
+Name: CAS, dtype: float64","38    BCHASIUOFGDRIO-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",2.422542834712429
+1,#25 164.9800@6.2452 MS1+,"18    mainlib
+Name: Library, dtype: object","18    191829.0
+Name: Id, dtype: float64","18    164.971
+Name: Mass, dtype: float64","18    165.0
+Name: Lib MW, dtype: float64","18    138.0
+Name: InLib, dtype: float64","18    937.0
+Name: MF, dtype: float64","18    61.8
+Name: Prob(%), dtype: float64","18    Thieno[3,2-b]thiophene-2-carbonitrile
+Name: Name, dtype: object","18    C7H3NS2
+Name: Formula, dtype: object","18    40985588.0
+Name: CAS, dtype: float64","18    UPRBPGCXCNBTQH-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",2.2617142927856517
+2,#145 355.0600@7.5214 MS1+,"53    mainlib
+Name: Library, dtype: object","53    296276.0
+Name: Id, dtype: float64","53    592.15
+Name: Mass, dtype: float64","53    592.0
+Name: Lib MW, dtype: float64","53    108.0
+Name: InLib, dtype: float64","53    814.0
+Name: MF, dtype: float64","53    80.8
+Name: Prob(%), dtype: float64","53    Cyclooctasiloxane, hexadecamethyl-
+Name: Name, dtype: object","53    C16H48O8Si8
+Name: Formula, dtype: object","53    556683.0
+Name: CAS, dtype: float64","53    XKJMJYZFAWYREL-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",2.2114503333736275

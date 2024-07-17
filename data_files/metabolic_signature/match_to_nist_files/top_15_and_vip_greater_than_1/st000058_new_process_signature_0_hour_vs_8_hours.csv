@@ -1,0 +1,49 @@
+,position name,Library,Id,Mass,Lib MW,InLib,MF,Prob(%),Name,Formula,CAS,InChIKey,VIP
+0,#206 236.0000@14.9266 MS1+,"110    mainlib
+Name: Library, dtype: object","110    52976.0
+Name: Id, dtype: float64","110    513.208
+Name: Mass, dtype: float64","110    513.0
+Name: Lib MW, dtype: float64","110    657.0
+Name: InLib, dtype: float64","110    910.0
+Name: MF, dtype: float64","110    97.6
+Name: Prob(%), dtype: float64","110    5'-Methylthioadenosine, 3TMS derivative
+Name: Name, dtype: object","110    C20H39N5O3SSi3
+Name: Formula, dtype: object","110    54623288.0
+Name: CAS, dtype: float64","110    BAKWXPKBSGCDPL-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",2.148492785610398
+1,#126 103.0000@12.3943 MS1+,"83    mainlib
+Name: Library, dtype: object","83    49582.0
+Name: Id, dtype: float64","83    606.248
+Name: Mass, dtype: float64","83    606.0
+Name: Lib MW, dtype: float64","83   -101.0
+Name: InLib, dtype: float64","83    836.0
+Name: MF, dtype: float64","83    88.2
+Name: Prob(%), dtype: float64","83    Phosphoric acid, bis[2,3-bis[(trimethylsilyl)o...
+Name: Name, dtype: object","83    C21H55O8PSi5
+Name: Formula, dtype: object","83    32046289.0
+Name: CAS, dtype: float64","83    OABPYCCCPPLWNE-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",1.7983153117517048
+2,#112 147.0000@13.4174 MS1+,"79    replib
+Name: Library, dtype: object","79    12745.0
+Name: Id, dtype: float64","79    764.306
+Name: Mass, dtype: float64","79    764.0
+Name: Lib MW, dtype: float64","79    165.0
+Name: InLib, dtype: float64","79    901.0
+Name: MF, dtype: float64","79    48.5
+Name: Prob(%), dtype: float64","79    Myo-Inositol, 1,3,4,5,6-pentakis-O-(trimethyls...
+Name: Name, dtype: object","79    C27H69O9PSi7
+Name: Formula, dtype: object","79    33910064.0
+Name: CAS, dtype: float64","79    WOZUKLPEHGPIJE-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",1.771730553861993
+3,#113 191.0000@8.7311 MS1+,"80    mainlib
+Name: Library, dtype: object","80    52051.0
+Name: Id, dtype: float64","80    424.232
+Name: Mass, dtype: float64","80    424.0
+Name: Lib MW, dtype: float64","80    405.0
+Name: InLib, dtype: float64","80    952.0
+Name: MF, dtype: float64","80    91.1
+Name: Prob(%), dtype: float64","80    3,7-Dioxa-2,8-disilanonane, 2,2,8,8-tetramethy...
+Name: Name, dtype: object","80    C17H44O4Si4
+Name: Formula, dtype: object","80    2114252.0
+Name: CAS, dtype: float64","80    DCRQMOJXJXVZFC-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",1.6403321558219257

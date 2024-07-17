@@ -1,0 +1,30 @@
+EID	massfeature_rows	str_row_ion	compounds	compound_names
+E1	row54	row54_M+Na[1+]	C00067	Formaldehyde
+E2	row63	row63_M+H[1+]	C00288	Bicarbonate
+E8	row78	row78_M+Na[1+]	C05985	2-Propyn-1-al
+E14	row128	row128_M+Na[1+]	C00168;C01146	Hydroxypyruvate$2-Hydroxy-3-oxopropanoate; Tartronate semialdehyde
+E20	row140	row140_M+Na[1+]	C00122	Fumarate
+E24	row155	row155_M+H[1+]	C01962	Thiocysteine
+E27	row177	row177_M+Na[1+]	C00606	3-Sulfino-L-alanine
+E28	row178	row178_M+Na[1+]	C00265	Dithiothreitol; 1,4-Dithiothreitol; threo-1,4-Dimercapto-2,3-butanediol; DL-threo-1,4-Dimercapto-2,3-butanediol
+E29	row188	row188_M+H[1+]	C00631;C00197	D-Glycerate 2-phosphate$3-Phospho-D-glycerate
+E34	row412	row412_M+Na[1+]	C01346	dUDP
+E36	row209	row209_M+Na[1+]	C01005	O-Phospho-L-serine
+E37	row214	row214_M+Na[1+]	C05379	Oxalosuccinate; Oxalosuccinic acid
+E43	row224	row224_M+Na[1+]	C00279	D-Erythrose 4-phosphate
+E45	row484	row484_M+H[1+]	C00459	dTTP
+E53	row284	row284_M+Na[1+]	C04582;C04188	5-Methylthio-5-deoxy-D-ribulose 1-phosphate$5-Methylthio-5-deoxy-D-ribose 1-phosphate
+E54	row294	row294_M+Na[1+]	C05699	Selenocystathionine
+E55	row298	row298_M+Na[1+]	C05385	
+E56	row342	row342_M+H[1+]	C03785;C05378;C00354;C03693;C00665;C01220;C01231;C04063;C04062	D-Tagatose 1,6-bisphosphate$beta-D-Fructose 1,6-bisphosphate$D-Fructose 1,6-bisphosphate$D-Mannose 1,6-bisphosphate$D-Fructose 2,6-bisphosphate$1D-myo-Inositol 1,4-bisphosphate$alpha-D-Glucose 1,6-bisphosphate; alpha-D-Glucose 1,6-biphosphate$D-myo-Inositol 3,4-bisphosphate; 1D-myo-Inositol 3,4-bisphosphate; Inositol 3,4-bisphosphate$D-myo-Inositol 1,3-bisphosphate; 1D-myo-Inositol 1,3-bisphosphate; myo-Inositol 1,3-bisphosphate; Inositol 1,3-bisphosphate
+E58	row894;row940	row894_M+Na[1+];row940_M+HCOONa[1+]	C04392	P1,P4-Bis(5'-xanthosyl) tetraphosphate; XppppX
+E61	row452	row452_M+Na[1+]	C00104	IDP
+E63	row469	row469_M+H[1+]	C00458	dCTP
+E66	row497	row497_M+H[1+]	C04895	2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl)dihydropteridine triphosphate
+E69	row509	row509_M+H[1+]	C00286	dGTP
+E70	row525;row526	row525_M+H[1+];row526_M(C13)+H[1+]	C00044	GTP
+E71	row529	row529_M+Na[1+]	C03028	Thiamin triphosphate; Thiamine triphosphate
+E73	row537	row537_M+Na[1+]	C06148;C05923	2,5-Diamino-6-(5'-triphosphoryl-3',4'-trihydroxy-2'-oxopentyl)-amino-4-oxopyrimidine$2,5-Diaminopyrimidine nucleoside triphosphate
+E78	row743	row743_M+Na[1+]	C02739	1-(5-Phospho-D-ribosyl)-ATP; Phosphoribosyl-ATP; N1-(5-Phospho-D-ribosyl)-ATP; 1-(5-Phosphoribosyl)-ATP
+E80	row792	row792_M+H[1+]	C06198	P1,P4-Bis(5'-uridyl) tetraphosphate; UppppU
+E83	row1646	row1646_M+H[1+]	C04911	D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide; GM1; GM1a; D-Galactosyl-1,3-beta-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosyl-N-acylsphingosine; Gal-beta1->3GalNAc-beta1->4(Neu5Ac-alpha2->3)Gal-beta1->4Glc-beta1->1'Cer

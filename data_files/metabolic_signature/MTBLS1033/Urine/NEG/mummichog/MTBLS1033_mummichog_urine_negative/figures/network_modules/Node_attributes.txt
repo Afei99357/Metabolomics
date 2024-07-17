@@ -1,0 +1,6 @@
+CPD_ID	CPD_NAME	mz_row_Statistic	From_mz_row	From_EmpiricalCompound
+C00265	Dithiothreitol; 1,4-Dithiothreitol; threo-1,4-Dimercapto-2,3-butanediol; DL-threo-1,4-Dimercapto-2,3-butanediol	0.4971615174294466	row178	E27
+C05985	2-Propyn-1-al	0.5146459170280802	row78	E8
+C04911	D-Galactosyl-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosylceramide; GM1; GM1a; D-Galactosyl-1,3-beta-N-acetyl-D-galactosaminyl-(N-acetylneuraminyl)-D-galactosyl-D-glucosyl-N-acylsphingosine; Gal-beta1->3GalNAc-beta1->4(Neu5Ac-alpha2->3)Gal-beta1->4Glc-beta1->1'Cer	0.9430958928589683	row1647	E77
+C05385		0.23618642874072002	row298	E51
+C05699	Selenocystathionine	0.13559443515878083	row294	E50

@@ -1,0 +1,85 @@
+,position name,Library,Id,Mass,Lib MW,InLib,MF,Prob(%),Name,Formula,CAS,InChIKey,VIP
+0,#206 236.0000@14.9266 MS1+,"110    mainlib
+Name: Library, dtype: object","110    52976.0
+Name: Id, dtype: float64","110    513.208
+Name: Mass, dtype: float64","110    513.0
+Name: Lib MW, dtype: float64","110    657.0
+Name: InLib, dtype: float64","110    910.0
+Name: MF, dtype: float64","110    97.6
+Name: Prob(%), dtype: float64","110    5'-Methylthioadenosine, 3TMS derivative
+Name: Name, dtype: object","110    C20H39N5O3SSi3
+Name: Formula, dtype: object","110    54623288.0
+Name: CAS, dtype: float64","110    BAKWXPKBSGCDPL-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",1.8220767466357688
+1,#69 147.0000@11.2154 MS1+,"53    replib
+Name: Library, dtype: object","53    12304.0
+Name: Id, dtype: float64","53    614.316
+Name: Mass, dtype: float64","53    614.0
+Name: Lib MW, dtype: float64","53   -124.0
+Name: InLib, dtype: float64","53    920.0
+Name: MF, dtype: float64","53    26.0
+Name: Prob(%), dtype: float64","53    D-Glucitol, 6TMS
+Name: Name, dtype: object","53    C24H62O6Si6
+Name: Formula, dtype: object","53    14199805.0
+Name: CAS, dtype: float64","53    USBJDBWAPKNPCK-UEQSERJNSA-N
+Name: InChIKey, dtype: object",1.8005694599252036
+2,#113 191.0000@8.7311 MS1+,"80    mainlib
+Name: Library, dtype: object","80    52051.0
+Name: Id, dtype: float64","80    424.232
+Name: Mass, dtype: float64","80    424.0
+Name: Lib MW, dtype: float64","80    405.0
+Name: InLib, dtype: float64","80    952.0
+Name: MF, dtype: float64","80    91.1
+Name: Prob(%), dtype: float64","80    3,7-Dioxa-2,8-disilanonane, 2,2,8,8-tetramethy...
+Name: Name, dtype: object","80    C17H44O4Si4
+Name: Formula, dtype: object","80    2114252.0
+Name: CAS, dtype: float64","80    DCRQMOJXJXVZFC-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",1.7698462826966337
+3,#98 147.0000@14.4621 MS1+,"74    mainlib
+Name: Library, dtype: object","74    52303.0
+Name: Id, dtype: float64","74    947.459
+Name: Mass, dtype: float64","74    947.0
+Name: Lib MW, dtype: float64","74   -124.0
+Name: InLib, dtype: float64","74    914.0
+Name: MF, dtype: float64","74    27.7
+Name: Prob(%), dtype: float64","74    D-Lactose, octakis(trimethylsilyl) ether, meth...
+Name: Name, dtype: object","74    C37H89NO11Si8
+Name: Formula, dtype: object","74    0.0
+Name: CAS, dtype: float64","74    KNAZTEWBFRPMHZ-HBAMXUDRSA-N
+Name: InChIKey, dtype: object",1.7364995746984415
+4,#79 241.0000@7.8638 MS1+,"62    mainlib
+Name: Library, dtype: object","62    258116.0
+Name: Id, dtype: float64","62    256.106
+Name: Mass, dtype: float64","62    256.0
+Name: Lib MW, dtype: float64","62    162.0
+Name: InLib, dtype: float64","62    882.0
+Name: MF, dtype: float64","62    84.6
+Name: Prob(%), dtype: float64","62    2,5-Bis((trimethylsilyl)oxy)pyrazine
+Name: Name, dtype: object","62    C10H20N2O2Si2
+Name: Formula, dtype: object","62    362516094.0
+Name: CAS, dtype: float64","62    RJVSLZFJMXAFGR-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",1.6894478409254283
+5,#73 451.0000@9.7120 MS1+,"57    replib
+Name: Library, dtype: object","57    43662.0
+Name: Id, dtype: float64","57    466.101
+Name: Mass, dtype: float64","57    466.0
+Name: Lib MW, dtype: float64","57    344.0
+Name: InLib, dtype: float64","57    888.0
+Name: MF, dtype: float64","57    95.9
+Name: Prob(%), dtype: float64","57    Silanol, trimethyl-, pyrophosphate (4:1)
+Name: Name, dtype: object","57    C12H36O7P2Si4
+Name: Formula, dtype: object","57    18395454.0
+Name: CAS, dtype: float64","57    JDZAIGYGOBAGGF-UHFFFAOYSA-N
+Name: InChIKey, dtype: object",1.668192188056744
+6,#56 147.0000@7.7844 MS1+,"43    replib
+Name: Library, dtype: object","43    39826.0
+Name: Id, dtype: float64","43    260.09
+Name: Mass, dtype: float64","43    260.0
+Name: Lib MW, dtype: float64","43    301.0
+Name: InLib, dtype: float64","43    926.0
+Name: MF, dtype: float64","43    90.1
+Name: Prob(%), dtype: float64","43    2-Butenedioic acid, (E)-, 2TMS derivative
+Name: Name, dtype: object","43    C10H20O4Si2
+Name: Formula, dtype: object","43    17962037.0
+Name: CAS, dtype: float64","43    OITVFMRNHJZOHF-BQYQJAHWSA-N
+Name: InChIKey, dtype: object",1.6673497612228858

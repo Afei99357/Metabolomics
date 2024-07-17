@@ -1,0 +1,119 @@
+injection_order,Source Name,Factor Value[Group],Characteristics[Organism part],sample_type
+1,C1.mzXML,Control,urine,sample
+2,C2.mzXML,Control,urine,sample
+3,C3.mzXML,Control,urine,sample
+4,C4.mzXML,Control,urine,sample
+5,C5.mzXML,Control,urine,sample
+6,C6.mzXML,Control,urine,sample
+7,C7.mzXML,Control,urine,sample
+8,C8.mzXML,Control,urine,sample
+9,C9.mzXML,Control,urine,sample
+10,C10.mzXML,Control,urine,sample
+11,C11.mzXML,Control,urine,sample
+12,C12.mzXML,Control,urine,sample
+13,C13.mzXML,Control,urine,sample
+14,C14.mzXML,Control,urine,sample
+15,C15.mzXML,Control,urine,sample
+16,C16.mzXML,Control,urine,sample
+17,C17.mzXML,Control,urine,sample
+18,C18.mzXML,Control,urine,sample
+19,C19.mzXML,Control,urine,sample
+20,C20.mzXML,Control,urine,sample
+21,C21.mzXML,Control,urine,sample
+22,C22.mzXML,Control,urine,sample
+23,C23.mzXML,Control,urine,sample
+24,C24.mzXML,Control,urine,sample
+25,C25.mzXML,Control,urine,sample
+26,C26.mzXML,Control,urine,sample
+27,C27.mzXML,Control,urine,sample
+28,C28.mzXML,Control,urine,sample
+29,C29.mzXML,Control,urine,sample
+30,C30.mzXML,Control,urine,sample
+31,C31.mzXML,Control,urine,sample
+32,C32.mzXML,Control,urine,sample
+33,C33.mzXML,Control,urine,sample
+34,C34.mzXML,Control,urine,sample
+35,C35.mzXML,Control,urine,sample
+36,C36.mzXML,Control,urine,sample
+37,C37.mzXML,Control,urine,sample
+38,C38.mzXML,Control,urine,sample
+39,C39.mzXML,Control,urine,sample
+40,C40.mzXML,Control,urine,sample
+41,C41.mzXML,Control,urine,sample
+42,C42.mzXML,Control,urine,sample
+43,C43.mzXML,Control,urine,sample
+44,C44.mzXML,Control,urine,sample
+45,C45.mzXML,Control,urine,sample
+46,C46.mzXML,Control,urine,sample
+47,C47.mzXML,Control,urine,sample
+48,C48.mzXML,Control,urine,sample
+49,C49.mzXML,Control,urine,sample
+50,C50.mzXML,Control,urine,sample
+51,C51.mzXML,Control,urine,sample
+52,C52.mzXML,Control,urine,sample
+53,C53.mzXML,Control,urine,sample
+54,C54.mzXML,Control,urine,sample
+55,C55.mzXML,Control,urine,sample
+56,C56.mzXML,Control,urine,sample
+57,C57.mzXML,Control,urine,sample
+58,C58.mzXML,Control,urine,sample
+59,C59.mzXML,Control,urine,sample
+60,S1.mzXML,POP,urine,sample
+61,S2.mzXML,POP,urine,sample
+62,S3.mzXML,POP,urine,sample
+63,S4.mzXML,POP,urine,sample
+64,S5.mzXML,POP,urine,sample
+65,S6.mzXML,POP,urine,sample
+66,S7.mzXML,POP,urine,sample
+67,S8.mzXML,POP,urine,sample
+68,S9.mzXML,POP,urine,sample
+69,S10.mzXML,POP,urine,sample
+70,S11.mzXML,POP,urine,sample
+71,S12.mzXML,POP,urine,sample
+72,S13.mzXML,POP,urine,sample
+73,S14.mzXML,POP,urine,sample
+74,S15.mzXML,POP,urine,sample
+75,S16.mzXML,POP,urine,sample
+76,S17.mzXML,POP,urine,sample
+77,S18.mzXML,POP,urine,sample
+78,S19.mzXML,POP,urine,sample
+79,S20.mzXML,POP,urine,sample
+80,S21.mzXML,POP,urine,sample
+81,S22.mzXML,POP,urine,sample
+82,S23.mzXML,POP,urine,sample
+83,S24.mzXML,POP,urine,sample
+84,S25.mzXML,POP,urine,sample
+85,S26.mzXML,POP,urine,sample
+86,S27.mzXML,POP,urine,sample
+87,S28.mzXML,POP,urine,sample
+88,S29.mzXML,POP,urine,sample
+89,S30.mzXML,POP,urine,sample
+90,S31.mzXML,POP,urine,sample
+91,S32.mzXML,POP,urine,sample
+92,S33.mzXML,POP,urine,sample
+93,S34.mzXML,POP,urine,sample
+94,S35.mzXML,POP,urine,sample
+95,S36.mzXML,POP,urine,sample
+96,S37.mzXML,POP,urine,sample
+97,S38.mzXML,POP,urine,sample
+98,S39.mzXML,POP,urine,sample
+99,S40.mzXML,POP,urine,sample
+100,S41.mzXML,POP,urine,sample
+101,S42.mzXML,POP,urine,sample
+102,S43.mzXML,POP,urine,sample
+103,S44.mzXML,POP,urine,sample
+104,S45.mzXML,POP,urine,sample
+105,QC01.mzXML,Quality control,urine,sp
+106,QC02.mzXML,Quality control,urine,sp
+107,QC03.mzXML,Quality control,urine,sp
+108,QC04.mzXML,Quality control,urine,sp
+109,QC05.mzXML,Quality control,urine,sp
+110,QC06.mzXML,Quality control,urine,sp
+111,QC07.mzXML,Quality control,urine,sp
+112,QC08.mzXML,Quality control,urine,sp
+113,QC09.mzXML,Quality control,urine,sp
+114,QC10.mzXML,Quality control,urine,sp
+115,QC11.mzXML,Quality control,urine,sp
+116,QC12.mzXML,Quality control,urine,sp
+117,QC13.mzXML,Quality control,urine,sp
+118,QC14.mzXML,Quality control,urine,sp
